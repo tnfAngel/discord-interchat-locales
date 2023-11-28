@@ -46,6 +46,6 @@ blacklist:
 errors:
   messageNotSentOrExpired: "{{emoji}} This message was not sent in a hub, has expired, or you lack permissions to perform this action."
   cannotPerformAction: "{{emoji}} Sorry, you can't perform this action. Please run the command yourself."
-
+  unknownNetworkMessage: "{{emoji}} Unknown Message. If it has been sent in the past minute, please wait few more seconds and try again."
 other:
   interchatVersion: "InterChat {{version}}"
