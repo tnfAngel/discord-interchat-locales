@@ -37,15 +37,25 @@ network:
 
       footer: "InterChat Network | Version {{version}}"
 
+    messageDeleted: "`{{{emoji}}} Message by {{user}} has been deleted from __**{{deleted}}/{{total}}**__ servers."
+
 blacklist:
   user:
   success:
     embed:
-      description: "{{emoji}} **{{username}}** has been successfully blacklisted!"
+      description: "{{{emoji}}} **{{username}}** has been successfully blacklisted!"
 
 errors:
-  messageNotSentOrExpired: "{{emoji}} This message was not sent in a hub, has expired, or you lack permissions to perform this action."
-  cannotPerformAction: "{{emoji}} Sorry, you can't perform this action. Please run the command yourself."
-  unknownNetworkMessage: "{{emoji}} Unknown Message. If it has been sent in the past minute, please wait few more seconds and try again."
+  messageNotSentOrExpired: "{{{emoji}}} This message was not sent in a hub, has expired, or you lack permissions to perform this action."
+  cannotPerformAction: "{{{emoji}}} Sorry, you can't perform this action. Please run the command yourself."
+  unknownNetworkMessage: "{{{emoji}}} Unknown Message. If it has been sent in the past minute, please wait few more seconds and try again."
+  notMessageAuthor: "{{{emoji}}} You are not the author of this message."
+  commandError: |
+    {{{emoji}}} An error occurred while executing this command. It has been logged to our system. If this issue persists, please join our [support server]({{{support_invite}}}) and report it!
+    ### Error:
+    ```js
+    {{{error}}}
+    ```
+
 other:
   interchatVersion: "InterChat {{version}}"
