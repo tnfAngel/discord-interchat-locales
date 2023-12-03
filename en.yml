@@ -37,25 +37,100 @@ network:
 
       footer: "InterChat Network | Version {{version}}"
 
-    messageDeleted: "`{{{emoji}}} Message by {{user}} has been deleted from __**{{deleted}}/{{total}}**__ servers."
-
+    deleteSuccess: "`{{{emoji}}} Message by {{user}} has been deleted from __**{{deleted}}/{{total}}**__ servers."
+    editSuccess: "`{{{emoji}}} Message by {{user}} has been edited in __**{{edited}}/{{total}}**__ servers."
 blacklist:
   user:
   success:
     embed:
       description: "{{{emoji}}} **{{username}}** has been successfully blacklisted!"
+  list:
+    user: |
+      **UserID:** ${data.userId}
+      **Moderator:** {{moderator}}
+      **Reason:** {{reason}}
+      **Expires:** {{expires}}
+    server: |
+      **ServerId:** {{serverId}}
+      **Moderator:** {{moderator}}
+      **Reason:** {{reason}}
+      **Expires:** {{expires}}
+
+msgInfo:
+  message:
+    description: |
+      ## {{{emoji}}} Message Info
+
+      **Sent By:** 
+      __{{author}}__
+
+      **Sent From:**
+      __{{server}}__
+
+      **Message ID:**
+      __{{messageId}}__
+
+      **Sent In (Hub):**
+      __{{hub}}__
+
+      **Message Created:**
+      <t:{{createdAt}}:R>
+  server:
+    description: |
+      ## {{server}}
+      {{description}}
+
+      **Owner:** 
+      __{{owner}}__
+
+      **Created:** 
+      __<t:{{createdAt}}:d> (<t:{{createdAt}}:R>)__
+
+      **Member Count:** 
+      __{{memberCount}}__
+
+      **Invite:**
+      __{{invite}}__,
+  user:
+    description: |
+      ## {{author.username}}
+      __{{user}}__
+
+      **ID:**
+      __{{id}}__
+
+      **Created:**
+      <t:{{createdAt}}:d> (<t:{{createdAt}}:R>)
+
+      **Display Name:**
+      __{{globalName}}__
+
+      **Hubs Owned:**
+      __{{hubsOwned}}__
+
+invite: |
+  Thank you for choosing to invite InterChat. Simply click the button below to invite me!
+
+  - **__Support Server__:** {{{support}}}
 
 errors:
-  messageNotSentOrExpired: "{{{emoji}}} This message was not sent in a hub, has expired, or you lack permissions to perform this action."
-  cannotPerformAction: "{{{emoji}}} Sorry, you can't perform this action. Please run the command yourself."
-  unknownNetworkMessage: "{{{emoji}}} Unknown Message. If it has been sent in the past minute, please wait few more seconds and try again."
-  notMessageAuthor: "{{{emoji}}} You are not the author of this message."
+  # hardcoding emojis because its going to be a pain
+  # to do it in the code every time
+  messageNotSentOrExpired: "<:no:977600033740431410> This message was not sent in a hub, has expired, or you lack permissions to perform this action."
+  cannotPerformAction: "<:no:977600033740431410> Sorry, you can't perform this action. Please run the command yourself."
+  notMessageAuthor: "<:no:977600033740431410> You are not the author of this message."
   commandError: |
-    {{{emoji}}} An error occurred while executing this command. It has been logged to our system. If this issue persists, please join our [support server]({{{support_invite}}}) and report it!
+    <:no:977600033740431410> An error occurred while executing this command. It has been logged to our system. If this issue persists, please join our [support server]({{{support_invite}}}) and report it!
     ### Error:
     ```js
     {{{error}}}
     ```
+  mustVote: "Please [vote](https://top.gg/bot/769921109209907241/vote) for Interchat to use this command, your support is very much appreciated!"
+  inviteLinks: "<:no:977600033740431410> Do not advertise or promote servers in the network. Set an invite in `/connection` instead!"
+  invalidLangCode: "<:no:977600033740431410> Invalid language code. Please make sure you have entered a correct [language code](https://cloud.google.com/translate/docs/languages)."
+  unknownServer: "<:no:977600033740431410> Unknown server. Please make sure you have entered the correct server ID."
+  modUnknownHub: "<:no:977600033740431410> Unknown hub. Please make sure you have entered the correct hub name & that you are the owner or a moderator of the hub."
+  unknownNetworkMessage: "<:no:977600033740431410> Unknown Message. If it has been sent in the past minute, please wait few more seconds and try again."
 
 other:
-  interchatVersion: "InterChat {{version}}"
+  version: "InterChat {{version}}"
