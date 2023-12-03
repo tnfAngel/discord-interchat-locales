@@ -36,14 +36,23 @@ network:
         **How it works:** The InterChat Network is like a magic bridge that links channels on different servers that are with us in this hub. Learn more at our [guide](https://discord-interchat.github.io/docs).
 
       footer: "InterChat Network | Version {{version}}"
+    deleteSuccess: "{{{emoji}}} Message by {{user}} has been deleted from __**{{deleted}}/{{total}}**__ servers."
+    editSuccess: "{{{emoji}}} Message by {{user}} has been edited in __**{{edited}}/{{total}}**__ servers."
 
-    deleteSuccess: "`{{{emoji}}} Message by {{user}} has been deleted from __**{{deleted}}/{{total}}**__ servers."
-    editSuccess: "`{{{emoji}}} Message by {{user}} has been edited in __**{{edited}}/{{total}}**__ servers."
 blacklist:
   user:
-  success:
-    embed:
-      description: "{{{emoji}}} **{{username}}** has been successfully blacklisted!"
+    success: "{{{emoji}}} **{{username}}** has been successfully blacklisted!"
+    removed: "{{{emoji}}} **{{username}}** has been removed from the blacklist!"
+    alreadyBlacklisted: "<:no:977600033740431410> This user is already blacklisted."
+    easterEggs:
+      blacklistBot: "You can't blacklist me wtf."
+
+  server:
+    success: "{{{emoji}}} **{{server}}** has been successfully blacklisted!"
+    removed: "{{{emoji}}} **{{server}}** has been removed from the blacklist!"
+    alreadyBlacklisted: "<:no:977600033740431410> This server is already blacklisted."
+    unknownError: "Failed to blacklist **${{server}}**. Enquire with the developers for more information."
+
   list:
     user: |
       **UserID:** ${data.userId}
@@ -90,7 +99,7 @@ msgInfo:
       __{{memberCount}}__
 
       **Invite:**
-      __{{invite}}__,
+      __{{invite}}__
   user:
     description: |
       ## {{author.username}}
@@ -131,6 +140,9 @@ errors:
   unknownServer: "<:no:977600033740431410> Unknown server. Please make sure you have entered the correct server ID."
   modUnknownHub: "<:no:977600033740431410> Unknown hub. Please make sure you have entered the correct hub name & that you are the owner or a moderator of the hub."
   unknownNetworkMessage: "<:no:977600033740431410> Unknown Message. If it has been sent in the past minute, please wait few more seconds and try again."
+  userNotFound: "<:no:977600033740431410> User not found. Try inputting their ID instead."
+  serverNotBlacklisted: "<:no:977600033740431410> The inputted server is not blacklisted."
+  userNotBlacklisted: "<:no:977600033740431410> The inputted user is not blacklisted."
 
 other:
   version: "InterChat {{version}}"
