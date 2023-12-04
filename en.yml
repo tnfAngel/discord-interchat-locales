@@ -55,7 +55,7 @@ blacklist:
 
   list:
     user: |
-      **UserID:** ${data.userId}
+      **UserID:** {{userId}
       **Moderator:** {{moderator}}
       **Reason:** {{reason}}
       **Expires:** {{expires}}
@@ -63,7 +63,7 @@ blacklist:
       **ServerId:** {{serverId}}
       **Moderator:** {{moderator}}
       **Reason:** {{reason}}
-      **Expires:** {{expires}}
+      **Expires:** {{{expires}}}
 
 msgInfo:
   message:
@@ -71,7 +71,7 @@ msgInfo:
       ## {{{emoji}}} Message Info
 
       **Sent By:** 
-      __{{author}}__
+      __{{{author}}}__
 
       **Sent From:**
       __{{server}}__
@@ -90,7 +90,7 @@ msgInfo:
       {{description}}
 
       **Owner:** 
-      __{{owner}}__
+      __{{{owner}}}__
 
       **Created:** 
       __<t:{{createdAt}}:d> (<t:{{createdAt}}:R>)__
@@ -102,7 +102,7 @@ msgInfo:
       __{{invite}}__
   user:
     description: |
-      ## {{author.username}}
+      ## {{username}}
       __{{user}}__
 
       **ID:**
