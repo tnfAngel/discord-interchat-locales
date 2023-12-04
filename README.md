@@ -7,9 +7,12 @@ Welcome to the InterChat's Translations Repository! This repository contains all
 ## Getting Started
 To contribute to the localization efforts or use the translations in your InterChat project, follow these steps:
 
-1. Select the Locale: Choose the desired language YAML file to access the translations for that locale.
-2. Make Changes: Edit the YAML files to update translations or add new ones. If it doesn't exist you can create a new YAML file for the language you with to translate.
-3. Contribute: If you've made improvements or added translations for a new locale, feel free to create a pull request.
+1. **Select a Locale:**
+    Choose the desired language YAML file to access the translations for that locale.
+3. **Make Changes:**
+    Edit the YAML files to update translations or add new ones. If it doesn't exist you can create a new YAML file for the language you with to translate.
+5. **Contribute:**
+    If you've made improvements or added translations for a new locale, feel free to create a pull request.
 
 ## File Structure
 The repository follows a structured format where the file names is the [language code](https://developers.google.com/admin-sdk/directory/v1/languages) of the translated language:
