@@ -26,16 +26,15 @@ We appreciate contributions! If you'd like to add support for a new language or 
 1. Fork the repository.
 2. Make your changes.
 3. Commit and push your changes:
-
-```bash
-git add .
-git commit -m "Add support for <language>"
-git push origin feature/new-locale
-```
-Or do it through github's UI.
+    ```bash
+    git add .
+    git commit -m "Add support for <language>"
+    git push origin feature/new-locale
+    ```
+    You can also do it through github's UI.
 4. Open a pull request.
 
 ## Contact
-If you have any questions or suggestions, feel free to open an issue or join our official [discord server](https://discord-interchat.github.io/support].
+If you have any questions or suggestions, feel free to open an issue or join our official [discord server](https://discord-interchat.github.io/support).
 
 
