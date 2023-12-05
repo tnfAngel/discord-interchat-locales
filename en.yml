@@ -1,30 +1,25 @@
-commands:
-  rules:
-    embed:
-      description: |
-        ### 📜 InterChat Network Rules
+rules: |
+  ### 📜 InterChat Network Rules
 
-        1. **Use Common Sense:** Be considerate of others and their views. No slurs, extreme derogatory language or any actions that can disrupt the chat's comfort.
-        2. **No Spamming or Flooding:** Avoid repeated, nonsensical, or overly lengthy messages.
-        3. **Keep Private Matters Private:** Avoid sharing personal information across the network.
-        4. **No Harassment:** Trolling, insults, or harassment of any kind are not tolerated.
-        5. **No NSFW/NSFL Content:** Posting explicit NSFW/NSFL content will result in immediate blacklist.
-        6. **Respect Sensitive Topics:** Do not trivialize self-harm, suicide, violence, or other offensive topics.
-        7. **Report Concerns:** If you observe a violation of these rules, report it to the appropriate hub moderator or InterChat staff for further action.
+  1. **Use Common Sense:** Be considerate of others and their views. No slurs, extreme derogatory language or any actions that can disrupt the chat's comfort.
+  2. **No Spamming or Flooding:** Avoid repeated, nonsensical, or overly lengthy messages.
+  3. **Keep Private Matters Private:** Avoid sharing personal information across the network.
+  4. **No Harassment:** Trolling, insults, or harassment of any kind are not tolerated.
+  5. **No NSFW/NSFL Content:** Posting explicit NSFW/NSFL content will result in immediate blacklist.
+  6. **Respect Sensitive Topics:** Do not trivialize self-harm, suicide, violence, or other offensive topics.
+  7. **Report Concerns:** If you observe a violation of these rules, report it to the appropriate hub moderator or InterChat staff for further action.
 
-        Any questions? Join our [support server]({{{support_invite}}}).
-    vote:
-      embed:
-        description: |
-          ## 🗳️ Vote for InterChat and Enjoy Exclusive Perks
-          Your contribution is invaluable in elevating InterChat's position on Top.gg. Each and every vote makes a significant difference! 
+  Any questions? Join our [support server]({{{support_invite}}}).
+vote: |
+  ## 🗳️ Vote for InterChat and Enjoy Exclusive Perks
+  Your contribution is invaluable in elevating InterChat's position on Top.gg. Each and every vote makes a significant difference! 
 
-          As our way of expressing gratitude for your support, we are thrilled to offer you exclusive advantages. By casting your vote for InterChat, you'll unlock:
+  As our way of expressing gratitude for your support, we are thrilled to offer you exclusive advantages. By casting your vote for InterChat, you'll unlock:
 
-          - Edit messages within hubs
-          - Translating messages (and much more on the way!)
+  - Edit messages within hubs
+  - Translating messages (and much more on the way!)
 
-          We deeply appreciate your unwavering support. Thank you! 🙏
+  We deeply appreciate your unwavering support. Thank you! 🙏
 
 network:
   onboarding:
@@ -121,6 +116,24 @@ invite: |
   Thank you for choosing to invite InterChat. Simply click the button below to invite me!
 
   - **__Support Server__:** {{{support}}}
+
+connection:
+  notFound: "<:no:977600033740431410> Invalid connection. Verify the channel ID or select from displayed options."
+  channelNotFound: "<:no:977600033740431410> Unable to find connected channel. To talk again choose a new channel."
+  alreadyConnected: "<:no:977600033740431410> Channel {{{channel}}} is already connected to a hub."
+  switchChannel: "{{{emoji}}} Select a channel to switch to using the select menu below:"
+  switchCalled: "{{{emoji}}} Channel switch called, use the command again to view new connection."
+  switchSuccess: "{{{emoji}}} Channel switched. You are now connected from **{{{channel}}}**."
+  inviteRemoved: "{{{emoji}}} Server Invite removed for this hub."
+  inviteInvalid: "<:no:977600033740431410> Invalid invite. Please make sure you have entered a valid invite link."
+  inviteAdded: "{{{emoji}}} Invite Added. Others can now join this server by using `Apps > Message Info/Report` command."
+  emColorInvalid: "<:no:977600033740431410> Invalid color. Please make sure you have entered a valid hex color code."
+  emColorChange: "{{{emoji}}} Embed color successfully {{{action}}}"
+
+hub:
+  browse:
+    noHubs: "There are no hubs listed here at the moment. Please try again later!"
+
 
 errors:
   # hardcoding emojis because its going to be a pain
