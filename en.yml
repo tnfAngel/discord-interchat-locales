@@ -33,6 +33,7 @@ network:
       footer: "InterChat Network | Version {{version}}"
     deleteSuccess: "{{{emoji}}} Message by {{user}} has been deleted from __**{{deleted}}/{{total}}**__ servers."
     editSuccess: "{{{emoji}}} Message by {{user}} has been edited in __**{{edited}}/{{total}}**__ servers."
+    inProgress: "There has already been an attempting to join a hub from {{{channel}}}. Please cancel it or wait for it to complete."
 
 blacklist:
   user:
@@ -46,7 +47,7 @@ blacklist:
     success: "{{{emoji}}} **{{server}}** has been successfully blacklisted!"
     removed: "{{{emoji}}} **{{server}}** has been removed from the blacklist!"
     alreadyBlacklisted: "<:no:977600033740431410> This server is already blacklisted."
-    unknownError: "Failed to blacklist **${{server}}**. Enquire with the developers for more information."
+    unknownError: "Failed to blacklist **{{server}}**. Enquire with the developers for more information."
 
   list:
     user: |
@@ -131,9 +132,88 @@ connection:
   emColorChange: "{{{emoji}}} Embed color successfully {{{action}}}"
 
 hub:
-  browse:
-    noHubs: "There are no hubs listed here at the moment. Please try again later!"
+  notFound: "<:no:977600033740431410> Invalid hub. Please make sure you have entered the correct hub name."
+  alreadyJoined: "<:no:977600033740431410> You have already joined {{hub}} from {{{channel}}}!"
+  invalidChannel: "<:no:977600033740431410> Invalid channel. Only text and thread channels are supported!"
 
+  join:
+    success: "Successfully joined hub {{hub}} from {{{channel}}}! Use `/connection` to manage your connection. And `/hub leave` to leave the hub."
+
+  connections:
+    total: "Current connected servers: {{from}}-{{to}} / **{{totalConnections}}**"
+    noConnections: "<:no:977600033740431410> This hub has no connections yet. Use `/hub join` to join this hub from a channel."
+    notConnected: "<:no:977600033740431410> Server **{{server}}** isn't connected to **{{hub}}**."
+    connectionInfo: |
+      Channel: #{{channelName} `({{channelId})`
+      Joined At: {{joinedAt}}
+      Invite: {{{invite}}}
+      Connected: {{connected}}
+
+  create:
+    invalidName: "<:no:977600033740431410> Invalid hub name. It must not contain `discord`, `clyde` or \\`\\`\\` . Please choose another name."
+    nameTaken: "<:no:977600033740431410> This hub name is already taken. Please choose another name."
+    invalidUrl: "<:no:977600033740431410> Invalid image URL for icon or banner. Please make sure you have entered a valid Imgur image URL that is not a gallery or album."
+    success: |
+      ### Hub Created!
+
+      Congratulations! Your private hub, **{{name}}**, has been successfully created.
+      To join, create an invite using `/hub invite create` and share the generated code. Then join using \`/hub join\`.
+
+      - **Generate invite:** `/hub invite create`
+      - **Go public:** `/hub manage`
+      - **Join hub:** `/hub join`
+      - **Edit hub:** `/hub manage`
+      - **Add moderators:** `/hub moderator add`
+
+      __Learn more about hubs in our [guide](https://discord-interchat.github.io/docs).__ or join our [support server]({{{support_invite}}}) for help.
+
+  delete:
+    confirm: "Are you sure you wish to delete **{{hub}}**? This action is irreversible. All connected servers, invites and message data will be removed from this hub."
+    ownerOnly: "<:no:977600033740431410> Only the owner of this hub can delete it."
+    success: "<:no:977600033740431410> Hub **{{hub}}** has been deleted."
+    cancelled: "{{{emoji}}} Hub deletion has been cancelled."
+
+  browse:
+    joinConfirm: |
+      Are you sure you wish to join {{hub}} from {{{channel}}}?
+          
+      **Note:** You can always change this later using \`/connection\`.
+    joinFooter: Want to use a different channel? Use the dropdown below.
+    noHubs: "There are no hubs listed here at the moment. Please try again later!"
+    maxHubs: "<:no:977600033740431410> You have reached the maximum number of hubs (3) you can create. Please delete a hub before creating another one."
+
+  invite:
+    create:
+      success: |
+        ### Invite Created!
+
+        Your invite has been successfully created. Others can now join this hub by using the \`/hub join\` command.
+
+        - **Join using:** `/hub join invite:{{inviteCode}}`
+        - **View invites:** `/hub invite list`
+        - **Expiry :** {{expiry}}
+        - **Uses**: ♾️
+
+        __Learn more about hubs in our [guide](https://discord-interchat.github.io/docs).__.
+    revoke:
+      invalidCode: "<:no:977600033740431410> Invalid invite code. Please make sure you have entered a valid invite code."
+      success: "{{{emoji}}} Invite {{inviteCode}} revoked."
+
+    list:
+      title: "**Invite Codes:**"
+      noInvites: "<:no:977600033740431410> This hub has no invites yet. Use `/hub invite create` to create one."
+      notPrivate: "<:no:977600033740431410> Only private hubs can have invites. Use `/hub manage` to make this hub private."
+
+    joined:
+      noJoinedHubs: "<:no:977600033740431410> This server has not joined any hubs yet. Use `/hub browse` to view a list of hubs."
+      joinedHubs: |
+        ## Joined Hubs
+        This server is a part of **{{total}}** hub(s). Use \`/hub leave\` to leave a hub.
+    leave:
+      noHub: "<:no:977600033740431410> Channel {{{channel}}} has not joined any hubs."
+      confirm: "Are you sure you wish to leave **{{hub}}** from {{{channel}}}? No more messages will be sent to this server from this hub."
+      confirmFooter: "Confirm using the button below within 10 seconds."
+      success: "{{{emoji}}} Left hub **{{hub}}** from {{{channel}}}. No more messages will be sent to this server from this hub. You can rejoin using `/hub join`."
 
 errors:
   # hardcoding emojis because its going to be a pain
@@ -154,8 +234,13 @@ errors:
   modUnknownHub: "<:no:977600033740431410> Unknown hub. Please make sure you have entered the correct hub name & that you are the owner or a moderator of the hub."
   unknownNetworkMessage: "<:no:977600033740431410> Unknown Message. If it has been sent in the past minute, please wait few more seconds and try again."
   userNotFound: "<:no:977600033740431410> User not found. Try inputting their ID instead."
+  userBlacklisted: "<:no:977600033740431410> You are blacklisted from joining **{{hub}}**."
+  serverBlacklisted: "<:no:977600033740431410> This server is blacklisted from joining **{{hub}}**."
   serverNotBlacklisted: "<:no:977600033740431410> The inputted server is not blacklisted."
   userNotBlacklisted: "<:no:977600033740431410> The inputted user is not blacklisted."
+  missingPermissions: "<:no:977600033740431410> You are missing the following permissions to perform this action: **{{{permissions}}}**"
+  botMissingPermissions: "<:no:977600033740431410> Please grant me the following permissions to continue: **{{{permissions}}}**"
+  unknown: "<:no:977600033740431410> An unknown error occurred. Please try again later or contact us by joining our [support server]({{{support_invite}}})."
 
 other:
   version: "InterChat {{version}}"
