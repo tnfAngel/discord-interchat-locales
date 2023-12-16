@@ -22,6 +22,17 @@ vote: |
   We deeply appreciate your unwavering support. Thank you! 🙏
 
 network:
+  deleteSuccess: "{{{emoji}}} Message by {{user}} has been deleted from __**{{deleted}}/{{total}}**__ servers."
+  editSuccess: "{{{emoji}}} Message by {{user}} has been edited in __**{{edited}}/{{total}}**__ servers."
+  welcome: |
+    {{{user}}} Welcome to **{{hub}}**! <a:wave:1185520281134055446> 
+
+    Messages you send this channel will be sent across to multiple other servers, enabling seamless communication with them. You can share images & GIFs, reply, react and interact with messages normally. Just remember to avoid sharing personal info (check /rules for more). Go ahead and send your first message!
+
+  nsfw:
+    title: NSFW Detected
+    description: I have detected {{predictions}} NSFW (Not Safe For Work) content in your message. Please be aware that this is against our </rules:924659340898619395> and will result in immediate blacklist.
+    footer: Please be aware that AI is not perfect and may make mistakes. We apologize for any inconvenience caused.
   onboarding:
     embed:
       title: 👋 Hey there, welcome to {{hubName}}!
@@ -30,9 +41,8 @@ network:
 
         **How it works:** The InterChat Network is like a magic bridge that links channels on different servers that are with us in this hub. Learn more at our [guide](https://discord-interchat.github.io/docs).
       footer: InterChat Network | Version {{version}}
-    deleteSuccess: "{{{emoji}}} Message by {{user}} has been deleted from __**{{deleted}}/{{total}}**__ servers."
-    editSuccess: "{{{emoji}}} Message by {{user}} has been edited in __**{{edited}}/{{total}}**__ servers."
     inProgress: "There has already been an attempting to join a hub from {{{channel}}}. Please cancel it or wait for it to complete."
+
 
 blacklist:
   button:
@@ -140,6 +150,22 @@ connection:
   inviteAdded: "{{{emoji}}} Invite Added. Others can now join this server by using `Apps > Message Info/Report` command."
   emColorInvalid: <:no:977600033740431410> Invalid color. Please make sure you have entered a valid hex color code.
   emColorChange: "{{{emoji}}} Embed color successfully {{{action}}}"
+
+  embed:
+    title: Connection Details
+    description: Select an option below to manage your connection.
+    fields:
+      hub: Hub
+      channel: Channel
+      invite: Invite
+      connected: Connected
+      emColor: Embed Color
+      compact: Compact Mode
+      profanity: Profanity Filter
+    footer: Use the button & dropdown below to manage your connection.
+  selects:
+    placeholder: 🛠️ Select an option below to manage your connection.
+
 hub:
   notFound: <:no:977600033740431410> Unable to find hub. Please make sure you have entered the correct hub name.
   notFound_mod: <:no:977600033740431410> Unable to find hub. Please make sure you have entered the correct hub name & that you are the owner or a moderator of the hub.
@@ -187,6 +213,10 @@ hub:
       **Note:** You can always change this later using `/connection`.
     joinFooter: Want to use a different channel? Use the dropdown below.
     noHubs: There are no hubs listed here at the moment. Please try again later!
+    rating:
+      invalid: Invalid rating. You must enter a number between 1 and 5.
+      success: "Rating submitted! Thank you for your feedback."
+
   invite:
     create:
       success: |
