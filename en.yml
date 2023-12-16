@@ -1,365 +1,456 @@
-rules: |
-  ### 📜 InterChat Network Rules
+rules: >
+ ### 📜 InterChat Network Rules
 
-  1. **Use Common Sense:** Be considerate of others and their views. No slurs, extreme derogatory language or any actions that can disrupt the chat's comfort.
-  2. **No Spamming or Flooding:** Avoid repeated, nonsensical, or overly lengthy messages.
-  3. **Keep Private Matters Private:** Avoid sharing personal information across the network.
-  4. **No Harassment:** Trolling, insults, or harassment of any kind are not tolerated.
-  5. **No NSFW/NSFL Content:** Posting explicit NSFW/NSFL content will result in immediate blacklist.
-  6. **Respect Sensitive Topics:** Do not trivialize self-harm, suicide, violence, or other offensive topics.
-  7. **Report Concerns:** If you observe a violation of these rules, report it to the appropriate hub moderator or InterChat staff for further action.
 
-  Any questions? Join our [support server]({{{support_invite}}}).
-vote: |
-  ## 🗳️ Vote for InterChat and Enjoy Exclusive Perks
-  Your contribution is invaluable in elevating InterChat's position on Top.gg. Each and every vote makes a significant difference! 
+ 1. **Use Common Sense:** Be considerate of others and their views. No slurs, extreme derogatory language or any actions that can disrupt the chat's comfort.
 
-  As our way of expressing gratitude for your support, we are thrilled to offer you exclusive advantages. By casting your vote for InterChat, you'll unlock:
+ 2. **No Spamming or Flooding:** Avoid repeated, nonsensical, or overly lengthy messages.
 
-  - Edit messages within hubs
-  - Translating messages (and much more on the way!)
+ 3. **Keep Private Matters Private:** Avoid sharing personal information across the network.
 
-  We deeply appreciate your unwavering support. Thank you! 🙏
+ 4. **No Harassment:** Trolling, insults, or harassment of any kind are not tolerated.
 
+ 5. **No NSFW/NSFL Content:** Posting explicit NSFW/NSFL content will result in immediate blacklist.
+
+ 6. **Respect Sensitive Topics:** Do not trivialize self-harm, suicide, violence, or other offensive topics.
+
+ 7. **Report Concerns:** If you observe a violation of these rules, report it to the appropriate hub moderator or InterChat staff for further action.
+
+
+ Any questions? Join our [support server]({{{support_invite}}}).
+vote: >
+ ## 🗳️ Vote for InterChat and Enjoy Exclusive Perks
+
+ Your contribution is invaluable in elevating InterChat's position on Top.gg. Each and every vote makes a significant difference! 
+
+
+ As our way of expressing gratitude for your support, we are thrilled to offer you exclusive advantages. By casting your vote for InterChat, you'll unlock:
+
+
+ - Edit messages within hubs
+
+ - Translating messages (and much more on the way!)
+
+
+ We deeply appreciate your unwavering support. Thank you! 🙏
 network:
-  deleteSuccess: "{{{emoji}}} Message by {{user}} has been deleted from __**{{deleted}}/{{total}}**__ servers."
-  editSuccess: "{{{emoji}}} Message by {{user}} has been edited in __**{{edited}}/{{total}}**__ servers."
-  welcome: |
-    {{{user}}} Welcome to **{{hub}}**! <a:wave:1185520281134055446> 
-
-    Messages you send this channel will be sent across to multiple other servers, enabling seamless communication with them. You can share images & GIFs, reply, react and interact with messages normally. Just remember to avoid sharing personal info (check /rules for more). Go ahead and send your first message!
-
-  nsfw:
-    title: NSFW Detected
-    description: I have detected {{predictions}} NSFW (Not Safe For Work) content in your message. Please be aware that this is against our </rules:924659340898619395> and will result in immediate blacklist.
-    footer: Please be aware that AI is not perfect and may make mistakes. We apologize for any inconvenience caused.
-  onboarding:
-    embed:
-      title: 👋 Hey there, welcome to {{hubName}}!
-      description: |
-        To keep things organized, it's recommended to use a separate channel for just for this hub. But don't worry, you can always change this later.
-
-        **How it works:** The InterChat Network is like a magic bridge that links channels on different servers that are with us in this hub. Learn more at our [guide](https://discord-interchat.github.io/docs).
-      footer: InterChat Network | Version {{version}}
-    inProgress: "There has already been an attempting to join a hub from {{{channel}}}. Please cancel it or wait for it to complete."
+ deleteSuccess: "{{{emoji}}} Message by {{user}} has been deleted from
+  __**{{deleted}}/{{total}}**__ servers."
+ editSuccess: "{{{emoji}}} Message by {{user}} has been edited in
+  __**{{edited}}/{{total}}**__ servers."
+ welcome: >
+  {{{user}}} Welcome to **{{hub}}**! <a:wave:1185520281134055446> 
 
 
-blacklist:
-  button:
-    user: Blacklist User
-    server: Blacklist Server
-  modal:
-    reason:
-      label: Reason
-      placeholder: Reason for blacklisting
-    duration:
-      label: Duration
-      placeholder: "Duration of blacklist. Eg: 1d, 1w, 1m, 1y. Leave blank for permanent."
-  user:
-    success: "{{{emoji}}} **{{username}}** has been successfully blacklisted!"
-    removed: "{{{emoji}}} **{{username}}** has been removed from the blacklist!"
-    alreadyBlacklisted: <:no:977600033740431410> This user is already blacklisted.
-    easterEggs:
-      blacklistBot: You can't blacklist me wtf.
-  server:
-    success: "{{{emoji}}} **{{server}}** has been successfully blacklisted!"
-    removed: "{{{emoji}}} **{{server}}** has been removed from the blacklist!"
-    alreadyBlacklisted: <:no:977600033740431410> This server is already blacklisted.
-    unknownError: Failed to blacklist **{{server}}**. Enquire with the developers for more information.
-  list:
-    user: |
-      **UserID:** {{userId}
-      **Moderator:** {{moderator}}
-      **Reason:** {{reason}}
-      **Expires:** {{expires}}
-    server: |
-      **ServerId:** {{serverId}}
-      **Moderator:** {{moderator}}
-      **Reason:** {{reason}}
-      **Expires:** {{{expires}}}
-msgInfo:
-  buttons:
-    message: Message Info
-    report: Report Message
-    server: Server Info
-    user: User Info
-  message:
-    description: |
-      ## {{{emoji}}} Message Info
-
-      **Sent By:** 
-      __{{{author}}}__
-
-      **Sent From:**
-      __{{server}}__
-
-      **Message ID:**
-      __{{messageId}}__
-
-      **Sent In (Hub):**
-      __{{hub}}__
-
-      **Message Created:**
-      <t:{{createdAt}}:R>
-  server:
-    description: |
-      ## {{server}}
-      {{description}}
-
-      **Owner:** 
-      __{{{owner}}}__
-
-      **Created:** 
-      __<t:{{createdAt}}:d> (<t:{{createdAt}}:R>)__
-
-      **Member Count:** 
-      __{{memberCount}}__
-
-      **Invite:**
-      __{{invite}}__
-  user:
-    description: |
-      ## {{username}}
-      __{{user}}__
-
-      **ID:**
-      __{{id}}__
-
-      **Created:**
-      <t:{{createdAt}}:d> (<t:{{createdAt}}:R>)
-
-      **Display Name:**
-      __{{globalName}}__
-
-      **Hubs Owned:**
-      __{{hubsOwned}}__
-
-invite: |
-  Thank you for choosing to invite InterChat. Simply click the button below to invite me!
-
-  - **Support Server:** {{{support}}}
-connection:
-  notFound: <:no:977600033740431410> Invalid connection. Verify the channel ID or select from displayed options.
-  channelNotFound: <:no:977600033740431410> Unable to find connected channel. To talk again choose a new channel.
-  alreadyConnected: <:no:977600033740431410> Channel {{{channel}}} is already connected to a hub.
-  switchChannel: "{{{emoji}}} Select a channel to switch to using the select menu below:"
-  switchCalled: "{{{emoji}}} Channel switch called, use the command again to view new connection."
-  switchSuccess: "{{{emoji}}} Channel switched. You are now connected from **{{{channel}}}**."
-  inviteRemoved: "{{{emoji}}} Server Invite removed for this hub."
-  inviteInvalid: <:no:977600033740431410> Invalid invite. Please make sure you have entered a valid invite link.
-  inviteAdded: "{{{emoji}}} Invite Added. Others can now join this server by using `Apps > Message Info/Report` command."
-  emColorInvalid: <:no:977600033740431410> Invalid color. Please make sure you have entered a valid hex color code.
-  emColorChange: "{{{emoji}}} Embed color successfully {{{action}}}"
-
+  Messages sent in {{{channel}}} will be shared with other servers, **enabling effortless communication **. You can share images & GIFs, reply, react and interact with messages normally. Just remember to avoid sharing personal info (check </rules:924659340898619395> for more). Go ahead and send your first message!
+ nsfw:
+  title: NSFW Detected
+  description: I have detected {{predictions}} NSFW (Not Safe For Work) content in
+   your message. Please be aware that this is against our
+   </rules:924659340898619395> and will result in immediate blacklist.
+  footer: Please be aware that AI is not perfect and may make mistakes. We
+   apologize for any inconvenience caused.
+ onboarding:
   embed:
-    title: Connection Details
-    description: Select an option below to manage your connection.
-    fields:
-      hub: Hub
-      channel: Channel
-      invite: Invite
-      connected: Connected
-      emColor: Embed Color
-      compact: Compact Mode
-      profanity: Profanity Filter
-    footer: Use the button & dropdown below to manage your connection.
-  selects:
-    placeholder: 🛠️ Select an option below to manage your connection.
+   title: 👋 Hey there, welcome to {{hubName}}!
+   description: >
+    To keep things organized, it's recommended to use a separate channel for
+    just for this hub. But don't worry, you can always change this later.
 
+
+    **How it works:** The InterChat Network is like a magic bridge that links channels on different servers that are with us in this hub. Learn more at our [guide](https://discord-interchat.github.io/docs).
+   footer: InterChat Network | Version {{version}}
+  inProgress: There has already been an attempting to join a hub from
+   {{{channel}}}. Please cancel it or wait for it to complete.
+blacklist:
+ button:
+  user: Blacklist User
+  server: Blacklist Server
+ modal:
+  reason:
+   label: Reason
+   placeholder: Reason for blacklisting
+  duration:
+   label: Duration
+   placeholder: "Duration of blacklist. Eg: 1d, 1w, 1m, 1y. Leave blank for permanent."
+ user:
+  success: "{{{emoji}}} **{{username}}** has been successfully blacklisted!"
+  removed: "{{{emoji}}} **{{username}}** has been removed from the blacklist!"
+  alreadyBlacklisted: <:no:977600033740431410> This user is already blacklisted.
+  easterEggs:
+   blacklistBot: You can't blacklist me wtf.
+ server:
+  success: "{{{emoji}}} **{{server}}** has been successfully blacklisted!"
+  removed: "{{{emoji}}} **{{server}}** has been removed from the blacklist!"
+  alreadyBlacklisted: <:no:977600033740431410> This server is already blacklisted.
+  unknownError: Failed to blacklist **{{server}}**. Enquire with the developers
+   for more information.
+ list:
+  user: |
+   **UserID:** {{userId}
+   **Moderator:** {{moderator}}
+   **Reason:** {{reason}}
+   **Expires:** {{expires}}
+  server: |
+   **ServerId:** {{serverId}}
+   **Moderator:** {{moderator}}
+   **Reason:** {{reason}}
+   **Expires:** {{{expires}}}
+msgInfo:
+ buttons:
+  message: Message Info
+  report: Report Message
+  server: Server Info
+  user: User Info
+ message:
+  description: |
+   ## {{{emoji}}} Message Info
+
+   **Sent By:** 
+   __{{{author}}}__
+
+   **Sent From:**
+   __{{server}}__
+
+   **Message ID:**
+   __{{messageId}}__
+
+   **Sent In (Hub):**
+   __{{hub}}__
+
+   **Message Created:**
+   <t:{{createdAt}}:R>
+ server:
+  description: |
+   ## {{server}}
+   {{description}}
+
+   **Owner:** 
+   __{{{owner}}}__
+
+   **Created:** 
+   __<t:{{createdAt}}:d> (<t:{{createdAt}}:R>)__
+
+   **Member Count:** 
+   __{{memberCount}}__
+
+   **Invite:**
+   __{{invite}}__
+ user:
+  description: |
+   ## {{username}}
+   __{{user}}__
+
+   **ID:**
+   __{{id}}__
+
+   **Created:**
+   <t:{{createdAt}}:d> (<t:{{createdAt}}:R>)
+
+   **Display Name:**
+   __{{globalName}}__
+
+   **Hubs Owned:**
+   __{{hubsOwned}}__
+invite: >
+ Thank you for choosing to invite InterChat. Simply click the button below to
+ invite me!
+
+
+ - **Support Server:** {{{support}}}
+connection:
+ notFound: <:no:977600033740431410> Invalid connection. Verify the channel ID or
+  select from displayed options.
+ channelNotFound: <:no:977600033740431410> Unable to find connected channel. To
+  talk again choose a new channel.
+ alreadyConnected: <:no:977600033740431410> Channel {{{channel}}} is already connected to a hub.
+ switchChannel: "{{{emoji}}} Select a channel to switch to using the select menu below:"
+ switchCalled: "{{{emoji}}} Channel switch called, use the command again to view
+  new connection."
+ switchSuccess: "{{{emoji}}} Channel switched. You are now connected from **{{{channel}}}**."
+ inviteRemoved: "{{{emoji}}} Server Invite removed for this hub."
+ inviteInvalid: <:no:977600033740431410> Invalid invite. Please make sure you
+  have entered a valid invite link.
+ inviteAdded: "{{{emoji}}} Invite Added. Others can now join this server by using
+  `Apps > Message Info/Report` command."
+ emColorInvalid: <:no:977600033740431410> Invalid color. Please make sure you
+  have entered a valid hex color code.
+ emColorChange: "{{{emoji}}} Embed color successfully {{{action}}}"
+ embed:
+  title: Connection Details
+  description: Select an option below to manage your connection.
+  fields:
+   hub: Hub
+   channel: Channel
+   invite: Invite
+   connected: Connected
+   emColor: Embed Color
+   compact: Compact Mode
+   profanity: Profanity Filter
+  footer: Use the button & dropdown below to manage your connection.
+ selects:
+  placeholder: 🛠️ Select an option below to manage your connection.
 hub:
-  notFound: <:no:977600033740431410> Unable to find hub. Please make sure you have entered the correct hub name.
-  notFound_mod: <:no:977600033740431410> Unable to find hub. Please make sure you have entered the correct hub name & that you are the owner or a moderator of the hub.
-  alreadyJoined: <:no:977600033740431410> You have already joined {{hub}} from {{{channel}}}!
-  invalidChannel: <:no:977600033740431410> Invalid channel. Only text and thread channels are supported!
-  join:
-    success: Successfully joined hub {{hub}} from {{{channel}}}! Use `/connection` to manage your connection. And `/hub leave` to leave the hub.
-  servers:
-    total: "Current connected servers: {{from}}-{{to}} / **{{total}}**"
-    noConnections: <:no:977600033740431410> No server has joined this hub yet. Use `/hub join` to join this hub.
-    notConnected: <:no:977600033740431410> Server **{{server}}** isn't a part of **{{hub}}**.
-    connectionInfo: |
-      Channel: #{{{channelName}}} `({{channelId}})`
-      Joined At: {{{joinedAt}}}
-      Invite: {{{invite}}}
-      Connected: {{connected}}
-
-  create:
-    maxHubs: <:no:977600033740431410> You have reached the maximum number of hubs (3) you can create. Please delete a hub before creating another one.
-    invalidName: <:no:977600033740431410> Invalid hub name. It must not contain `discord`, `clyde` or \`\`\` . Please choose another name.
-    nameTaken: <:no:977600033740431410> This hub name is already taken. Please choose another name.
-    invalidUrl: <:no:977600033740431410> Invalid image URL for icon or banner. Please make sure you have entered a valid Imgur image URL that is not a gallery or album.
-    success: |
-      ### Hub Created!
-
-      Congratulations! Your private hub, **{{name}}**, has been successfully created.
-      To join, create an invite using `/hub invite create` and share the generated code. Then join using \`/hub join\`.
-
-      - **Generate invite:** `/hub invite create`
-      - **Go public:** `/hub manage`
-      - **Join hub:** `/hub join`
-      - **Edit hub:** `/hub manage`
-      - **Add moderators:** `/hub moderator add`
-
-      __Learn more about hubs in our [guide](https://discord-interchat.github.io/docs).__ or join our [support server]({{{support_invite}}}) for help.
-  delete:
-    confirm: Are you sure you wish to delete **{{hub}}**? This action is irreversible. All connected servers, invites and message data will be removed from this hub.
-    ownerOnly: <:no:977600033740431410> Only the owner of this hub can delete it.
-    success: <:no:977600033740431410> Hub **{{hub}}** has been deleted.
-    cancelled: "{{{emoji}}} Hub deletion has been cancelled."
-  browse:
-    joinConfirm: |
-      Are you sure you wish to join {{hub}} from {{{channel}}}?
-          
-      **Note:** You can always change this later using `/connection`.
-    joinFooter: Want to use a different channel? Use the dropdown below.
-    noHubs: There are no hubs listed here at the moment. Please try again later!
-    rating:
-      invalid: Invalid rating. You must enter a number between 1 and 5.
-      success: "Rating submitted! Thank you for your feedback."
-
-  invite:
-    create:
-      success: |
-        ### Invite Created!
-
-        Your invite has been successfully created. Others can now join this hub by using the \`/hub join\` command.
-
-        - **Join using:** `/hub join invite:{{inviteCode}}`
-        - **View invites:** `/hub invite list`
-        - **Expiry :** {{expiry}}
-        - **Uses**: ∞
-
-        __Learn more about hubs in our [guide](https://discord-interchat.github.io/docs).__.
-  revoke:
-    invalidCode: <:no:977600033740431410> Invalid invite code. Please make sure you have entered a valid invite code.
-    success: "{{{emoji}}} Invite {{inviteCode}} revoked."
-  list:
-    title: "**Invite Codes:**"
-    noInvites: <:no:977600033740431410> This hub has no invites yet. Use `/hub invite create` to create one.
-    notPrivate: <:no:977600033740431410> Only private hubs can have invites. Use `/hub manage` to make this hub private.
-
-  joined:
-    noJoinedHubs: <:no:977600033740431410> This server has not joined any hubs yet. Use `/hub browse` to view a list of hubs.
-    joinedHubs: This server is a part of **{{total}}** hub(s). Use `/hub leave` to leave a hub.
-
-  leave:
-    noHub: <:no:977600033740431410> That channel is invalid or has not joined any hubs.
-    confirm: Are you sure you wish to leave **{{hub}}** from {{{channel}}}? No more messages will be sent to this server from this hub.
-    confirmFooter: Confirm using the button below within 10 seconds.
-    success: "{{{emoji}}} Left hub **{{hub}}** from {{{channel}}}. No more messages will be sent to this server from this hub. You can rejoin using `/hub join`."
-
-  moderator:
-    noModerators:
-      <:no:977600033740431410> This hub has no moderators yet. Use `/hub
-      moderator add` to add one.
-    add:
-      success: "{{{emoji}}} **{{user}}** has been added as a moderator of position **{{position}}**."
-      alreadyModerator: <:no:977600033740431410> **{{user}}** is already a moderator.
-    remove:
-      success: "{{{emoji}}} **{{user}}** has been removed as a moderator."
-      notModerator: <:no:977600033740431410> **{{user}}** is not a moderator.
-      notOwner: <:no:977600033740431410> Only the owner of this hub can a manager.
-    update:
-      success: "{{{emoji}}} **{{user}}**'s position has been updated to **{{position}}**."
-      notModerator: <:no:977600033740431410> **{{user}}** is not a moderator.
-      notAllowed: <:no:977600033740431410> Only hub managers can update a moderator's position.
-      notOwner: <:no:977600033740431410> Only the owner of this hub can update a manager's position.
-  manage:
-    enterImgurUrl: Enter a valid Imgur image URL that is not a gallery or album.
-    icon:
-      changed: Hub icon successfully changed.
-      modal:
-        title: Change Icon
-        label: Icon URL
-      selects:
-        label: Change Icon
-        description: Change the icon of this hub.
-    description:
-      changed: Hub description successfully changed.
-      modal:
-        title: Change Description
-        label: Description
-        placeholder: Enter a description for this hub.
-      selects:
-        label: Change Description
-        description: Change the description of this hub.
-    banner:
-      changed: Hub banner successfully changed.
-      removed: Hub banner successfully removed.
-      modal:
-        title: Change Banner
-        label: Banner URL
-      selects:
-        label: Change Banner
-        description: Change the banner of this hub.
-    visibility:
-      success: "{{{emoji}}} Hub visibility successfully changed to **{{{visibility}}}**."
-      selects:
-        label: Change Visibility
-        description: Make this hub public or private.
-
-report:
+ notFound: <:no:977600033740431410> Unable to find hub. Please make sure you have
+  entered the correct hub name.
+ notFound_mod: <:no:977600033740431410> Unable to find hub. Please make sure you
+  have entered the correct hub name & that you are the owner or a moderator of
+  the hub.
+ alreadyJoined: <:no:977600033740431410> You have already joined {{hub}} from {{{channel}}}!
+ invalidChannel: <:no:977600033740431410> Invalid channel. Only text and thread
+  channels are supported!
+ join:
+  success: Successfully joined hub {{hub}} from {{{channel}}}! Use `/connection`
+   to manage your connection. And `/hub leave` to leave the hub.
+ servers:
+  total: "Current connected servers: {{from}}-{{to}} / **{{total}}**"
+  noConnections: <:no:977600033740431410> No server has joined this hub yet. Use
+   `/hub join` to join this hub.
+  notConnected: <:no:977600033740431410> Server **{{server}}** isn't a part of **{{hub}}**.
+  connectionInfo: |
+   Channel: #{{{channelName}}} `({{channelId}})`
+   Joined At: {{{joinedAt}}}
+   Invite: {{{invite}}}
+   Connected: {{connected}}
+ create:
   modal:
-    title: Report Details
-    other:
-      label: Report Details
-      placeholder: A detailed description of the report.
-    userOrServer:
-      label: User/Server ID
-      placeholder: The IDs of the user/server you are reporting.
-    bug:
-      input1:
-        label: Bug Details
-        placeholder: Eg. Frequent interaction failures for /help command...
-      input2:
-        label: Detailed Description (Optional)
-        placeholder: Steps you took. Eg. 1. Run /help 2. Wait for 5 seconds...
-  invalidUser: >
-    <:no:977600033740431410> I couldn't find a user with that ID.
+   title: Create Hub
+   name:
+    label: Hub Name
+    placeholder: Enter a name for your hub.
+   description:
+    label: Description
+    placeholder: Enter a description for your hub.
+   icon:
+    label: Icon URL
+    placeholder: Enter an Imgur image URL.
+   banner:
+    label: Banner URL
+    placeholder: Enter an Imgur image URL.
+  maxHubs: <:no:977600033740431410> You have reached the maximum number of hubs
+   (3) you can create. Please delete a hub before creating another one.
+  invalidName: <:no:977600033740431410> Invalid hub name. It must not contain
+   `discord`, `clyde` or \`\`\` . Please choose another name.
+  nameTaken: <:no:977600033740431410> This hub name is already taken. Please
+   choose another name.
+  invalidUrl: <:no:977600033740431410> Invalid image URL for icon or banner.
+   Please make sure you have entered a valid Imgur image URL that is not a
+   gallery or album.
+  success: >
+   ### Hub Created!
 
 
-    **To find a user's ID within the network, please follow these instructions:**
+   Congratulations! Your private hub, **{{name}}**, has been successfully created.
 
-    {{{dot}}} Right click on a message sent from the user in question select \`Apps > Message Info\`. Please double-check the ID and try again.
-  invalidServer: >
-    <:no:977600033740431410> I couldn't find a server with that ID.\n
+   To join, create an invite using `/hub invite create` and share the generated code. Then join using \`/hub join\`.
 
 
-    **To find a server ID within the network:**
+   - **Generate invite:** `/hub invite create`
 
-    {{{dot}}} Right click on a message sent by the server in question and select \`Apps > Message Info/Report\`. Please double-check the ID and try again.
-  submitted:
-    Report submitted. Join the **[support server]({{{support_invite}}})**
-    to get updates on your report.
+   - **Go public:** `/hub manage`
+
+   - **Join hub:** `/hub join`
+
+   - **Edit hub:** `/hub manage`
+
+   - **Add moderators:** `/hub moderator add`
+
+
+   __Learn more about hubs in our [guide](https://discord-interchat.github.io/docs).__ or join our [support server]({{{support_invite}}}) for help.
+ delete:
+  confirm: Are you sure you wish to delete **{{hub}}**? This action is
+   irreversible. All connected servers, invites and message data will be removed
+   from this hub.
+  ownerOnly: <:no:977600033740431410> Only the owner of this hub can delete it.
+  success: <:no:977600033740431410> Hub **{{hub}}** has been deleted.
+  cancelled: "{{{emoji}}} Hub deletion has been cancelled."
+ browse:
+  joinConfirm: |
+   Are you sure you wish to join {{hub}} from {{{channel}}}?
+       
+   **Note:** You can always change this later using `/connection`.
+  joinFooter: Want to use a different channel? Use the dropdown below.
+  noHubs: There are no hubs listed here at the moment. Please try again later!
+  rating:
+   invalid: Invalid rating. You must enter a number between 1 and 5.
+   success: Rating submitted! Thank you for your feedback.
+ invite:
+  create:
+   success: >
+    ### Invite Created!
+
+
+    Your invite has been successfully created. Others can now join this hub by using the \`/hub join\` command.
+
+
+    - **Join using:** `/hub join invite:{{inviteCode}}`
+
+    - **View invites:** `/hub invite list`
+
+    - **Expiry :** {{expiry}}
+
+    - **Uses**: ∞
+
+
+    __Learn more about hubs in our [guide](https://discord-interchat.github.io/docs).__.
+ revoke:
+  invalidCode: <:no:977600033740431410> Invalid invite code. Please make sure you
+   have entered a valid invite code.
+  success: "{{{emoji}}} Invite {{inviteCode}} revoked."
+ list:
+  title: "**Invite Codes:**"
+  noInvites: <:no:977600033740431410> This hub has no invites yet. Use `/hub
+   invite create` to create one.
+  notPrivate: <:no:977600033740431410> Only private hubs can have invites. Use
+   `/hub manage` to make this hub private.
+ joined:
+  noJoinedHubs: <:no:977600033740431410> This server has not joined any hubs yet.
+   Use `/hub browse` to view a list of hubs.
+  joinedHubs: This server is a part of **{{total}}** hub(s). Use `/hub leave` to
+   leave a hub.
+ leave:
+  noHub: <:no:977600033740431410> That channel is invalid or has not joined any hubs.
+  confirm: Are you sure you wish to leave **{{hub}}** from {{{channel}}}? No more
+   messages will be sent to this server from this hub.
+  confirmFooter: Confirm using the button below within 10 seconds.
+  success: "{{{emoji}}} Left hub **{{hub}}** from {{{channel}}}. No more messages
+   will be sent to this server from this hub. You can rejoin using `/hub join`."
+ moderator:
+  noModerators: <:no:977600033740431410> This hub has no moderators yet. Use `/hub
+   moderator add` to add one.
+  add:
+   success: "{{{emoji}}} **{{user}}** has been added as a moderator of position
+    **{{position}}**."
+   alreadyModerator: <:no:977600033740431410> **{{user}}** is already a moderator.
+  remove:
+   success: "{{{emoji}}} **{{user}}** has been removed as a moderator."
+   notModerator: <:no:977600033740431410> **{{user}}** is not a moderator.
+   notOwner: <:no:977600033740431410> Only the owner of this hub can a manager.
+  update:
+   success: "{{{emoji}}} **{{user}}**'s position has been updated to **{{position}}**."
+   notModerator: <:no:977600033740431410> **{{user}}** is not a moderator.
+   notAllowed: <:no:977600033740431410> Only hub managers can update a moderator's position.
+   notOwner: <:no:977600033740431410> Only the owner of this hub can update a
+    manager's position.
+ manage:
+  enterImgurUrl: Enter a valid Imgur image URL that is not a gallery or album.
+  icon:
+   changed: Hub icon successfully changed.
+   modal:
+    title: Change Icon
+    label: Icon URL
+   selects:
+    label: Change Icon
+    description: Change the icon of this hub.
+  description:
+   changed: Hub description successfully changed.
+   modal:
+    title: Change Description
+    label: Description
+    placeholder: Enter a description for this hub.
+   selects:
+    label: Change Description
+    description: Change the description of this hub.
+  banner:
+   changed: Hub banner successfully changed.
+   removed: Hub banner successfully removed.
+   modal:
+    title: Change Banner
+    label: Banner URL
+   selects:
+    label: Change Banner
+    description: Change the banner of this hub.
+  visibility:
+   success: "{{{emoji}}} Hub visibility successfully changed to **{{{visibility}}}**."
+   selects:
+    label: Change Visibility
+    description: Make this hub public or private.
+report:
+ modal:
+  title: Report Details
+  other:
+   label: Report Details
+   placeholder: A detailed description of the report.
+  userOrServer:
+   label: User/Server ID
+   placeholder: The IDs of the user/server you are reporting.
   bug:
-    title: Bug Report
-    affected: Affected Components
-    description: Please choose what component of the bot you are facing issues with.
-    submitted: "{{{emoji}}} Report submitted successfully. Join the </support
-      server:924659341049626636> to Thank you!"
+   input1:
+    label: Bug Details
+    placeholder: Eg. Frequent interaction failures for /help command...
+   input2:
+    label: Detailed Description (Optional)
+    placeholder: Steps you took. Eg. 1. Run /help 2. Wait for 5 seconds...
+ invalidUser: >
+  <:no:977600033740431410> I couldn't find a user with that ID.
+
+
+  **To find a user's ID within the network, please follow these instructions:**
+
+  {{{dot}}} Right click on a message sent from the user in question select \`Apps > Message Info\`. Please double-check the ID and try again.
+ invalidServer: >
+  <:no:977600033740431410> I couldn't find a server with that ID.\n
+
+
+  **To find a server ID within the network:**
+
+  {{{dot}}} Right click on a message sent by the server in question and select \`Apps > Message Info/Report\`. Please double-check the ID and try again.
+ submitted: Report submitted. Join the **[support server]({{{support_invite}}})**
+  to get updates on your report.
+ bug:
+  title: Bug Report
+  affected: Affected Components
+  description: Please choose what component of the bot you are facing issues with.
+  submitted: "{{{emoji}}} Report submitted successfully. Join the </support
+   server:924659341049626636> to Thank you!"
+language:
+ set: Language set! I will now respond to you in **{{{lang}}}**.
 errors:
-  messageNotSentOrExpired: <:no:977600033740431410> This message was not sent in a hub, has expired, or you lack permissions to perform this action.
-  notYourAction: <:no:977600033740431410> Sorry, you can't perform this action. Please run the command yourself.
-  notMessageAuthor: <:no:977600033740431410> You are not the author of this message.
-  commandError: |
-    <:no:977600033740431410> An error occurred while executing this command. It has been logged to our system. If this issue persists, please join our [support server]({{{support_invite}}}) and report it!
-    ```js
-    {{{error}}}
-    ```
-  mustVote: Please [vote](https://top.gg/bot/769921109209907241/vote) for Interchat to use this command, your support is very much appreciated!
-  inviteLinks: <:no:977600033740431410> Do not advertise or promote servers in the network. Set an invite in `/connection` instead!
-  invalidLangCode: <:no:977600033740431410> Invalid language code. Please make sure you have entered a correct [language code](https://cloud.google.com/translate/docs/languages).
-  unknownServer: <:no:977600033740431410> Unknown server. Please make sure you have entered the correct server ID.
-  unknownNetworkMessage: <:no:977600033740431410> Unknown Message. If it has been sent in the past minute, please wait few more seconds and try again.
-  userNotFound: <:no:977600033740431410> User not found. Try inputting their ID instead.
-  userBlacklisted: <:no:977600033740431410> You are blacklisted from joining **{{hub}}**.
-  serverBlacklisted: <:no:977600033740431410> This server is blacklisted from joining **{{hub}}**.
-  serverNotBlacklisted: <:no:977600033740431410> The inputted server is not blacklisted.
-  userNotBlacklisted: <:no:977600033740431410> The inputted user is not blacklisted.
-  missingPermissions: "<:no:977600033740431410> You are missing the following permissions to perform this action: **{{{permissions}}}**"
-  botMissingPermissions: "<:no:977600033740431410> Please grant me the following permissions to continue: **{{{permissions}}}**"
-  unknown: <:no:977600033740431410> An unknown error occurred. Please try again later or contact us by joining our [support server]({{{support_invite}}}).
+ messageNotSentOrExpired: <:no:977600033740431410> This message was not sent in a
+  hub, has expired, or you lack permissions to perform this action.
+ notYourAction: <:no:977600033740431410> Sorry, you can't perform this action.
+  Please run the command yourself.
+ notMessageAuthor: <:no:977600033740431410> You are not the author of this message.
+ commandError: >
+  <:no:977600033740431410> An error occurred while executing this command. It
+  has been logged to our system. If this issue persists, please join our
+  [support server]({{{support_invite}}}) and report it!
+
+  ```js
+
+  {{{error}}}
+
+  ```
+ mustVote: Please [vote](https://top.gg/bot/769921109209907241/vote) for
+  Interchat to use this command, your support is very much appreciated!
+ inviteLinks: <:no:977600033740431410> Do not advertise or promote servers in the
+  network. Set an invite in `/connection` instead!
+ invalidLangCode: <:no:977600033740431410> Invalid language code. Please make
+  sure you have entered a correct [language
+  code](https://cloud.google.com/translate/docs/languages).
+ unknownServer: <:no:977600033740431410> Unknown server. Please make sure you
+  have entered the correct server ID.
+ unknownNetworkMessage: <:no:977600033740431410> Unknown Message. If it has been
+  sent in the past minute, please wait few more seconds and try again.
+ userNotFound: <:no:977600033740431410> User not found. Try inputting their ID instead.
+ blacklisted: <:no:977600033740431410> You or this server is blacklisted from
+  using InterChat.
+ userBlacklisted: <:no:977600033740431410> You are blacklisted from **{{hub}}**.
+ serverBlacklisted: <:no:977600033740431410> This server is blacklisted from **{{hub}}**.
+ serverNotBlacklisted: <:no:977600033740431410> The inputted server is not blacklisted.
+ userNotBlacklisted: <:no:977600033740431410> The inputted user is not blacklisted.
+ missingPermissions: "<:no:977600033740431410> You are missing the following
+  permissions to perform this action: **{{{permissions}}}**"
+ botMissingPermissions: "<:no:977600033740431410> Please grant me the following
+  permissions to continue: **{{{permissions}}}**"
+ unknown: <:no:977600033740431410> An unknown error occurred. Please try again
+  later or contact us by joining our [support server]({{{support_invite}}}).
+ notUsable: <:no:977600033740431410> This is no longer usable.
+ cooldown: <:no:977600033740431410> You are on cooldown. Please wait
+  **{{{time}}}** before using attempting again.
 misc:
-  noReason: No reason provided.
-  noDesc: No Description.
-  version: InterChat v{{version}}
+ noReason: No reason provided.
+ noDesc: No Description.
+ version: InterChat v{{version}}
+editMsg:
+ editSuccess: editMsg.editSuccess
