@@ -22,8 +22,8 @@ vote: |
   We deeply appreciate your unwavering support. Thank you! 🙏
 
 network:
-  deleteSuccess: "{{{emoji}}} Message by {{user}} has been deleted from __**{{deleted}}/{{total}}**__ servers."
-  editSuccess: "{{{emoji}}} Message by {{user}} has been edited in __**{{edited}}/{{total}}**__ servers."
+  deleteSuccess: "{{{emoji}}} Message by {{{user}}} has been deleted from __**{{deleted}}/{{total}}**__ servers."
+  editSuccess: "{{{emoji}}} Message by {{{user}}} has been edited in __**{{edited}}/{{total}}**__ servers."
   welcome: |
     {{{user}}} Welcome to **{{hub}}**! <a:wave:1185520281134055446> 
 
@@ -171,13 +171,14 @@ hub:
   notFound_mod: <:no:977600033740431410> Unable to find hub. Please make sure you have entered the correct hub name & that you are the owner or a moderator of the hub.
   alreadyJoined: <:no:977600033740431410> You have already joined **{{hub}}** from {{{channel}}}!
   invalidChannel: <:no:977600033740431410> Invalid channel. Only text and thread channels are supported!
+  invalidImgurUrl: <:no:977600033740431410> Invalid image URL for icon or banner. Please make sure you have entered a valid Imgur image URL that is not a gallery or album.
   join:
     success: Successfully joined hub **{{hub}}** from {{{channel}}}! Use `/connection` to manage your connection. And `/hub leave` to leave the hub.
     
   servers:
     total: "Current connected servers: {{from}}-{{to}} / **{{total}}**"
     noConnections: <:no:977600033740431410> No server has joined this hub yet. Use `/hub join` to join this hub.
-    notConnected: <:no:977600033740431410> Server **{{server}}** isn't a part of **{{hub}}**.
+    notConnected: <:no:977600033740431410> That server isn't a part of **{{hub}}**.
     connectionInfo: |
       Channel: #{{{channelName}}} `({{channelId}})`
       Joined At: {{{joinedAt}}}
@@ -203,12 +204,11 @@ hub:
     maxHubs: <:no:977600033740431410> You have reached the maximum number of hubs (3) you can create. Please delete a hub before creating another one.
     invalidName: <:no:977600033740431410> Invalid hub name. It must not contain `discord`, `clyde` or \`\`\` . Please choose another name.
     nameTaken: <:no:977600033740431410> This hub name is already taken. Please choose another name.
-    invalidUrl: <:no:977600033740431410> Invalid image URL for icon or banner. Please make sure you have entered a valid Imgur image URL that is not a gallery or album.
     success: |
       ### Hub Created!
 
       Congratulations! Your private hub, **{{name}}**, has been successfully created.
-      To join, create an invite using `/hub invite create` and share the generated code. Then join using \`/hub join\`.
+      To join, create an invite using `/hub invite create` and share the generated code. Then join using `/hub join`.
 
       - **Generate invite:** `/hub invite create`
       - **Go public:** `/hub manage`
@@ -220,7 +220,7 @@ hub:
   delete:
     confirm: Are you sure you wish to delete **{{hub}}**? This action is irreversible. All connected servers, invites and message data will be removed from this hub.
     ownerOnly: <:no:977600033740431410> Only the owner of this hub can delete it.
-    success: <:no:977600033740431410> Hub **{{hub}}** has been deleted.
+    success: "{{{emoji}}} Hub **{{hub}}** has been deleted."
     cancelled: "{{{emoji}}} Hub deletion has been cancelled."
   browse:
     joinConfirm: |
@@ -238,21 +238,21 @@ hub:
       success: |
         ### Invite Created!
 
-        Your invite has been successfully created. Others can now join this hub by using the \`/hub join\` command.
+        Your invite has been successfully created. Others can now join this hub by using the `/hub join` command.
 
         - **Join using:** `/hub join invite:{{inviteCode}}`
         - **View invites:** `/hub invite list`
-        - **Expiry :** {{expiry}}
+        - **Expiry :** {{{expiry}}}
         - **Uses**: ∞
 
         __Learn more about hubs in our [guide](https://discord-interchat.github.io/docs).__.
-  revoke:
-    invalidCode: <:no:977600033740431410> Invalid invite code. Please make sure you have entered a valid invite code.
-    success: "{{{emoji}}} Invite {{inviteCode}} revoked."
-  list:
-    title: "**Invite Codes:**"
-    noInvites: <:no:977600033740431410> This hub has no invites yet. Use `/hub invite create` to create one.
-    notPrivate: <:no:977600033740431410> Only private hubs can have invites. Use `/hub manage` to make this hub private.
+    revoke:
+      invalidCode: <:no:977600033740431410> Invalid invite code. Please make sure you have entered a valid invite code.
+      success: "{{{emoji}}} Invite {{inviteCode}} revoked."
+    list:
+      title: "**Invite Codes:**"
+      noInvites: <:no:977600033740431410> This hub has no invites yet. Use `/hub invite create` to create one.
+      notPrivate: <:no:977600033740431410> Only private hubs can have invites. Use `/hub manage` to make this hub private.
 
   joined:
     noJoinedHubs: <:no:977600033740431410> This server has not joined any hubs yet. Use `/hub browse` to view a list of hubs.
@@ -262,21 +262,21 @@ hub:
     noHub: <:no:977600033740431410> That channel is invalid or has not joined any hubs.
     confirm: Are you sure you wish to leave **{{hub}}** from {{{channel}}}? No more messages will be sent to this server from this hub.
     confirmFooter: Confirm using the button below within 10 seconds.
-    success: "{{{emoji}}} Left hub **{{hub}}** from {{{channel}}}. No more messages will be sent to this server from this hub. You can rejoin using `/hub join`."
+    success: "{{{emoji}}} Left the hub from {{{channel}}}. No more messages will be sent to this server from this hub. You can rejoin using `/hub join`."
 
   moderator:
     noModerators:
       <:no:977600033740431410> This hub has no moderators yet. Use `/hub moderator add` to add one.
     add:
-      success: "{{{emoji}}} **{{user}}** has been added as a moderator of position **{{position}}**."
-      alreadyModerator: <:no:977600033740431410> **{{user}}** is already a moderator.
+      success: "{{{emoji}}} **{{{user}}}** has been added as a moderator of position **{{position}}**."
+      alreadyModerator: <:no:977600033740431410> **{{{user}}}** is already a moderator.
     remove:
-      success: "{{{emoji}}} **{{user}}** has been removed as a moderator."
-      notModerator: <:no:977600033740431410> **{{user}}** is not a moderator.
+      success: "{{{emoji}}} **{{{user}}}** has been removed as a moderator."
+      notModerator: <:no:977600033740431410> **{{{user}}}** is not a moderator.
       notOwner: <:no:977600033740431410> Only the owner of this hub can a manager.
     update:
-      success: "{{{emoji}}} **{{user}}**'s position has been updated to **{{position}}**."
-      notModerator: <:no:977600033740431410> **{{user}}** is not a moderator.
+      success: "{{{emoji}}} **{{{user}}}**'s position has been updated to **{{position}}**."
+      notModerator: <:no:977600033740431410> **{{{user}}}** is not a moderator.
       notAllowed: <:no:977600033740431410> Only hub managers can update a moderator's position.
       notOwner: <:no:977600033740431410> Only the owner of this hub can update a manager's position.
   manage:
@@ -329,24 +329,23 @@ report:
       input2:
         label: Detailed Description (Optional)
         placeholder: Steps you took. Eg. 1. Run /help 2. Wait for 5 seconds...
-  invalidUser: >
+  invalidUser: |
     <:no:977600033740431410> I couldn't find a user with that ID.
 
-    **To find a user's ID within the network, please follow these instructions:**
-
-    {{{dot}}} Right click on a message sent from the user in question select \`Apps > Message Info\`. Please double-check the ID and try again.
-  invalidServer: >
-    <:no:977600033740431410> I couldn't find a server with that ID.\n
+    **To find a user's ID within the network:**
+    {{{dot}}} Right click on a message sent from the user in question select `Apps > Message Info`. Please double-check the ID and try again.
+  invalidServer: |
+    <:no:977600033740431410> I couldn't find a server with that ID.
 
     **To find a server ID within the network:**
+    {{{dot}}} Right click on a message sent by the server in question and select `Apps > Message Info/Report`. Please double-check the ID and try again.
 
-    {{{dot}}} Right click on a message sent by the server in question and select \`Apps > Message Info/Report\`. Please double-check the ID and try again.
   submitted: Report submitted. Join the **[support server]({{{support_invite}}})** to get updates on your report.
   bug:
     title: Bug Report
     affected: Affected Components
     description: Please choose what component of the bot you are facing issues with.
-    submitted: "{{{emoji}}} Report submitted successfully. Join the </support server:924659341049626636> to Thank you!"
+    submitted: "{{{emoji}}} Report submitted successfully. Join the </support server:924659341049626636> to get more details. Thank you!"
 
 language:
   set: Language set! I will now respond to you in **{{{lang}}}**.
@@ -375,7 +374,7 @@ errors:
   botMissingPermissions: "<:no:977600033740431410> Please grant me the following permissions to continue: **{{{permissions}}}**"
   unknown: <:no:977600033740431410> An unknown error occurred. Please try again later or contact us by joining our [support server]({{{support_invite}}}).
   notUsable: <:no:977600033740431410> This is no longer usable.
-  cooldown: <:no:977600033740431410> You are on cooldown. Please wait **{{{time}}}** before using attempting again.
+  cooldown: <:no:977600033740431410> You are on cooldown. Please wait **{{{time}}}** before attempting again.
 
 misc:
   noReason: No reason provided.
