@@ -169,10 +169,10 @@ connection:
 hub:
   notFound: <:no:977600033740431410> Unable to find hub. Please make sure you have entered the correct hub name.
   notFound_mod: <:no:977600033740431410> Unable to find hub. Please make sure you have entered the correct hub name & that you are the owner or a moderator of the hub.
-  alreadyJoined: <:no:977600033740431410> You have already joined {{hub}} from {{{channel}}}!
+  alreadyJoined: <:no:977600033740431410> You have already joined **{{hub}}** from {{{channel}}}!
   invalidChannel: <:no:977600033740431410> Invalid channel. Only text and thread channels are supported!
   join:
-    success: Successfully joined hub {{hub}} from {{{channel}}}! Use `/connection` to manage your connection. And `/hub leave` to leave the hub.
+    success: Successfully joined hub **{{hub}}** from {{{channel}}}! Use `/connection` to manage your connection. And `/hub leave` to leave the hub.
     
   servers:
     total: "Current connected servers: {{from}}-{{to}} / **{{total}}**"
