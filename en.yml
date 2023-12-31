@@ -68,21 +68,21 @@ blacklist:
     unknownError: Failed to blacklist **{{server}}**. Enquire with the developers for more information.
   list:
     user: |
-      **UserID:** {{userId}
+      **UserID:** {{userId}}
       **Moderator:** {{moderator}}
-      **Reason:** {{reason}}
+      **Reason:** {{{reason}}}
       **Expires:** {{expires}}
     server: |
       **ServerId:** {{serverId}}
       **Moderator:** {{moderator}}
-      **Reason:** {{reason}}
+      **Reason:** {{{reason}}}
       **Expires:** {{{expires}}}
 msgInfo:
   buttons:
     message: Message Info
-    report: Report Message
     server: Server Info
     user: User Info
+    report: Report
   message:
     description: |
       ## {{{emoji}}} Message Info
@@ -91,20 +91,20 @@ msgInfo:
       __{{{author}}}__
 
       **Sent From:**
-      __{{server}}__
+      __{{{server}}}__
 
       **Message ID:**
       __{{messageId}}__
 
       **Sent In (Hub):**
-      __{{hub}}__
+      __{{{hub}}}__
 
       **Message Created:**
-      <t:{{createdAt}}:R>
+      <t:{{{createdAt}}}:R>
   server:
     description: |
-      ## {{server}}
-      {{description}}
+      ## {{{server}}}
+      {{{description}}}
 
       **Owner:** 
       __{{{owner}}}__
@@ -116,11 +116,11 @@ msgInfo:
       __{{memberCount}}__
 
       **Invite:**
-      __{{invite}}__
+      __{{{invite}}}__
   user:
     description: |
-      ## {{username}}
-      __{{user}}__
+      ## {{{username}}}
+      __{{{user}}}__
 
       **ID:**
       __{{id}}__
@@ -129,10 +129,14 @@ msgInfo:
       <t:{{createdAt}}:d> (<t:{{createdAt}}:R>)
 
       **Display Name:**
-      __{{globalName}}__
+      __{{{globalName}}}__
 
       **Hubs Owned:**
       __{{hubsOwned}}__
+
+  report:
+    notEnabled: <:no:977600033740431410> Reporting is not enabled for this hub.
+    success: "{{{emoji}}} Report submitted successfully. Thank you!"
 
 invite: |
   Thank you for choosing to invite InterChat. Simply click the button below to invite me!
