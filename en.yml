@@ -316,6 +316,36 @@ hub:
       selects:
         label: Change Visibility
         description: Make this hub public or private.
+    logs:
+      title: "Configure Logs"
+      reset: "{{{emoji}}} Successfully reset the logs configuration for `{{{type}}}` logs."
+      roleSuccess: "{{{emoji}}} Logs of type `{{{type}}}` will now mention {{{role}}}!"
+      channelSuccess: "{{{emoji}}} Logs of type `{{{type}}}` will be sent to  {{{channel}}} from now!"
+      channelSelect: "#️⃣ Select the type of log to configure."
+      roleSelect: "🏓 Select the role to mention when a log is triggered."
+      reportChannelFirst: <:no:977600033740431410> Please set a log channel first.
+
+      config:
+        title: Configure `{{{type}}}` Logs
+        description: |
+          {{{arrow}}} Select a log channel and/or role to be pinged from the dropdown below.
+          {{{arrow}}} You can also disable logging by using the button below.
+        fields:
+          channel: Channel
+          role: Role Mention
+
+      reports:
+        label: Reports
+        description: Receive reports from users.
+      modLogs:
+        label: Mod Logs
+        description: Moderation actions performed by moderators.
+      profanity:
+        label: Profanity Filter
+        description: Log messages that caught by the profanity filter.
+      joinLeave:
+        label: Join/Leave
+        description: Log when a server joins or leaves this hub.
 
 report:
   modal:
