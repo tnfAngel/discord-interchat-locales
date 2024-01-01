@@ -43,7 +43,6 @@ network:
       footer: InterChat Network | Version {{version}}
     inProgress: "There has already been an attempting to join a hub from {{{channel}}}. Please cancel it or wait for it to complete."
 
-
 blacklist:
   button:
     user: Blacklist User
@@ -178,7 +177,7 @@ hub:
   invalidImgurUrl: <:no:977600033740431410> Invalid image URL for icon or banner. Please make sure you have entered a valid Imgur image URL that is not a gallery or album.
   join:
     success: Successfully joined hub **{{hub}}** from {{{channel}}}! Use `/connection` to manage your connection. And `/hub leave` to leave the hub.
-    
+
   servers:
     total: "Current connected servers: {{from}}-{{to}} / **{{total}}**"
     noConnections: <:no:977600033740431410> No server has joined this hub yet. Use `/hub join` to join this hub.
@@ -269,15 +268,14 @@ hub:
     success: "{{{emoji}}} Left the hub from {{{channel}}}. No more messages will be sent to this server from this hub. You can rejoin using `/hub join`."
 
   moderator:
-    noModerators:
-      <:no:977600033740431410> This hub has no moderators yet. Use `/hub moderator add` to add one.
+    noModerators: <:no:977600033740431410> This hub has no moderators yet. Use `/hub moderator add` to add one.
     add:
       success: "{{{emoji}}} **{{{user}}}** has been added as a moderator of position **{{position}}**."
       alreadyModerator: <:no:977600033740431410> **{{{user}}}** is already a moderator.
     remove:
       success: "{{{emoji}}} **{{{user}}}** has been removed as a moderator."
       notModerator: <:no:977600033740431410> **{{{user}}}** is not a moderator.
-      notOwner: <:no:977600033740431410> Only the owner of this hub can a manager.
+      notOwner: <:no:977600033740431410> Only the owner of this hub can remove a manager.
     update:
       success: "{{{emoji}}} **{{{user}}}**'s position has been updated to **{{position}}**."
       notModerator: <:no:977600033740431410> **{{{user}}}** is not a moderator.
