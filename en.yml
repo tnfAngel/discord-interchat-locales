@@ -412,3 +412,4 @@ misc:
   noReason: No reason provided.
   noDesc: No Description.
   version: InterChat v{{version}}
+  loading: '{{{emoji}}} Please wait while I process your request...'
