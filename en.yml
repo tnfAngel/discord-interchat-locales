@@ -40,7 +40,7 @@ network:
       description: |
         To keep things organized, it's recommended to use a separate channel for just for this hub. But don't worry, you can always change this later.
 
-        **How it works:** The InterChat Network is like a magic bridge that links channels on different servers that are with us in this hub. Learn more at our [guide](https://discord-interchat.github.io/docs).
+        **How it works:** The InterChat Network is like a magic bridge that links channels on different servers that are with us in this hub. Learn more at our [guide]({{{docs_link}}}).
       footer: InterChat Network | Version {{version}}
     inProgress: "There has already been an attempting to join a hub from {{{channel}}}. Please cancel it or wait for it to complete."
 
@@ -220,7 +220,7 @@ hub:
       - **Edit hub:** `/hub manage`
       - **Add moderators:** `/hub moderator add`
 
-      Learn more about hubs in our [guide](https://discord-interchat.github.io/docs). Join the [support server]({{{support_invite}}}) for help.
+      Learn more about hubs in our [guide]({{{docs_link}}}). Join the [support server]({{{support_invite}}}) for help.
   delete:
     confirm: Are you sure you wish to delete **{{hub}}**? This action is irreversible. All connected servers, invites and message data will be removed from this hub.
     ownerOnly: <:no:977600033740431410> Only the owner of this hub can delete it.
@@ -249,7 +249,7 @@ hub:
         - **Expiry :** {{{expiry}}}
         - **Uses**: ∞
 
-        __Learn more about hubs in our [guide](https://discord-interchat.github.io/docs).__.
+        __Learn more about hubs in our [guide]({{{docs_link}}}).__.
     revoke:
       invalidCode: <:no:977600033740431410> Invalid invite code. Please make sure you have entered a valid invite code.
       success: "{{{emoji}}} Invite {{inviteCode}} revoked."
