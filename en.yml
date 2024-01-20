@@ -22,7 +22,7 @@ vote: |
   We deeply appreciate your unwavering support. Thank you! 🙏
 
 network:
-  accountTooNew: <:no:977600033740431410> {{{user}}} Your account is too new to send messages in the InterChat. Please try again later.
+  accountTooNew: <:no:977600033740431410> {{{user}}} Your account is too new to send messages using InterChat. Please try again later.
   deleteSuccess: "{{{emoji}}} Message by {{{user}}} has been deleted from __**{{deleted}}/{{total}}**__ servers."
   editSuccess: "{{{emoji}}} Message by {{{user}}} has been edited in __**{{edited}}/{{total}}**__ servers."
   welcome: |
