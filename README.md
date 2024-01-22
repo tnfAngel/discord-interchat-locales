@@ -45,11 +45,11 @@ We appreciate contributions! If you'd like to add support for a new language or 
 ## How to use the translation service
 - Made by [tnfAngel](https://github.com/tnfAngel) and [LautyDev](https://github.com/LautyDev).
 
-1. [src\locales\en.yml](https://github.com/LautyDev/Discord-InterChat-locales/blob/main/src/locales/en.yml) is the main file, there you have to upload everything with the original language.
+1. [src\locales\en.yml](https://github.com/Discord-InterChat/locales/blob/main/src/locales/en.yml) is the main file, there you have to upload everything with the original language.
 2. Once you have put in everything you want to translate, run it:
     ```bash
-    npm i
-    npm run start
+    pnpm i
+    pnpm run start
     ```
     You need to have [Node.js](https://nodejs.org/en) installed
 3. Then you have to wait for the program to translate everything, the more data the longer it will take.
@@ -58,7 +58,7 @@ We appreciate contributions! If you'd like to add support for a new language or 
 
 <p align="center"><image src="https://i.imgur.com/jjLpmXX.png" alt="Discord-InterChat Translation Service - Made by tnfAngel and LautyDev" width="800px"></p>
 
-- NOTE: It is possible that in some cases unwanted spaces may be created in the translations, this cannot be avoided because this is how the Google Translator works, these spaces can be removed by hand anyway and the program will not touch them.
+- NOTE: It is possible that in some cases unwanted spaces may be created in the translations, this cannot be avoided because this is how the Google Translator works, these spaces can be removed by hand anyway and the program will not touch them. (Working on a fix)
 
 ## Contact
 
