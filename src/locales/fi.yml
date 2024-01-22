@@ -1,0 +1,395 @@
+rules: |-
+  ### 📜 Chacat -verkon säännöt 
+
+   1. ** Käytä tervettä järkeä: ** Ole huomaavainen muista ja heidän näkemyksistään. Ei huijauksia, äärimmäistä halventavaa kieltä tai mitään toimia, jotka voivat häiritä keskustelun mukavuutta. 
+   2. ** Ei roskapostia tai tulvia: ** Vältä toistuvia, järjetöntä tai liian pitkiä viestejä. 
+   3. ** Pidä yksityiset asiat yksityisinä: ** Vältä henkilökohtaisten tietojen jakamista verkossa. 
+   4 
+   5. ** Ei NSFW/NSFL -sisältöä: ** NSFW/NSFL -sisällön lähettäminen johtaa välittömään mustalle listalle. 
+   6. ** Kunnioita arkaluontoisia aiheita: ** Älä trivialisoi itsensä vahingoittumista, itsemurhia, väkivaltaa tai muita loukkaavia aiheita. 
+   7. ** Raportin huolenaihe: ** Jos noudatat näiden sääntöjen rikkomista, ilmoita siitä asianmukaiselle Hub -moderaattorille tai väliaikaiselle henkilöstölle lisätoimia varten. 
+
+   Kysymyksiä? Liity [tukipalvelimemme] ({{{support_invite}}}).
+vote: |-
+  ## 🗳️ Äänestä Chachat ja nauti yksinoikeudella 
+   Panoksesi on korvaamaton nostamalla InterChatin sijaintia Top.gg. Jokaisella äänellä on merkittävä ero! 
+
+   Tapaamme ilmaista kiitosta tuestasi, olemme innoissamme tarjoamalla sinulle yksinoikeuksia. Äänestämällä äänestystä InterChatille, avaat: 
+
+   - Muokkaa viestejä keskittimissä 
+   - Viestien kääntäminen (ja paljon enemmän matkalla!) 
+
+   Arvostamme syvästi horjumatonta tukeasi. Kiitos! 🙏
+network:
+  accountTooNew: '{{{emoji}}} {{{user}}} Tilisi on liian uusi lähettää viestejä InterChatin avulla. Yritä uudelleen myöhemmin.'
+  deleteSuccess: '{{{emoji}}} viesti {{{user}}} on poistettu osoitteesta __ ** {{deleted}}/{{total}} ** __ palvelimet.'
+  editSuccess: '{{{emoji}}} viesti {{{user}}} on muokattu kohdassa __ ** {{edited}}/{{total}} ** __ palvelimet.'
+  welcome: |-
+    {{{user}}} Tervetuloa kohtaan ** {{hub}} **! {{{emoji}}} 
+
+     {{{channel}}} lähetetyt viestit jaetaan muiden palvelimien kanssa, ** POINTLELINEN KILMOITTAMINEN **. Voit jakaa kuvia, GIF: ää, vastata, reagoida ja olla vuorovaikutuksessa viestien kanssa kuten normaalisti. Muista vain välttää henkilökohtaisten tietojen jakamista (tarkista {{{rules_command}}} lisää). Oletko valmis hyppäämään sisään? Lähetä ensimmäinen viestisi ja liity keskusteluun!
+  nsfw:
+    title: NSFW havaittu
+    description: Olen havainnut {{predictions}} nsfw (ei turvallinen työhön) sisältö viestissäsi. Huomaa, että tämä on {{{rules_command}}} vastaan ja johtaa välittömään mustaan listaan.
+    footer: Huomaa, että AI ei ole täydellinen ja voi tehdä virheitä. Pahoittelemme aiheutuneita haittoja.
+  onboarding:
+    embed:
+      title: 👋 Hei siellä, tervetuloa {{hubName}}!
+      description: |-
+        Asioiden pitämiseksi on suositeltavaa käyttää erillistä kanavaa vain tähän napaan. Mutta älä huoli, voit aina muuttaa tätä myöhemmin. 
+
+         ** Kuinka se toimii: ** Chachat -verkko on kuin taikuussilta, joka linkittää kanavia eri palvelimiin, jotka ovat kanssamme tässä keskittimessä. Lisätietoja [oppaasta] ({{{docs_link}}}).
+      footer: InterChaT -verkko | Version {{version}}
+    inProgress: '{{{channel}}} on jo yritetty liittyä keskittimeen. Peruuta se tai odota, että se valmistuu.'
+blacklist:
+  button:
+    user: Mustan listan käyttäjä
+    server: Mustanlistapalvelin
+  modal:
+    reason:
+      label: Syy
+      placeholder: Syy mustalle listalle
+    duration:
+      label: Kesto
+      placeholder: Mustan listan kesto. Esim. 1D, 1W, 1M, 1y. Jätä tyhjä pysyvälle.
+  user:
+    success: '{{{emoji}}} ** {{username}} ** on onnistuneesti musta lista!'
+    removed: '{{{emoji}}} ** {{username}} ** on poistettu mustasta listasta!'
+    alreadyBlacklisted: '{{{emoji}}} Tämä käyttäjä on jo mustalla listalla.'
+    easterEggs:
+      blacklistBot: Et voi mustalla listalla wtf.
+  server:
+    success: '{{{emoji}}} ** {{server}} ** on onnistuneesti musta lista!'
+    removed: '{{{emoji}}} ** {{server}} ** on poistettu mustasta listasta!'
+    alreadyBlacklisted: '{{{emoji}}} Tämä palvelin on jo mustalla listalla.'
+    unknownError: Blacklist ** {{server}} ** epäonnistui. Kysy lisätietoja kehittäjien kanssa.
+  list:
+    user: |-
+      ** UserID: ** {{userId}} 
+       ** Moderaattori: ** {{moderator}} 
+       ** syy: ** {{{reason}}} 
+       ** vanhenee: ** {{expires}}
+    server: |-
+      ** ServerID: ** {{serverId}} 
+       ** Moderaattori: ** {{moderator}} 
+       ** syy: ** {{{reason}}} 
+       ** vanhenee: ** {{{expires}}}
+msgInfo:
+  buttons:
+    message: Viestitiedot
+    server: Palvelintiedot
+    user: käyttäjätiedot
+    report: Raportti
+  message:
+    description: |-
+      ## {{{emoji}}} viestitiedot 
+
+       ** Lähettäjä: ** 
+       __ {{{author}}} __ 
+
+       ** Lähetetty: ** 
+       __ {{{server}}} __ 
+
+       ** Viestitunnus: ** 
+       __ {{messageId}} __ 
+
+       ** Lähetetty (napa): ** 
+       __ {{{hub}}} __ 
+
+       ** Luotu viesti: ** 
+       {{{createdAt}}}
+  server:
+    description: |-
+      ## {{{server}}} 
+       {{{description}}} 
+
+       **Omistaja:** 
+       __{{{owner}}}__ 
+
+       ** Luotu: ** 
+       __ {{{createdAtFull}}} ({{{createdAt}}}) __ 
+
+       ** Jäsenmäärä: ** 
+       __ {{memberCount}} __ 
+
+       ** Kutsu: ** 
+       __ {{{invite}}} __
+  user:
+    description: |-
+      ## {{{username}}} 
+       __ {{{user}}} __ 
+
+       ** ID: ** 
+       __ {{id}} __ 
+
+       ** Luotu: ** 
+       {{{createdAtFull}}} ({{{createdAt}}}) 
+
+       **Näyttönimi:** 
+       __ {{{globalName}}} __ 
+
+       ** Omistajat: ** 
+       __ {{hubsOwned}} __
+  report:
+    notEnabled: '{{{emoji}}} raportointi ei ole käytössä tälle napalle.'
+    success: '{{{emoji}}} raportti toimitettu onnistuneesti. Kiitos!'
+invite: |-
+  Kiitos, että päätit kutsua InterChatin. Napsauta vain alla olevaa painiketta kutsuaksesi minut! 
+
+   - ** Tukipalvelin: ** {{{support}}}
+connection:
+  notFound: '{{{emoji}}} virheellinen yhteys. Vahvista kanavan tunnus tai valitse näytetyistä vaihtoehdoista.'
+  channelNotFound: '{{{emoji}}} ei löydy kytkettyä kanavaa. Puhutaan uudelleen Valitse uusi kanava.'
+  alreadyConnected: '{{{emoji}}} kanava {{{channel}}} on jo kytketty napaan.'
+  switchChannel: '{{{emoji}}} Valitse kanava vaihdaksesi alla olevan valinnan avulla:'
+  switchCalled: '{{{emoji}}} kanavakytkin nimeltään, käytä komentoa uudelleen nähdäksesi uuden yhteyden.'
+  switchSuccess: '{{{emoji}}} kanava kytketty. Olet nyt kytketty osoitteesta ** {{{channel}}} **.'
+  inviteRemoved: '{{{emoji}}} palvelin Kutsu poistettu tälle napalle.'
+  inviteInvalid: '{{{emoji}}} virheellinen kutsu. Varmista, että olet kirjoittanut kelvollisen kutsun linkin.'
+  inviteAdded: '{{{emoji}}} kutsu lisätty. Toiset voivat nyt liittyä tähän palvelimeen käyttämällä  -komento.'
+  emColorInvalid: '{{{emoji}}} virheellinen väri. Varmista, että olet kirjoittanut kelvollisen kuusiokuorikoodin.'
+  emColorChange: '{{{emoji}}} upota väri onnistuneesti {{{action}}}'
+  embed:
+    title: Yhteystiedot
+    description: Valitse alla oleva vaihtoehto hallitaksesi yhteyttä.
+    fields:
+      hub: Napa
+      channel: Kanava
+      invite: Kutsua
+      connected: Kytketty
+      emColor: Upottaa väri
+      compact: Kompaktitila
+      profanity: kirosanasuodatin
+    footer: Hallitse yhteyden alla olevaa painiketta ja pudotuspaikkaa.
+  selects:
+    placeholder: 🛠️ Valitse alla oleva vaihtoehto hallitaksesi yhteyttä.
+hub:
+  notFound: '{{{emoji}}} ei löydy keskittimestä. Varmista, että olet syöttänyt oikean navan nimen.'
+  notFound_mod: '{{{emoji}}} ei löydy keskittimestä. Varmista, että olet syöttänyt oikean navan nimen ja että olet keskuksen omistaja tai moderaattori.'
+  alreadyJoined: '{{{emoji}}} Olet jo liitetty ** {{hub}} ** {{{channel}}}!'
+  invalidChannel: '{{{emoji}}} virheellinen kanava. Vain teksti- ja kierteitä koskevia kanavia tuetaan!'
+  invalidImgurUrl: '{{{emoji}}} virheellinen kuva -URL -osoite kuvakkeelle tai bannerille. Varmista, että olet kirjoittanut kelvollisen Imgur -kuvan URL -osoitteen, joka ei ole galleria tai albumi.'
+  join:
+    success: Onnistuneesti liittynyt Hub ** {{hub}} ** {{{channel}}}! Hallitse yhteyden hallintaa `/yhteys". Ja `/napa jättää 'poistua napista.
+  servers:
+    total: 'Nykyiset kytketyt palvelimet: {{from}}-{{to}} / ** {{total}} **'
+    noConnections: '{{{emoji}}} Yksikään palvelin ei ole vielä liittynyt tähän keskittimeen. Liity tähän keskittimeen `/napa -liitosta.'
+    notConnected: '{{{emoji}}}, että palvelin ei ole osa ** {{hub}} **.'
+    connectionInfo: |-
+      Kanava: #{{{channelName}}} `({{channelId}})` ` 
+       Liittynyt: {{{joinedAt}}} 
+       Kutsu: {{{invite}}} 
+       Kytketty: {{connected}}
+  create:
+    modal:
+      title: Luo napa
+      name:
+        label: Navan nimi
+        placeholder: Syötä napallesi nimi.
+      description:
+        label: Kuvaus
+        placeholder: Kirjoita kuvaus napallesi.
+      icon:
+        label: Kuvake -URL -osoite
+        placeholder: Kirjoita imgur -kuvan URL -osoite.
+      banner:
+        label: Bandi -URL -osoite
+        placeholder: Kirjoita imgur -kuvan URL -osoite.
+    maxHubs: '{{{emoji}}} olet saavuttanut enimmäismäärän napa (3), jonka voit luoda. Poista napa ennen toisen luomista.'
+    invalidName: '{{{emoji}}} virheellinen navan nimi. Se ei saa sisältää `discord`,` clyde` tai \ `\` \ `. Valitse toinen nimi.'
+    nameTaken: '{{{emoji}}} Tämä navan nimi on jo otettu. Valitse toinen nimi.'
+    success: |-
+      ### Hub luotu! 
+
+       Onnittelut! Yksityinen napa, ** {{name}} **, on luotu onnistuneesti. 
+       Liitymällä luodaan kutsu `/Hub Kutsu luo 'ja jaa luotu koodi. Liity sitten `/Hub Liity". 
+
+       - ** Luo kutsua: ** `/Hub Kutsu Luo ' 
+       - ** Mene julkisesti: ** `/Hub Hallitse` 
+       - ** Liity Hub: ** `/Hub Jännillä" 
+       - ** Muokkaa napa: ** `/Hub Hallitse` 
+       - ** Lisää moderaattorit: ** `/Hub -moderaattori add` 
+
+       Lisätietoja keskittimistä [oppaassa] ({{{docs_link}}}). Liity [tukipalvelin] ({{{support_invite}}}) apua.
+  delete:
+    confirm: Oletko varma, että haluat poistaa ** {{hub}} **? Tämä toiminta on peruuttamaton. Kaikki kytketyt palvelimet, kutsut ja viestitiedot poistetaan tästä napasta.
+    ownerOnly: '{{{emoji}}} Vain tämän navan omistaja voi poistaa sen.'
+    success: '{{{emoji}}} napa ** {{hub}} ** on poistettu.'
+    cancelled: '{{{emoji}}} navan deleetio on peruutettu.'
+  browse:
+    joinConfirm: |-
+      Oletko varma, että haluat liittyä {{hub}} {{{channel}}}? 
+          
+       ** Huomaa: ** Voit aina muuttaa tätä myöhemmin `/yhteys" -sovelluksella.
+    joinFooter: Haluatko käyttää toista kanavaa? Käytä alla olevaa pudotuspaikkaa.
+    noHubs: '{{{emoji}}} Tässä ei ole tällä hetkellä lueteltu napoja. Yritä uudelleen myöhemmin!'
+    rating:
+      invalid: Virheellinen luokitus. Sinun on annettava numero välillä 1–5.
+      success: Luokitus toimitettu! Kiitos palautteesta.
+  invite:
+    create:
+      success: |-
+        ### Kutsu luotu! 
+
+         Kutsusi on luotu onnistuneesti. Toiset voivat nyt liittyä tähän keskittimeen käyttämällä `/Hub Liight` -komentoa. 
+
+         - ** Liity käyttämällä: ** `/Hub Liity Kutsu: {{inviteCode}}` ` 
+         - ** Näytä kutsut: ** `/Hub Kutsu luettelo` 
+         - ** vanheneminen: ** {{{expiry}}} 
+         - ** käyttää **: ∞ 
+
+         __Sudo lisää napaista [oppaassa] ({{{docs_link}}}) .__.
+    revoke:
+      invalidCode: '{{{emoji}} virheellinen kutsukoodi. Varmista, että olet syöttänyt kelvollisen kutsukeskin.'
+      success: '{{{emoji}}} kutsu {{inviteCode}} peruutettu.'
+    list:
+      title: '** Kutsu koodit: **'
+      noInvites: '{{{emoji}}} Tällä napalla ei ole vielä kutsuja. Luo luomiseen `/Hub Kutsu luota.'
+      notPrivate: '{{{emoji}}} vain yksityisillä napailla voi olla kutsuja. Käytä `/Hub Hallitse ''tehdäksesi tämän navan yksityiseksi.'
+  joined:
+    noJoinedHubs: '{{{emoji}}} Tämä palvelin ei ole vielä liittynyt mihinkään napaihin. Käytä `/napa Selaa ''nähdäksesi luettelon keskittimistä.'
+    joinedHubs: Tämä palvelin on osa ** {{total}} ** Hub (s). Käytä `/napalomallista 'jättääksesi navan.
+  leave:
+    noHub: '{{{emoji}}} Tuo kanava on virheellinen tai ei ole liitetty mihinkään keskuksiin.'
+    confirm: Oletko varma, että haluat jättää ** {{hub}} ** {{{channel}}}? Tälle palvelimelle ei lähetetä enää viestejä tästä keskuksesta.
+    confirmFooter: Vahvista käyttämällä alla olevaa painiketta 10 sekunnissa.
+    success: '{{{emoji}}} jätti navan {{{channel}}}. Tälle palvelimelle ei lähetetä enää viestejä tästä keskuksesta. Voit liittyä uudelleen käyttämällä `/napa -liitosta.'
+  moderator:
+    noModerators: '{{{emoji}}} Tässä keskittimessä ei ole vielä moderaattoreita. Lisää `/Hub -moderaattori lisää" lisätäksesi yhden.'
+    add:
+      success: '{{{emoji}}} ** {{{user}}} ** on lisätty sijainnin moderaattoriksi ** {{position}} **.'
+      alreadyModerator: '{{{emoji}}} ** {{{user}}} ** on jo moderaattori.'
+    remove:
+      success: '{{{emoji}}} ** {{{user}}} ** on poistettu moderaattorina.'
+      notModerator: '{{{emoji}}} ** {{{user}}} ** ei ole moderaattori.'
+      notOwner: '{{{emoji}}} Vain tämän keskittimen omistaja voi poistaa johtajan.'
+    update:
+      success: '{{{emoji}}} ** {{{user}}} ** sijainti on päivitetty arvoon ** {{position}} **.'
+      notModerator: '{{{emoji}}} ** {{{user}}} ** ei ole moderaattori.'
+      notAllowed: '{{{emoji}}} vain navan hallinnoijat voivat päivittää moderaattorin sijainnin.'
+      notOwner: '{{{emoji}}} Vain tämän keskittimen omistaja voi päivittää johtajan sijainnin.'
+  manage:
+    enterImgurUrl: Kirjoita kelvollinen Imgur -kuvan URL -osoite, joka ei ole galleria tai albumi.
+    icon:
+      changed: Hub -kuvake muuttui onnistuneesti.
+      modal:
+        title: Vaihdakuvake
+        label: Kuvake -URL -osoite
+      selects:
+        label: Vaihdakuvake
+        description: Vaihda tämän keskuksen kuvake.
+    description:
+      changed: Hub -kuvaus muuttui onnistuneesti.
+      modal:
+        title: Muutoskuvaus
+        label: Kuvaus
+        placeholder: Kirjoita kuvaus tälle napalle.
+      selects:
+        label: Muutoskuvaus
+        description: Vaihda tämän keskittimen kuvaus.
+    banner:
+      changed: Hub -banneri muuttui onnistuneesti.
+      removed: Hub -banneri poistettiin onnistuneesti.
+      modal:
+        title: Muuttaa
+        label: Bandi -URL -osoite
+      selects:
+        label: Muuttaa
+        description: Vaihda tämän keskuksen banneri.
+    visibility:
+      success: '{{{emoji}}} navan näkyvyys muuttui onnistuneesti ** {{{visibility}}} **.'
+      selects:
+        label: Muuttaa näkyvyyttä
+        description: Tee tästä keskittimestä julkiseksi tai yksityiseksi.
+    logs:
+      title: Määritä lokit
+      reset: '{{{emoji}}} nollataan lokien kokoonpanot onnistuneesti `{{{type}}}` loki.'
+      roleSuccess: '{{{emoji}}} Tyyppilokit `{{{type}}}` mainitsee nyt {{{role}}}!'
+      channelSuccess: '{{{emoji}}} Tyyppit `{{{type}}}` lähetetään {{{channel}}}!'
+      channelSelect: '#️⃣ Valitse määritettävä lokityyppi.'
+      roleSelect: 🏓 Valitse mainittava rooli, kun loki laukaistaan.
+      reportChannelFirst: '{{{emoji}}} Aseta ensin lokikanava.'
+      config:
+        title: Määritä `{{{type}}}` lokit
+        description: |-
+          {{{arrow}}} Valitse lokikanava ja/tai rooli, joka on pingoitava alla olevasta avattavasta. 
+           {{{arrow}}} Voit myös poistaa kirjautumisen käytöstä alla olevan painikkeen avulla.
+        fields:
+          channel: Kanava
+          role: Rooli
+      reports:
+        label: Raportit
+        description: Vastaanota raportteja käyttäjiltä.
+      modLogs:
+        label: Mod -lokit
+        description: Moderaattoreiden suorittamat maltillisuustoimet.
+      profanity:
+        label: kirosanasuodatin
+        description: Lokiviestit, jotka ovat kiinni ruma -suodattimesta.
+      joinLeave:
+        label: Liity/lähteä
+        description: Kirjaudu sisään kun palvelin liittyy tai jättää tämän navan.
+report:
+  modal:
+    title: Ilmoita yksityiskohdat
+    other:
+      label: Ilmoita yksityiskohdat
+      placeholder: Yksityiskohtainen kuvaus raportista.
+    userOrServer:
+      label: Käyttäjän/palvelimen tunnus
+      placeholder: Raportoidasi käyttäjän/palvelimen tunnukset.
+    bug:
+      input1:
+        label: Bug -yksityiskohdat
+        placeholder: Esim. Usein vuorovaikutusvirheet /ohjeiden komento ...
+      input2:
+        label: Yksityiskohtainen kuvaus (valinnainen)
+        placeholder: Vaiheet, jotka otit. Esim. 1. Suorita /apua 2. Odota 5 sekuntia ...
+  invalidUser: |-
+    {{{emoji}}} En löytänyt käyttäjää, jolla on henkilö. 
+
+     ** Löydä käyttäjän tunnuksen verkosta: ** 
+     {{{dot}}} Napsauta hiiren kakkospainikkeella kyseiseltä käyttäjalta lähetettyä viestiä Valitse . Tarkista henkilöllisyystodistus ja yritä uudelleen.
+  invalidServer: |-
+    {{{emoji}}} En löytänyt palvelinta tällä tunnuksella. 
+
+     ** Palvelimen tunnuksen löytäminen verkosta: ** 
+     {{{dot}}} Napsauta hiiren kakkospainikkeella kyseisen palvelimen lähettämää viestiä ja valitse . Tarkista henkilöllisyystodistus ja yritä uudelleen.
+  submitted: Toimitettu raportti. Liity ** [Support Server] ({{{support_invite}}}) ** saadaksesi päivityksiä raportista.
+  bug:
+    title: Virhe raportti
+    affected: Vaikuttavat komponentit
+    description: Valitse, minkä komponentin botista sinulla on ongelmia.
+    submitted: '{{{emoji}}} raportti toimitettu onnistuneesti. Liity {{{support_command}}} saadaksesi lisätietoja. Kiitos!'
+language:
+  set: Kielen! Vastaan nyt sinulle ** {{{lang}}} **.
+errors:
+  messageNotSentOrExpired: '{{{emoji}}} Tätä viestiä ei lähetetty keskittimeen, on vanhentunut tai sinulla ei ole käyttöoikeuksia tämän toiminnan suorittamiseen.'
+  notYourAction: '{{{emoji}}} Anteeksi, et voi suorittaa tätä toimintoa. Suorita komento itse.'
+  notMessageAuthor: '{{{emoji}}} et ole tämän viestin kirjoittaja.'
+  commandError: |-
+    {{{emoji}}} Tämän komennon suorittamisen aikana tapahtui virhe. Se on kirjautunut järjestelmään. Jos tämä ongelma jatkuu, liity [tukipalvelin] ({{{support_invite}}}) ja ilmoita siitä! 
+     `` `JS 
+     {{{error}}} 
+     `` `
+  mustVote: Ole hyvä ja äänestää] (https://top.gg/bot/769921109209907241/vote) InterChatille tämän komennon käyttämiseksi, tuestasi on erittäin arvostettu!
+  inviteLinks: '{{{emoji}}} Älä mainosta tai mainosta palvelimia verkossa. Aseta kutsu  sen sijaan!'
+  invalidLangCode: '{{{emoji}}} virheellinen kielikoodi. Varmista, että olet kirjoittanut oikean [kielikoodin] (https://cloud.google.com/translate/docs/languages).'
+  unknownServer: '{{{emoji}}} tuntematon palvelin. Varmista, että olet syöttänyt oikean palvelimen tunnuksen.'
+  unknownNetworkMessage: '{{{emoji}}} tuntematon viesti. Jos se on lähetetty viimeisen minuutin aikana, odota vielä muutama sekunti ja yritä uudelleen.'
+  userNotFound: '{{{emoji}}} käyttäjää ei löydy. Yritä syöttää heidän tunnuksensa sen sijaan.'
+  blacklisted: '{{{emoji}}} sinä tai tämä palvelin on musta listalla käyttämästä InterChatia.'
+  userBlacklisted: '{{{emoji}}} olet mustalla listalla ** {{hub}} **.'
+  serverBlacklisted: '{{{emoji}}} Tämä palvelin on musta listalla ** {{hub}} **.'
+  serverNotBlacklisted: '{{{emoji}}} syötettyä palvelinta ei ole mustalle listalle.'
+  userNotBlacklisted: '{{{emoji}}} syötettyä käyttäjää ei ole mustalla listalla.'
+  missingPermissions: '{{{emoji}}} puuttuu seuraavat käyttöoikeudet tämän toiminnon suorittamiseen: ** {{{permissions}}} **'
+  botMissingPermissions: '{{{emoji}}} Anna minulle seuraavat luvat jatkaa: ** {{{permissions}}} **'
+  unknown: '{{{emoji}}} Tapahtui tuntematon virhe. Yritä myöhemmin uudelleen tai ota meihin yhteyttä liittymällä [tukipalvelin] ({{{support_invite}}}).'
+  notUsable: '{{{emoji}}} Tämä ei ole enää käyttökelpoinen.'
+  cooldown: '{{{emoji}}} olet jäähdytys. Odota ** {{{time}}} ** ennen yritystä uudelleen.'
+misc:
+  noReason: Ei mitään syytä.
+  noDesc: Ei kuvausta.
+  version: InterChat v{{version}}
+  loading: '{{{emoji}}} Odota, kun käsittelen pyyntösi ...'

@@ -1,0 +1,395 @@
+rules: |-
+  ###📜インターチャットネットワークルール 
+
+   1. **常識を使用します：**他の人とその見解を思いやります。 スラー、極度の軽rog的な言葉、またはチャットの快適さを混乱させる可能性のあるアクションはありません。 
+   2. **スパムや洪水はありません：**繰り返し、無意味な、または過度に長いメッセージを避けます。 
+   3. **プライベート事項をプライベートに保つ：**ネットワーク全体で個人情報の共有を避けないでください。 
+   4. **嫌がらせなし：**いかなる種類のトローリング、in辱、または嫌がらせは容認されていません。 
+   5. ** NSFW/NSFLコンテンツはありません：**明示的なNSFW/NSFLコンテンツの投稿により、ブラックリストが即座になります。 
+   6. **敏感なトピックを尊重します：**自傷行為、自殺、暴力、またはその他の攻撃的なトピックを些細なことをしないでください。 
+   7.*懸念を報告する：**これらのルールの違反を観察する場合は、さらなる行動のために適切なハブモデレーターまたはインターチャットスタッフに報告してください。 
+
+   質問は？ [サポートサーバー]（{{{support_invite}}}）に参加します。
+vote: |-
+  ##🗳§インターチャットに投票し、排他的な特典をお楽しみください 
+   あなたの貢献は、Top.ggでのInterChatの位置を高める上で非常に貴重です。 すべての投票が大きな違いをもたらします！ 
+
+   あなたのサポートに感謝を表明する方法として、私たちはあなたに排他的な利点を提供することに興奮しています。 インターチャットへの投票をキャストすることで、ロックを解除します。 
+
+    - ハブ内のメッセージを編集します 
+    - メッセージの翻訳（そして途中でもっと多く！） 
+
+   揺るぎないサポートに深く感謝します。 ありがとう！ 🙏
+network:
+  accountTooNew: '{{{emoji}}} {{{user}}}アカウントは、InterChatを使用してメッセージを送信するには新しいものです。 後でもう一度やり直してください。'
+  deleteSuccess: '{{{emoji}}} {{{user}}}メッセージは、__ ** {{deleted}}/{{total}} ** __サーバーから削除されました。'
+  editSuccess: '{{{emoji}}} {{{user}}}によるメッセージは、__ ** {{edited}}/{{total}} ** __サーバーで編集されています。'
+  welcome: |-
+    {{{user}}} ** {{hub}} **へようこそ！ {{{emoji}}} 
+
+     {{{channel}}}で送信されたメッセージは、他のサーバーと共有されます。 通常のように、画像、GIF、返信、反応、およびメッセージと対話することができます。 個人情報の共有を避けることを忘れないでください（{{{rules_command}}}を詳細に確認してください）。 飛び込む準備はできましたか？ 最初のメッセージを送って会話に参加してください！
+  nsfw:
+    title: NSFWが検出されました
+    description: メッセージで{{predictions}} nsfw（仕事に安全ではない）コンテンツを検出しました。 これは{{{rules_command}}}に反して、即時のブラックリストに陥ることに注意してください。
+    footer: AIは完全ではなく、間違いを犯す可能性があることに注意してください。 ご不便をおかけして申し訳ございません。
+  onboarding:
+    embed:
+      title: 👋ねえ、{{hubName}}へようこそ！
+      description: |-
+        物事を整理するには、このハブのためだけに別のチャネルを使用することをお勧めします。 しかし、心配しないでください、あなたはいつでもこれを後で変更することができます。 
+
+         **それがどのように機能するか：** InterChatネットワークは、このハブにあるさまざまなサーバーのチャネルをリンクするマジックブリッジのようなものです。 [ガイド]（{{{docs_link}}}）で詳細をご覧ください。
+      footer: インターチャットネットワーク| Version {{version}}
+    inProgress: '{{{channel}}}からハブに参加しようとしています。 キャンセルするか、完了するのを待ちます。'
+blacklist:
+  button:
+    user: ブラックリストユーザー
+    server: ブラックリストサーバー
+  modal:
+    reason:
+      label: 理由
+      placeholder: ブラックリストの理由
+    duration:
+      label: 間隔
+      placeholder: ブラックリストの期間。 例：1d、1w、1m、1y。 永久に空白のままにしてください。
+  user:
+    success: '{{{emoji}}} ** {{username}} **は、正常にブラックリストに載っています！'
+    removed: '{{{emoji}}} ** {{username}} **はブラックリストから削除されました！'
+    alreadyBlacklisted: '{{{emoji}}}このユーザーはすでにブラックリストに登録されています。'
+    easterEggs:
+      blacklistBot: あなたは私をブラックリストに登録することはできませんwtf。
+  server:
+    success: '{{{emoji}}} ** {{server}} **はブラックリストに載っています！'
+    removed: '{{{emoji}}} ** {{server}} **はブラックリストから削除されました！'
+    alreadyBlacklisted: '{{{emoji}}}このサーバーはすでにブラックリストに登録されています。'
+    unknownError: ブラックリストに失敗しました** {{server}} **。 詳細については、開発者にお問い合わせください。
+  list:
+    user: |-
+      ** userid：** {{userId}} 
+       **モデレーター：** {{moderator}} 
+       **理由：** {{{reason}}} 
+       **有効期限：** {{expires}}
+    server: |-
+      ** serverId：** {{serverId}} 
+       **モデレーター：** {{moderator}} 
+       **理由：** {{{reason}}} 
+       **有効期限：** {{{expires}}}
+msgInfo:
+  buttons:
+    message: メッセージ情報
+    server: サーバー情報
+    user: ユーザー情報
+    report: 報告
+  message:
+    description: |-
+      ## {{{emoji}}}メッセージ情報 
+
+       **送信：** 
+       __{{{author}}}__ 
+
+       **から送信：** 
+       __{{{server}}}__ 
+
+       **メッセージID：** 
+       __ {{messageId}} __ 
+
+       **送信（ハブ）：** 
+       __ {{{hub}}} __ 
+
+       **作成されたメッセージ：** 
+       {{{createdAt}}}
+  server:
+    description: |-
+      ## {{{server}}} 
+       {{{description}}} 
+
+       **所有者：** 
+       __{{{owner}}}__ 
+
+       **作成した：** 
+       __ {{{createdAtFull}}}（{{{createdAt}}}）__ 
+
+       **メンバーカウント：** 
+       __ {{memberCount}} __ 
+
+       **招待する：** 
+       __{{{invite}}}__
+  user:
+    description: |-
+      ## {{{username}}} 
+       __{{{user}}}__ 
+
+       ** ID：** 
+       __ {{id}} __ 
+
+       **作成した：** 
+       {{{createdAtFull}}}（{{{createdAt}}}） 
+
+       **表示名：** 
+       __ {{{globalName}}} __ 
+
+       **所有者：** 
+       __ {{hubsOwned}} __
+  report:
+    notEnabled: '{{{emoji}}}このハブのレポートは有効になりません。'
+    success: '{{{emoji}}}レポートが正常に送信されました。 ありがとう！'
+invite: |-
+  InterChatを招待することを選択していただきありがとうございます。 下のボタンをクリックして私を招待してください！ 
+
+    -  **サポートサーバー：** {{{support}}}
+connection:
+  notFound: '{{{emoji}}}無効な接続。 チャンネルIDを確認するか、表示されたオプションから選択します。'
+  channelNotFound: '{{{emoji}}}接続されたチャネルを見つけることができません。 もう一度話すには、新しいチャンネルを選択します。'
+  alreadyConnected: '{{{emoji}}}チャンネル{{{channel}}}はすでにハブに接続されています。'
+  switchChannel: '{{{emoji}}}以下の選択メニューを使用するように切り替えるチャネルを選択します。'
+  switchCalled: '{{{emoji}}}チャンネルスイッチが呼び出されます。もう一度コマンドを使用して、新しい接続を表示します。'
+  switchSuccess: '{{{emoji}}}チャネルが切り替えられました。 これで、** {{{channel}}} **から接続されています。'
+  inviteRemoved: '{{{emoji}}}サーバーは、このハブに削除されました。'
+  inviteInvalid: '{{{emoji}}}無効な招待。 有効な招待リンクを入力したことを確認してください。'
+  inviteAdded: '{{{emoji}}}招待が追加されました。 他の人は、「アプリ>メッセージ情報/レポート」コマンドを使用してこのサーバーに参加できるようになりました。'
+  emColorInvalid: '{{{emoji}}}無効な色。 有効な16進コードを入力したことを確認してください。'
+  emColorChange: '{{{emoji}}}埋め込まれた色に正常に{{{action}}}'
+  embed:
+    title: 接続の詳細
+    description: 接続を管理するには、以下のオプションを選択します。
+    fields:
+      hub: ハブ
+      channel: チャネル
+      invite: 招待する
+      connected: 接続
+      emColor: 埋め込まれた色
+      compact: コンパクトモード
+      profanity: 冒とく的なフィルター
+    footer: 下のボタンとドロップダウンを使用して、接続を管理します。
+  selects:
+    placeholder: '[接続を管理するには、以下のオプションを選択します。'
+hub:
+  notFound: '{{{emoji}}}ハブを見つけることができません。 正しいハブ名を入力したことを確認してください。'
+  notFound_mod: '{{{emoji}}}ハブを見つけることができません。 正しいハブ名を入力したことを確認し、あなたがハブの所有者またはモデレーターであることを確認してください。'
+  alreadyJoined: '{{{emoji}}}あなたはすでに** {{hub}} ** {{{channel}}}から参加しています！'
+  invalidChannel: '{{{emoji}}}無効なチャネル。 テキストとスレッドチャネルのみがサポートされています！'
+  invalidImgurUrl: '{{{emoji}}}アイコンまたはバナーの無効な画像URL。 ギャラリーやアルバムではない有効なimgur画像URLを入力したことを確認してください。'
+  join:
+    success: Hub ** {{hub}} ** {{{channel}}}から成功しました！ `/connection`を使用して接続を管理します。 「/hub leave」ハブを離れます。
+  servers:
+    total: 現在の接続サーバー：{{from}}  -  {{to}} / ** {{total}} **
+    noConnections: '{{{emoji}}}このハブにまだ参加しているサーバーはありません。 `/hub join`を使用して、このハブに参加します。'
+    notConnected: '{{{emoji}}}そのサーバーは** {{hub}} **の一部ではありません。'
+    connectionInfo: |-
+      チャネル：＃{{{channelName}}} `（{{channelId}}）` 
+       参加：{{{joinedAt}}} 
+       招待：{{{invite}}} 
+       接続：{{connected}}
+  create:
+    modal:
+      title: ハブを作成します
+      name:
+        label: ハブ名
+        placeholder: ハブの名前を入力してください。
+      description:
+        label: 説明
+        placeholder: ハブの説明を入力してください。
+      icon:
+        label: アイコンURL
+        placeholder: Imgur Image URLを入力します。
+      banner:
+        label: バナーURL
+        placeholder: Imgur Image URLを入力します。
+    maxHubs: '{{{emoji}}}作成できる最大数のハブ（3）に達しました。 別のものを作成する前に、ハブを削除してください。'
+    invalidName: '{{{emoji}}}無効なハブ名。 「不一致」、 `clyde`または\` \ `\`を含めてはなりません。 別の名前を選択してください。'
+    nameTaken: '{{{emoji}}}このハブ名はすでに撮影されています。 別の名前を選択してください。'
+    success: |-
+      ###ハブ作成！ 
+
+       おめでとう！ あなたのプライベートハブ、** {{name}} **は、正常に作成されました。 
+       参加するには、「/hub Invite Create」を使用して招待状を作成し、生成されたコードを共有します。 次に、「/hub join」を使用して参加します。 
+
+        -  **招待を生成：** `/hub招待Create` 
+        -  **公開する：** `/hub manage` 
+        -  **ハブに参加：** `/hub join` 
+        -  **ハブの編集：** `/hub manage` 
+        -  **モデレーターの追加：** `/hubモデレーターadd` 
+
+       [ガイド]（{{{docs_link}}}）のハブの詳細をご覧ください。 [サポートサーバー]（{{{support_invite}}}）に参加してください。
+  delete:
+    confirm: '** {{hub}} **を削除したいですか？ このアクションは不可逆的です。 接続されたすべてのサーバー、招待、メッセージデータは、このハブから削除されます。'
+    ownerOnly: '{{{emoji}}}このハブの所有者のみが削除できます。'
+    success: '{{{emoji}}} hub ** {{hub}} **が削除されました。'
+    cancelled: '{{{emoji}}}ハブの削除がキャンセルされました。'
+  browse:
+    joinConfirm: |-
+      {{hub}} {{{channel}}}からに参加したいですか？ 
+          
+       **注：**「/connection」を使用して、いつでもこれを変更できます。
+    joinFooter: 別のチャンネルを使用したいですか？ 以下のドロップダウンを使用してください。
+    noHubs: '{{{emoji}}}現時点でここにリストされているハブはありません。 後でもう一度やり直してください！'
+    rating:
+      invalid: 無効な評価。 1〜5の数字を入力する必要があります。
+      success: 評価が提出されました！ ご意見ありがとうございます。
+  invite:
+    create:
+      success: |-
+        ###招待作成！ 
+
+         あなたの招待は正常に作成されました。 他の人は、 `/hub join`コマンドを使用してこのハブに参加できます。 
+
+          -  **使用：** `/hub ingivite：{{inviteCode}}` 
+          -  **招待状：** `/hub招待リスト` 
+          -  ** expiry：** {{{expiry}}} 
+          -  **使用**：∞ 
+
+         __ [ガイド]（{{{docs_link}}}）のハブについて詳しく説明します。__。
+    revoke:
+      invalidCode: '{{{emoji}}無効な招待コード。 有効な招待コードを入力したことを確認してください。'
+      success: '{{{emoji}}} invite {{inviteCode}}が取り消されました。'
+    list:
+      title: '**コードを招待する：**'
+      noInvites: '{{{emoji}}}このハブにはまだ招待状がありません。 `/hub Invite Create`を使用して作成します。'
+      notPrivate: '{{{emoji}}}プライベートハブのみが招待状を持つことができます。 「/hub manage」を使用して、このハブをプライベートにします。'
+  joined:
+    noJoinedHubs: '{{{emoji}}}このサーバーはまだハブに参加していません。 `/hub browse`を使用して、ハブのリストを表示します。'
+    joinedHubs: このサーバーは、** {{total}} ** hub（s）の一部です。 `/hub leave`を使用して、ハブを残します。
+  leave:
+    noHub: '{{{emoji}}}そのチャネルは無効であるか、ハブに参加していません。'
+    confirm: '{{hub}}から** {{{channel}}} **を残したいですか？ このハブからこのサーバーにこれ以上のメッセージは送信されません。'
+    confirmFooter: 10秒以内に下のボタンを使用して確認します。
+    success: '{{{emoji}}} {{{channel}}}からハブを残しました。 このハブからこのサーバーにこれ以上のメッセージは送信されません。 `/hub join`を使用して再生できます。'
+  moderator:
+    noModerators: '{{{emoji}}}このハブにはまだモデレーターがありません。 `/hub moderator add`を使用して追加します。'
+    add:
+      success: '{{{emoji}}} ** {{{user}}} **は、位置のモデレーターとして追加されました** {{position}} **。'
+      alreadyModerator: '{{{emoji}}} ** {{{user}}} **はすでにモデレーターです。'
+    remove:
+      success: '{{{emoji}}} ** {{{user}}} **は、モデレーターとして削除されました。'
+      notModerator: '{{{emoji}}} ** {{{user}}} **はモデレーターではありません。'
+      notOwner: '{{{emoji}}}このハブの所有者のみがマネージャーを削除できます。'
+    update:
+      success: '{{{emoji}}} ** {{{user}}} **の位置は** {{position}} **に更新されました。'
+      notModerator: '{{{emoji}}} ** {{{user}}} **はモデレーターではありません。'
+      notAllowed: '{{{emoji}}}のみのハブマネージャーのみがモデレーターの位置を更新できます。'
+      notOwner: '{{{emoji}}}このハブの所有者のみがマネージャーのポジションを更新できます。'
+  manage:
+    enterImgurUrl: ギャラリーやアルバムではない有効なimgur画像URLを入力してください。
+    icon:
+      changed: ハブアイコンは正常に変更されました。
+      modal:
+        title: アイコンを変更します
+        label: アイコンURL
+      selects:
+        label: アイコンを変更します
+        description: このハブのアイコンを変更します。
+    description:
+      changed: ハブの説明は正常に変更されました。
+      modal:
+        title: 説明の変更
+        label: 説明
+        placeholder: このハブの説明を入力してください。
+      selects:
+        label: 説明の変更
+        description: このハブの説明を変更します。
+    banner:
+      changed: ハブバナーは正常に変更されました。
+      removed: ハブバナーは正常に削除されました。
+      modal:
+        title: バナーを変更します
+        label: バナーURL
+      selects:
+        label: バナーを変更します
+        description: このハブのバナーを変更します。
+    visibility:
+      success: '{{{emoji}}}ハブの可視性は** {{{visibility}}} **に正常に変更されました。'
+      selects:
+        label: 可視性を変更します
+        description: このハブをパブリックまたはプライベートにします。
+    logs:
+      title: ログを構成します
+      reset: '{{{emoji}}} `{{{type}}}` logsのログ構成を正常にリセットします。'
+      roleSuccess: '{{{emoji}}} type `{{{type}}}のログは、{{{role}}}を参照します！'
+      channelSuccess: '{{{emoji}}} type `{{{type}}}のログは、今から{{{channel}}}に送信されます！'
+      channelSelect: ＃÷configtedを構成するログのタイプを選択します。
+      roleSelect: logログがトリガーされたときに言及する役割を選択します。
+      reportChannelFirst: '{{{emoji}}}最初にログチャネルを設定してください。'
+      config:
+        title: '`{{{type}}}` logsを構成する'
+        description: |-
+          {{{arrow}}}以下のドロップダウンからpingが行われるログチャネルおよび/またはロールを選択します。 
+           {{{arrow}}}下のボタンを使用して、ログを無効にすることもできます。
+        fields:
+          channel: チャネル
+          role: 役割の言及
+      reports:
+        label: 報告
+        description: ユーザーからレポートを受け取ります。
+      modLogs:
+        label: modログ
+        description: モデレーターによって実行されるモデレートアクション。
+      profanity:
+        label: 冒とく的なフィルター
+        description: 冒とく的なフィルターでキャッチされたログメッセージ。
+      joinLeave:
+        label: 参加/休暇
+        description: サーバーがこのハブを結合または離れるときにログを記録します。
+report:
+  modal:
+    title: 詳細を報告します
+    other:
+      label: 詳細を報告します
+      placeholder: レポートの詳細な説明。
+    userOrServer:
+      label: ユーザー/サーバーID
+      placeholder: レポートしているユーザー/サーバーのID。
+    bug:
+      input1:
+        label: バグの詳細
+        placeholder: 例えば。 頻繁な相互作用障害 /ヘルプコマンド...
+      input2:
+        label: 詳細な説明（オプション）
+        placeholder: あなたが取ったステップ。 例えば。 1.実行 /ヘルプ2. 5秒間待ちます...
+  invalidUser: |-
+    {{{emoji}}}そのIDを持つユーザーが見つかりませんでした。 
+
+     **ネットワーク内でユーザーIDを見つけるには：** 
+     {{{dot}}}問題のユーザーから送信されたメッセージを右クリックしてください。「アプリ>メッセージ情報」を選択します。 IDを再確認して、再試行してください。
+  invalidServer: |-
+    {{{emoji}}}そのIDを持つサーバーが見つかりませんでした。 
+
+     **ネットワーク内でサーバーIDを見つけるには：** 
+     {{{dot}}}問題のサーバーから送信されたメッセージを右クリックし、「アプリ>メッセージ情報/レポート」を選択します。 IDを再確認して、再試行してください。
+  submitted: 提出されたレポート。 ** [support server]（{{{support_invite}}}）**に参加して、レポートの更新を取得します。
+  bug:
+    title: バグレポート
+    affected: 影響を受けるコンポーネント
+    description: 問題に直面しているボットのコンポーネントを選択してください。
+    submitted: '{{{emoji}}}レポートが正常に送信されました。 {{{support_command}}}に参加して、詳細を取得します。 ありがとう！'
+language:
+  set: 言語セット！ 私は今、あなたに** {{{lang}}} **で返信します。
+errors:
+  messageNotSentOrExpired: '{{{emoji}}}このメッセージはハブで送信されず、有効期限が切れていないか、このアクションを実行する許可がありません。'
+  notYourAction: '{{{emoji}}}申し訳ありませんが、このアクションを実行することはできません。 コマンドを自分で実行してください。'
+  notMessageAuthor: '{{{emoji}}}あなたはこのメッセージの著者ではありません。'
+  commandError: |-
+    {{{emoji}}}このコマンドの実行中にエラーが発生しました。 システムに記録されています。 この問題が続いている場合は、[サポートサーバー]（{{{support_invite}}}）に参加して報告してください！ 
+     「JS」 
+     {{{error}}} 
+     `` `
+  mustVote: '[投票]（https://top.gg/bot/769921109209907241/vote）InterChatがこのコマンドを使用するには、サポートが非常に高く評価されています。'
+  inviteLinks: '{{{emoji}}}ネットワーク内のサーバーを宣伝または宣伝しないでください。 代わりに「/connection」で招待状を設定します！'
+  invalidLangCode: '{{{emoji}}}無効な言語コード。 正しい[言語コード]（https://cloud.google.com/translate/docs/languages）を入力したことを確認してください。'
+  unknownServer: '{{{emoji}}}不明なサーバー。 正しいサーバーIDを入力したことを確認してください。'
+  unknownNetworkMessage: '{{{emoji}}}不明なメッセージ。 過去1分間に送信された場合は、もう少し待って、もう一度お試しください。'
+  userNotFound: '{{{emoji}}}ユーザーが見つかりません。 代わりにIDを入力してみてください。'
+  blacklisted: '{{{emoji}}}あなたまたはこのサーバーは、InterChatの使用からブラックリストに登録されています。'
+  userBlacklisted: '{{{emoji}}}あなたは** {{hub}} **からブラックリストに登録されています。'
+  serverBlacklisted: '{{{emoji}}}このサーバーは、** {{hub}} **からブラックリストに登録されています。'
+  serverNotBlacklisted: '{{{emoji}}}入力されたサーバーはブラックリストに載っていません。'
+  userNotBlacklisted: '{{{emoji}}}入力ユーザーはブラックリストに載っていません。'
+  missingPermissions: '{{{emoji}}}このアクションを実行するための次の権限がありません：** {{{permissions}}} **'
+  botMissingPermissions: '{{{emoji}}}継続するための次の権限を与えてください：** {{{permissions}}} **'
+  unknown: '{{{emoji}}}未知のエラーが発生しました。 [後で再試行するか、[サポートサーバー]（{{{support_invite}}}）に参加してお問い合わせください。'
+  notUsable: '{{{emoji}}}これは使用できなくなりました。'
+  cooldown: '{{{emoji}}}あなたはクールダウンにいます。 ** {{{time}}} **を待ってから、もう一度試してみてください。'
+misc:
+  noReason: 理由はありません。
+  noDesc: 説明なし。
+  version: InterChat v{{version}}
+  loading: '{{{emoji}}}あなたのリクエストを処理している間お待ちください...'
