@@ -41,6 +41,7 @@ network:
         **How it works:** The InterChat Network is like a magic bridge that links channels on different servers that are with us in this hub. Learn more at our [guide]({{{docs_link}}}).
       footer: InterChat Network | Version {{version}}
     inProgress: There has already been an attempting to join a hub from {{{channel}}}. Please cancel it or wait for it to complete.
+    test: this is a test
 blacklist:
   button:
     user: Blacklist User
