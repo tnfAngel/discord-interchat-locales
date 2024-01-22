@@ -5,7 +5,7 @@
     "main": "src/index.ts",
     "scripts": {
         "start": "ts-node src/index.ts",
-        "pretty": "npx prettier --write ."
+        "pretty": "pnpx prettier --write ."
     },
     "keywords": [],
     "author": "dev-737, tnfAngel and LautyDev",
