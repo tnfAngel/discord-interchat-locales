@@ -8,7 +8,7 @@
         "pretty": "npx prettier --write ."
     },
     "keywords": [],
-    "author": "tnfAngel and LautyDev",
+    "author": "dev-737, tnfAngel and LautyDev",
     "license": "ISC",
     "dependencies": {
         "google-translate-api-x": "^10.6.7",
