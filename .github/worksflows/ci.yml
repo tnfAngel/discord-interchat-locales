@@ -32,10 +32,6 @@ jobs:
             - name: Install dependencies
               run: pnpm install
 
-            - name: Lint
-              continue-on-error: true
-              run: pnpm run lint
-
             - name: Prettify code
               uses: creyD/prettier_action@v4.3
               with:
@@ -63,7 +59,7 @@ jobs:
               run: pnpm install
               
             - name: Translate
-              run: pnpm run translate
+              run: pnpm run start
 
             - uses: stefanzweifel/git-auto-commit-action@v5
               with:
