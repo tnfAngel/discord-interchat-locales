@@ -45,6 +45,7 @@ jobs:
         runs-on: ubuntu-22.04
         permissions:
           contents: write
+        if: ${{ github.event_name == 'push' }}
         steps:
             - uses: actions/checkout@v4
 
