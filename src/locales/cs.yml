@@ -23,7 +23,6 @@ vote: |-
 network:
   accountTooNew: '{{{emoji}}} {{{user}}} Váš účet je příliš nový na odesílání zpráv pomocí InterChat. Prosím zkuste to znovu později.'
   deleteSuccess: '{{{emoji}}} zpráva od {{{user}}} byla odstraněna z __**{{deleted}}/{{total}}**__ servery.'
-  editSuccess: '{{{emoji}}} zpráva od {{{user}}} byla upravena v __**{{edited}}/{{total}}**__ servery.'
   welcome: |-
     {{{user}}} Vítejte na **{{hub}}**! {{{emoji}}} 
 
