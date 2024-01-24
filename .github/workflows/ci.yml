@@ -1,6 +1,12 @@
 name: CI
 
 on:
+    pull_request:
+        branches: [main]
+        types: [opened, synchronize]
+        paths-ignore:
+            - '*.md'
+            - '.*ignore'
     push:
         branches: [main]
         paths-ignore:
@@ -58,4 +64,4 @@ jobs:
             - uses: stefanzweifel/git-auto-commit-action@v5
               with:
                 commit_message: Sync translations
-                commit_user_name: Discord
+                commit_user_name: Discord InterChat
