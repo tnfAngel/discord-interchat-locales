@@ -1,15 +1,15 @@
 rules: |-
   ### 📜 Regels voor elkaar netwerk 
 
-   1. ** Gebruik gezond verstand: ** Wees rekening met anderen en hun opvattingen. Geen smet, extreme afwijkende taal of acties die het comfort van de chat kunnen verstoren. 
-   2. ** Geen spam of overstromingen: ** Vermijd herhaalde, onzinnige of overdreven lange berichten. 
-   3. ** Bewaar privézaken privé: ** Vermijd het delen van persoonlijke informatie in het netwerk. 
-   4. ** Geen intimidatie: ** Trollen, beledigingen of intimidatie van welke aard dan ook worden niet getolereerd. 
-   5. ** Geen NSFW/NSFL -inhoud: ** Het plaatsen van expliciete NSFW/NSFL -inhoud zal leiden tot onmiddellijke zwarte lijst. 
-   6. ** Respecteer gevoelige onderwerpen: ** Trivialiseer geen zelfbeschadiging, zelfmoord, geweld of andere aanstootgevende onderwerpen. 
-   7. ** Meld zorgen: ** Als u een schending van deze regels waarneemt, meld dit dan aan de juiste Hub Moderator of InterChat -medewerkers voor verdere actie. 
+   1. **Gebruik gezond verstand:** Wees rekening met anderen en hun opvattingen. Geen smet, extreme afwijkende taal of acties die het comfort van de chat kunnen verstoren. 
+   2. **Geen spam of overstromingen:** Vermijd herhaalde, onzinnige of overdreven lange berichten. 
+   3. **Bewaar privézaken privé:** Vermijd het delen van persoonlijke informatie in het netwerk. 
+   4. **Geen intimidatie:** Trollen, beledigingen of intimidatie van welke aard dan ook worden niet getolereerd. 
+   5. **Geen NSFW/NSFL -inhoud:** Het plaatsen van expliciete NSFW/NSFL -inhoud zal leiden tot onmiddellijke zwarte lijst. 
+   6. **Respecteer gevoelige onderwerpen:** Trivialiseer geen zelfbeschadiging, zelfmoord, geweld of andere aanstootgevende onderwerpen. 
+   7. **Meld zorgen:** Als u een schending van deze regels waarneemt, meld dit dan aan de juiste Hub Moderator of InterChat -medewerkers voor verdere actie. 
 
-   Nog vragen? Word lid van onze [Support Server] ({{{support_invite}}}).
+   Nog vragen? Word lid van onze [Support Server]({{{support_invite}}}).
 vote: |-
   ## 🗳️ Stem op InterChat en geniet van exclusieve voordelen 
    Uw bijdrage is van onschatbare waarde bij het verhogen van de positie van InterChat bovenaan. GG. Elke stemming maakt een aanzienlijk verschil! 
@@ -22,12 +22,12 @@ vote: |-
    We waarderen uw niet -aflatende steun diep. Bedankt! 🙏
 network:
   accountTooNew: '{{{emoji}}} {{{user}}} Uw account is te nieuw om berichten te verzenden met InterChat. Probeer het later opnieuw.'
-  deleteSuccess: '{{{emoji}}} Bericht door {{{user}}} is verwijderd uit __ ** {{deleted}}/{{total}} ** __ servers.'
-  editSuccess: '{{{emoji}}} Bericht door {{{user}}} is bewerkt in __ ** {{edited}}/{{total}} ** __ servers.'
+  deleteSuccess: '{{{emoji}}} Bericht door {{{user}}} is verwijderd uit __**{{deleted}}/{{total}}**__ servers.'
+  editSuccess: '{{{emoji}}} Bericht door {{{user}}} is bewerkt in __**{{edited}}/{{total}}**__ servers.'
   welcome: |-
-    {{{user}}} Welkom bij ** {{hub}} **! {{{emoji}}} 
+    {{{user}}} Welkom bij **{{hub}}**! {{{emoji}}} 
 
-     Berichten verzonden in {{{channel}}} worden gedeeld met andere servers, ** waardoor moeiteloos communicatie wordt ingeschakeld **. U kunt afbeeldingen, GIF's, antwoorden, reageren en reageren met berichten delen zoals u normaal zou doen. Vergeet niet om het delen van persoonlijke info te vermijden (check {{{rules_command}}} voor meer). Klaar om erin te springen? Stuur uw eerste bericht en deel lid van het gesprek!
+     Berichten verzonden in {{{channel}}} worden gedeeld met andere servers, **waardoor moeiteloos communicatie wordt ingeschakeld**. U kunt afbeeldingen, GIF's, antwoorden, reageren en reageren met berichten delen zoals u normaal zou doen. Vergeet niet om het delen van persoonlijke info te vermijden (check {{{rules_command}}} voor meer). Klaar om erin te springen? Stuur uw eerste bericht en deel lid van het gesprek!
   nsfw:
     title: NSFW gedetecteerd
     description: Ik heb {{predictions}} nsfw (niet veilig voor werk) in uw bericht gedetecteerd. Houd er rekening mee dat dit tegen onze {{{rules_command}}} is en zal resulteren in onmiddellijke zwarte lijst.
@@ -38,7 +38,7 @@ network:
       description: |-
         Om dingen georganiseerd te houden, wordt het aanbevolen om een apart kanaal te gebruiken voor alleen deze hub. Maar maak je geen zorgen, je kunt dit altijd later veranderen. 
 
-         ** Hoe het werkt: ** Het InterChat -netwerk is als een magische brug die kanalen verbindt op verschillende servers die bij ons in deze hub zijn. Meer informatie op onze [gids] ({{{docs_link}}}).
+         **Hoe het werkt:** Het InterChat -netwerk is als een magische brug die kanalen verbindt op verschillende servers die bij ons in deze hub zijn. Meer informatie op onze [gids]({{{docs_link}}}).
       footer: InterChat Network | Version {{version}}
     inProgress: Er is al een poging geweest om deel te nemen aan een hub van {{{channel}}}. Annuleer het of wacht tot het is voltooid.
 blacklist:
@@ -53,27 +53,27 @@ blacklist:
       label: Duur
       placeholder: 'Duur van de zwarte lijst. Bijv.: 1D, 1W, 1M, 1Y. Laat leeg voor permanent.'
   user:
-    success: '{{{emoji}}} ** {{username}} ** is met succes op de zwarte lijst gezet!'
-    removed: '{{{emoji}}} ** {{username}} ** is verwijderd uit de zwarte lijst!'
+    success: '{{{emoji}}} **{{username}}** is met succes op de zwarte lijst gezet!'
+    removed: '{{{emoji}}} **{{username}}** is verwijderd uit de zwarte lijst!'
     alreadyBlacklisted: '{{{emoji}}} Deze gebruiker staat al op de zwarte lijst.'
     easterEggs:
       blacklistBot: Je kunt me niet op de zwarte lijst zetten WTF.
   server:
-    success: '{{{emoji}}} ** {{server}} ** is met succes op de zwarte lijst gezet!'
-    removed: '{{{emoji}}} ** {{server}} ** is verwijderd uit de zwarte lijst!'
+    success: '{{{emoji}}} **{{server}}** is met succes op de zwarte lijst gezet!'
+    removed: '{{{emoji}}} **{{server}}** is verwijderd uit de zwarte lijst!'
     alreadyBlacklisted: '{{{emoji}}} Deze server staat al op de zwarte lijst.'
-    unknownError: Fail om op de zwarte lijst te komen ** {{server}} **. Informeer bij de ontwikkelaars voor meer informatie.
+    unknownError: Fail om op de zwarte lijst te komen **{{server}}**. Informeer bij de ontwikkelaars voor meer informatie.
   list:
     user: |-
-      ** userid: ** {{userId}} 
-       ** Moderator: ** {{moderator}} 
-       ** reden: ** {{{reason}}} 
-       ** verloopt: ** {{expires}}
+      **userid:** {{userId}} 
+       **Moderator:** {{moderator}} 
+       **reden:** {{{reason}}} 
+       **verloopt:** {{expires}}
     server: |-
-      ** serverId: ** {{serverId}} 
-       ** Moderator: ** {{moderator}} 
-       ** reden: ** {{{reason}}} 
-       ** verloopt: ** {{{expires}}}
+      **serverId:** {{serverId}} 
+       **Moderator:** {{moderator}} 
+       **reden:** {{{reason}}} 
+       **verloopt:** {{{expires}}}
 msgInfo:
   buttons:
     message: Berichtinformatie
@@ -90,13 +90,13 @@ msgInfo:
        **Verzonden vanaf:** 
        __{{{server}}}__ 
 
-       ** Bericht -ID: ** 
-       __ {{messageId}} __ 
+       **Bericht -ID:** 
+       __{{messageId}}__ 
 
-       ** verzonden (hub): ** 
+       **verzonden (hub):** 
        __{{{hub}}}__ 
 
-       ** Bericht gemaakt: ** 
+       **Bericht gemaakt:** 
        {{{createdAt}}}
   server:
     description: |-
@@ -106,8 +106,8 @@ msgInfo:
        **Eigenaar:** 
        __{{{owner}}}__ 
 
-       ** gemaakt: ** 
-       __ {{{createdAtFull}}} ({{{createdAt}}}) __ 
+       **gemaakt:** 
+       __{{{createdAtFull}}} ({{{createdAt}}})__ 
 
        **Leden Aantal:** 
        __{{memberCount}}__ 
@@ -122,28 +122,28 @@ msgInfo:
        **ID KAART:** 
        __{{id}}__ 
 
-       ** gemaakt: ** 
+       **gemaakt:** 
        {{{createdAtFull}}} ({{{createdAt}}})) 
 
        **Weergavenaam:** 
-       __ {{{globalName}}} __ 
+       __{{{globalName}}}__ 
 
-       ** hubs bezit: ** 
-       __ {{hubsOwned}} __
+       **hubs bezit:** 
+       __{{hubsOwned}}__
   report:
     notEnabled: '{{{emoji}}} Reporting is niet ingeschakeld voor deze hub.'
     success: '{{{emoji}}} rapport met succes ingediend. Bedankt!'
 invite: |-
   Bedankt voor het kiezen om InterChat uit te nodigen. Klik eenvoudig op de onderstaande knop om mij uit te nodigen! 
 
-   - ** Support Server: ** {{{support}}}
+   - **Support Server:** {{{support}}}
 connection:
   notFound: '{{{emoji}}} Ongeldige verbinding. Controleer de kanaal -ID of selecteer uit weergegeven opties.'
   channelNotFound: '{{{emoji}}} Kan het verbonden kanaal niet vinden. Kies een nieuw kanaal om opnieuw te praten.'
   alreadyConnected: '{{{emoji}}} kanaal {{{channel}}} is al verbonden met een hub.'
   switchChannel: '{{{emoji}}} Selecteer een kanaal om over te schakelen naar het onderstaande menu Selecteren:'
   switchCalled: '{{{emoji}}} kanaalschakelaar met de naam, gebruik de opdracht opnieuw om een nieuwe verbinding te bekijken.'
-  switchSuccess: '{{{emoji}}} kanaal geschakeld. U bent nu verbonden van ** {{{channel}}} **.'
+  switchSuccess: '{{{emoji}}} kanaal geschakeld. U bent nu verbonden van **{{{channel}}}**.'
   inviteRemoved: '{{{emoji}}} Server -uitnodiging verwijderd voor deze hub.'
   inviteInvalid: '{{{emoji}}} ongeldige uitnodiging. Zorg ervoor dat u een geldige uitnodigingslink hebt ingevoerd.'
   inviteAdded: '{{{emoji}}} uitnodiging toegevoegd. Anderen kunnen nu lid worden van deze server met behulp van de opdracht `apps> berichtinfo/rapport`.'
@@ -166,15 +166,15 @@ connection:
 hub:
   notFound: '{{{emoji}}} kan hub niet vinden. Zorg ervoor dat u de juiste hubnaam hebt ingevoerd.'
   notFound_mod: '{{{emoji}}} kan hub niet vinden. Zorg ervoor dat u de juiste hubnaam hebt ingevoerd en dat u de eigenaar of een moderator van de hub bent.'
-  alreadyJoined: '{{{emoji}}} U bent al aangesloten ** {{hub}} ** van {{{channel}}}!'
+  alreadyJoined: '{{{emoji}}} U bent al aangesloten **{{hub}}** van {{{channel}}}!'
   invalidChannel: '{{{emoji}}} Ongeldig kanaal. Alleen tekst- en threadkanalen worden ondersteund!'
   invalidImgurUrl: '{{{emoji}}} Ongeldige afbeelding URL voor pictogram of banner. Zorg ervoor dat u een geldige Imgur -afbeeldings -URL hebt ingevoerd die geen galerij of album is.'
   join:
-    success: Succesvol bij hub ** {{hub}} ** van {{{channel}}}! Gebruik `/verbinding 'om uw verbinding te beheren. En `/hub vertrek 'om de hub te verlaten.
+    success: Succesvol bij hub **{{hub}}** van {{{channel}}}! Gebruik `/verbinding 'om uw verbinding te beheren. En `/hub vertrek 'om de hub te verlaten.
   servers:
-    total: 'Huidige verbonden servers: {{from}}-{{to}} / ** {{total}} **'
+    total: 'Huidige verbonden servers: {{from}}-{{to}} / **{{total}}**'
     noConnections: '{{{emoji}}} geen server heeft zich al bij deze hub aangesloten. Gebruik `/hub join` om deel te nemen aan deze hub.'
-    notConnected: '{{{emoji}}} Die server geen deel uit van ** {{hub}} **.'
+    notConnected: '{{{emoji}}} Die server geen deel uit van **{{hub}}**.'
     connectionInfo: |-
       Kanaal: #{{{channelName}}} `({{channelId}})` ` 
        Samen met: {{{joinedAt}}} 
@@ -201,26 +201,26 @@ hub:
     success: |-
       ### hub gemaakt! 
 
-       Gefeliciteerd! Uw privéhub, ** {{name}} **, is succesvol gemaakt. 
+       Gefeliciteerd! Uw privéhub, **{{name}}**, is succesvol gemaakt. 
        Om deel te nemen, maakt u een uitnodiging met behulp van `/hub -uitnodiging CREATE 'en deelt u de gegenereerde code. Doe vervolgens mee met het gebruik van `/hub join`. 
 
-       - ** Genereer uitnodiging: ** `/hub -uitnodiging create` 
-       - ** Ga openbaar: ** `/hub management` 
-       - ** Word lid van hub: ** `/hub join` 
-       - ** Hub bewerken: ** `/hub management` 
-       - ** Moderators toevoegen: ** `/HUB Moderator Add` 
+       - **Genereer uitnodiging:** `/hub -uitnodiging create` 
+       - **Ga openbaar:** `/hub management` 
+       - **Word lid van hub:** `/hub join` 
+       - **Hub bewerken:** `/hub management` 
+       - **Moderators toevoegen:** `/HUB Moderator Add` 
 
-       Meer informatie over hubs in onze [gids] ({{{docs_link}}}). Word lid van de [Support Server] ({{{support_invite}}}) voor hulp.
+       Meer informatie over hubs in onze [gids]({{{docs_link}}}). Word lid van de [Support Server]({{{support_invite}}}) voor hulp.
   delete:
-    confirm: Weet u zeker dat u ** {{hub}} ** wilt verwijderen? Deze actie is onomkeerbaar. Alle verbonden servers, uitnodigingen en berichtengegevens worden uit deze hub verwijderd.
+    confirm: Weet u zeker dat u **{{hub}}** wilt verwijderen? Deze actie is onomkeerbaar. Alle verbonden servers, uitnodigingen en berichtengegevens worden uit deze hub verwijderd.
     ownerOnly: '{{{emoji}}} Alleen de eigenaar van deze hub kan deze verwijderen.'
-    success: '{{{emoji}}} hub ** {{hub}} ** is verwijderd.'
+    success: '{{{emoji}}} hub **{{hub}}** is verwijderd.'
     cancelled: '{{{emoji}}} Hub -verwijdering is geannuleerd.'
   browse:
     joinConfirm: |-
       Weet u zeker dat u zich wilt aansluiten bij {{hub}} van {{{channel}}}? 
           
-       ** Opmerking: ** U kunt dit altijd later wijzigen met behulp van `/connection`.
+       **Opmerking:** U kunt dit altijd later wijzigen met behulp van `/connection`.
     joinFooter: Wilt u een ander kanaal gebruiken? Gebruik de vervolgkeuzelijst hieronder.
     noHubs: '{{{emoji}}} Er zijn hier momenteel geen hubs vermeld. Probeer het later opnieuw!'
     rating:
@@ -233,39 +233,39 @@ hub:
 
          Uw uitnodiging is succesvol gemaakt. Anderen kunnen nu deelnemen aan deze hub met behulp van de opdracht `/hub join`. 
 
-         - ** Doe mee met gebruik: ** `/hub join uitnodiging: {{inviteCode}}` 
-         - ** Bekijk uitnodigingen: ** `/hub -uitnodigingslijst` 
-         - ** EXPIRY: ** {{{expiry}}} 
-         - ** gebruikt **: ∞ 
+         - **Doe mee met gebruik:** `/hub join uitnodiging: {{inviteCode}}` 
+         - **Bekijk uitnodigingen:** `/hub -uitnodigingslijst` 
+         - **EXPIRY:** {{{expiry}}} 
+         - **gebruikt**: ∞ 
 
-         __Learn Meer over hubs in onze [gids] ({{{docs_link}}}) .__.
+         __Learn Meer over hubs in onze [gids]({{{docs_link}}}) .__.
     revoke:
       invalidCode: '{{{emoji}} Ongeldige uitnodigingcode. Zorg ervoor dat u een geldige uitnodigingscode hebt ingevoerd.'
       success: '{{{emoji}}} uitnodiging {{inviteCode}} ingetrokken.'
     list:
-      title: '** Codes uitnodigen: **'
+      title: '**Codes uitnodigen:**'
       noInvites: '{{{emoji}}} Deze hub heeft nog geen uitnodigingen. Gebruik `/hub -uitnodiging create` om er een te maken.'
       notPrivate: '{{{emoji}}} Alleen privéhubs kunnen uitnodigingen hebben. Gebruik `/hub management` om deze hub privé te maken.'
   joined:
     noJoinedHubs: '{{{emoji}}} Deze server is nog niet lid geworden van hubs. Gebruik `/hub -browse` om een lijst met hubs te bekijken.'
-    joinedHubs: Deze server maakt deel uit van ** {{total}} ** hub (s). Gebruik `/hub -vertrek 'om een hub achter te laten.
+    joinedHubs: Deze server maakt deel uit van **{{total}}** hub (s). Gebruik `/hub -vertrek 'om een hub achter te laten.
   leave:
     noHub: '{{{emoji}}} Dat kanaal is ongeldig of is niet lid geworden van hubs.'
-    confirm: Weet u zeker dat u ** {{hub}} ** wilt vertrekken van {{{channel}}}? Van deze hub worden er geen berichten meer naar deze server verzonden.
+    confirm: Weet u zeker dat u **{{hub}}** wilt vertrekken van {{{channel}}}? Van deze hub worden er geen berichten meer naar deze server verzonden.
     confirmFooter: Bevestig met behulp van de onderstaande knop binnen 10 seconden.
     success: '{{{emoji}}} verliet de hub van {{{channel}}}. Van deze hub worden er geen berichten meer naar deze server verzonden. U kunt opnieuw lid worden van het gebruik van `/hub join`.'
   moderator:
     noModerators: '{{{emoji}}} Deze hub heeft nog geen moderators. Gebruik `/Hub Moderator Add` om er een toe te voegen.'
     add:
-      success: '{{{emoji}}} ** {{{user}}} ** is toegevoegd als een moderator van positie ** {{position}} **.'
-      alreadyModerator: '{{{emoji}}} ** {{{user}}} ** is al een moderator.'
+      success: '{{{emoji}}} **{{{user}}}** is toegevoegd als een moderator van positie **{{position}}**.'
+      alreadyModerator: '{{{emoji}}} **{{{user}}}** is al een moderator.'
     remove:
-      success: '{{{emoji}}} ** {{{user}}} ** is verwijderd als een moderator.'
-      notModerator: '{{{emoji}}} ** {{{user}}} ** is geen moderator.'
+      success: '{{{emoji}}} **{{{user}}}** is verwijderd als een moderator.'
+      notModerator: '{{{emoji}}} **{{{user}}}** is geen moderator.'
       notOwner: '{{{emoji}}} Alleen de eigenaar van deze hub kan een manager verwijderen.'
     update:
-      success: '{{{emoji}}} ** {{{user}}} ** De positie is bijgewerkt naar ** {{position}} **.'
-      notModerator: '{{{emoji}}} ** {{{user}}} ** is geen moderator.'
+      success: '{{{emoji}}} **{{{user}}}** De positie is bijgewerkt naar **{{position}}**.'
+      notModerator: '{{{emoji}}} **{{{user}}}** is geen moderator.'
       notAllowed: '{{{emoji}}} Alleen hubmanagers kunnen de positie van een moderator bijwerken.'
       notOwner: '{{{emoji}}} Alleen de eigenaar van deze hub kan de functie van een manager bijwerken.'
   manage:
@@ -297,7 +297,7 @@ hub:
         label: Verander banner
         description: Verander de vlag van deze hub.
     visibility:
-      success: '{{{emoji}}} Hub Zichtbaarheid met succes gewijzigd in ** {{{visibility}}} **.'
+      success: '{{{emoji}}} Hub Zichtbaarheid met succes gewijzigd in **{{{visibility}}}**.'
       selects:
         label: Wijzig de zichtbaarheid
         description: Maak deze hub openbaar of privé.
@@ -348,46 +348,46 @@ report:
   invalidUser: |-
     {{{emoji}}} Ik kon een gebruiker niet vinden met die ID. 
 
-     ** Om de ID van een gebruiker in het netwerk te vinden: ** 
+     **Om de ID van een gebruiker in het netwerk te vinden:** 
      {{{dot}}} Klik met de rechtermuisknop op een bericht verzonden van de vraag van de gebruiker Selecteer `Apps> Berichtinfo`. Controleer de ID dubbel en probeer het opnieuw.
   invalidServer: |-
     {{{emoji}}} Ik kon geen server vinden met die ID. 
 
-     ** Om een server -ID in het netwerk te vinden: ** 
+     **Om een server -ID in het netwerk te vinden:** 
      {{{dot}}} Klik met de rechtermuisknop op een bericht dat door de betreffende server is verzonden en selecteer `Apps> Berichtinfo/rapport`. Controleer de ID dubbel en probeer het opnieuw.
-  submitted: Ingediend rapport. Word lid van de ** [Support Server] ({{{support_invite}}}) ** Om updates over uw rapport te krijgen.
+  submitted: Ingediend rapport. Word lid van de **[Support Server]({{{support_invite}}})** Om updates over uw rapport te krijgen.
   bug:
     title: Bug report
     affected: Aangetaste componenten
     description: Kies met welk onderdeel van de bot waarmee u problemen ondervindt.
     submitted: '{{{emoji}}} rapport met succes ingediend. Word lid van de {{{support_command}}} voor meer informatie. Bedankt!'
 language:
-  set: Taalset! Ik zal nu op u reageren in ** {{{lang}}} **.
+  set: Taalset! Ik zal nu op u reageren in **{{{lang}}}**.
 errors:
   messageNotSentOrExpired: '{{{emoji}}} Dit bericht is niet in een hub verzonden, is verlopen, of u mist machtigingen om deze actie uit te voeren.'
   notYourAction: '{{{emoji}}} Sorry, u kunt deze actie niet uitvoeren. Voer het commando zelf uit.'
   notMessageAuthor: '{{{emoji}}} U bent niet de auteur van dit bericht.'
   commandError: |-
-    {{{emoji}}} Er is een fout opgetreden tijdens het uitvoeren van deze opdracht. Het is vastgelegd op ons systeem. Als dit probleem aanhoudt, voegt u zich aan bij onze [Support Server] ({{{support_invite}}}) en rapporteer dit! 
+    {{{emoji}}} Er is een fout opgetreden tijdens het uitvoeren van deze opdracht. Het is vastgelegd op ons systeem. Als dit probleem aanhoudt, voegt u zich aan bij onze [Support Server]({{{support_invite}}}) en rapporteer dit! 
      `` `JS 
      {{{error}}} 
      `` `
-  mustVote: GELIEVE [stem] (https://top.gg/bot/769921109209907241/vote) Voor interchat om deze opdracht te gebruiken, wordt uw steun zeer op prijs gesteld!
+  mustVote: GELIEVE [stem](https://top.gg/bot/769921109209907241/vote) Voor interchat om deze opdracht te gebruiken, wordt uw steun zeer op prijs gesteld!
   inviteLinks: '{{{emoji}}} adverteren of promoten geen servers in het netwerk. Stel in plaats daarvan een uitnodiging in `/connection` in!'
   invalidLangCode: '{{{emoji}}} Ongeldige taalcode. Zorg ervoor dat u een correcte [taalcode] hebt ingevoerd (https://cloud.google.com/translate/docs/languages).'
   unknownServer: '{{{emoji}}} Onbekende server. Zorg ervoor dat u de juiste server -ID hebt ingevoerd.'
   unknownNetworkMessage: '{{{emoji}}} onbekend bericht. Als het de afgelopen minuut is verzonden, wacht dan nog een paar seconden en probeer het opnieuw.'
   userNotFound: '{{{emoji}}} gebruiker niet gevonden. Probeer in plaats daarvan hun ID in te voeren.'
   blacklisted: '{{{emoji}}} U of deze server staat op de zwarte lijst van het gebruik van interchat.'
-  userBlacklisted: '{{{emoji}}} U bent op de zwarte lijst van ** {{hub}} **.'
-  serverBlacklisted: '{{{emoji}}} Deze server staat op de zwarte lijst van ** {{hub}} **.'
+  userBlacklisted: '{{{emoji}}} U bent op de zwarte lijst van **{{hub}}**.'
+  serverBlacklisted: '{{{emoji}}} Deze server staat op de zwarte lijst van **{{hub}}**.'
   serverNotBlacklisted: '{{{emoji}}} De ingevoerde server staat niet op de zwarte lijst.'
   userNotBlacklisted: '{{{emoji}}} De ingevoerde gebruiker staat niet op de zwarte lijst.'
-  missingPermissions: '{{{emoji}}} U mist de volgende machtigingen om deze actie uit te voeren: ** {{{permissions}}} **'
-  botMissingPermissions: '{{{emoji}}} Geef me de volgende machtigingen om door te gaan: ** {{{permissions}}} **'
-  unknown: '{{{emoji}}} Er is een onbekende fout opgetreden. Probeer het later opnieuw of neem contact met ons op door lid te worden van onze [Support Server] ({{{support_invite}}}).'
+  missingPermissions: '{{{emoji}}} U mist de volgende machtigingen om deze actie uit te voeren: **{{{permissions}}}**'
+  botMissingPermissions: '{{{emoji}}} Geef me de volgende machtigingen om door te gaan: **{{{permissions}}}**'
+  unknown: '{{{emoji}}} Er is een onbekende fout opgetreden. Probeer het later opnieuw of neem contact met ons op door lid te worden van onze [Support Server]({{{support_invite}}}).'
   notUsable: '{{{emoji}}} Dit is niet langer bruikbaar.'
-  cooldown: '{{{emoji}}} U bent op cooldown. Wacht alstublieft ** {{{time}}} ** voordat u opnieuw probeert.'
+  cooldown: '{{{emoji}}} U bent op cooldown. Wacht alstublieft **{{{time}}}** voordat u opnieuw probeert.'
 misc:
   noReason: Geen reden verstrekt.
   noDesc: Geen beschrijving.

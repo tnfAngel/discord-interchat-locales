@@ -109,7 +109,7 @@ msgInfo:
       **Создано:**
       __{{{createdAtFull}}} ({{{createdAt}}})__
 
-      ** Количество членов:**
+      **Количество членов:**
       __{{memberCount}}__.
 
       **Invite:**

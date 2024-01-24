@@ -1,15 +1,15 @@
 rules: |-
   ### 📜 InterChat nettverksregler 
 
-   1. ** Bruk sunn fornuft: ** Vær hensynsfull for andre og deres synspunkter. Ingen slurver, ekstrem nedsettende språk eller handlinger som kan forstyrre chatens komfort. 
-   2. ** Ingen spamming eller flom: ** Unngå gjentatte, nonsensiske eller altfor lange meldinger. 
-   3. ** Hold private saker private: ** Unngå å dele personlig informasjon over hele nettverket. 
-   4. ** Ingen trakassering: ** Trolling, fornærmelser eller trakassering av noe slag tolereres ikke. 
-   5. ** Ingen NSFW/NSFL -innhold: ** Å legge ut eksplisitt NSFW/NSFL -innhold vil resultere i øyeblikkelig svarteliste. 
-   6. ** Respekt sensitive emner: ** Ikke bagatelliserer selvskading, selvmord, vold eller andre støtende emner. 
-   7. ** Rapporter bekymringer: ** Hvis du observerer et brudd på disse reglene, kan du rapportere det til passende HUB -moderator eller interchat -ansatte for videre handling. 
+   1. **Bruk sunn fornuft:** Vær hensynsfull for andre og deres synspunkter. Ingen slurver, ekstrem nedsettende språk eller handlinger som kan forstyrre chatens komfort. 
+   2. **Ingen spamming eller flom:** Unngå gjentatte, nonsensiske eller altfor lange meldinger. 
+   3. **Hold private saker private:** Unngå å dele personlig informasjon over hele nettverket. 
+   4. **Ingen trakassering:** Trolling, fornærmelser eller trakassering av noe slag tolereres ikke. 
+   5. **Ingen NSFW/NSFL -innhold:** Å legge ut eksplisitt NSFW/NSFL -innhold vil resultere i øyeblikkelig svarteliste. 
+   6. **Respekt sensitive emner:** Ikke bagatelliserer selvskading, selvmord, vold eller andre støtende emner. 
+   7. **Rapporter bekymringer:** Hvis du observerer et brudd på disse reglene, kan du rapportere det til passende HUB -moderator eller interchat -ansatte for videre handling. 
 
-   Noen spørsmål? Bli med på [Support Server] ({{{support_invite}}}).
+   Noen spørsmål? Bli med på [Support Server]({{{support_invite}}}).
 vote: |-
   ## 🗳 Stem på InterChat og nyt eksklusive fordeler 
    Ditt bidrag er uvurderlig i å heve InterChats posisjon på toppen.GG. Hver eneste avstemning gjør en betydelig forskjell! 
@@ -22,12 +22,12 @@ vote: |-
    Vi setter stor pris på din urokkelige støtte. Takk skal du ha! 🙏
 network:
   accountTooNew: '{{{emoji}}} {{{user}}} Kontoen din er for ny til å sende meldinger ved hjelp av InterChat. Prøv igjen senere.'
-  deleteSuccess: '{{{emoji}}} melding av {{{user}}} er blitt slettet fra __ ** {{deleted}}/{{total}} ** __ servere.'
-  editSuccess: '{{{emoji}}} melding av {{{user}}} er redigert i __ ** {{edited}}/{{total}} ** __ servere.'
+  deleteSuccess: '{{{emoji}}} melding av {{{user}}} er blitt slettet fra __**{{deleted}}/{{total}}**__ servere.'
+  editSuccess: '{{{emoji}}} melding av {{{user}}} er redigert i __**{{edited}}/{{total}}**__ servere.'
   welcome: |-
-    {{{user}}} velkommen til ** {{hub}} **! {{{emoji}}} 
+    {{{user}}} velkommen til **{{hub}}**! {{{emoji}}} 
 
-     Meldinger sendt inn {{{channel}}} vil bli delt med andre servere, ** Aktivering av uanstrengt kommunikasjon **. Du kan dele bilder, GIF -er, svare, reagere og samhandle med meldinger som du normalt ville gjort. Bare husk å unngå å dele personlig informasjon (sjekk {{{rules_command}}} for mer). Klar til å hoppe inn? Send din første melding og bli med på samtalen!
+     Meldinger sendt inn {{{channel}}} vil bli delt med andre servere, **Aktivering av uanstrengt kommunikasjon**. Du kan dele bilder, GIF -er, svare, reagere og samhandle med meldinger som du normalt ville gjort. Bare husk å unngå å dele personlig informasjon (sjekk {{{rules_command}}} for mer). Klar til å hoppe inn? Send din første melding og bli med på samtalen!
   nsfw:
     title: NSFW oppdaget
     description: Jeg har oppdaget {{predictions}} NSFW (ikke trygt for arbeid) innhold i meldingen din. Vær oppmerksom på at dette er mot vår {{{rules_command}}} og vil resultere i øyeblikkelig svarteliste.
@@ -38,7 +38,7 @@ network:
       description: |-
         For å holde ting organisert, anbefales det å bruke en egen kanal for bare dette knutepunktet. Men ikke bekymre deg, du kan alltid endre dette senere. 
 
-         ** Hvordan det fungerer: ** InterChat -nettverket er som en magisk bro som kobler kanaler på forskjellige servere som er med oss i dette knutepunktet. Lær mer på vår [guide] ({{{docs_link}}}).
+         **Hvordan det fungerer:** InterChat -nettverket er som en magisk bro som kobler kanaler på forskjellige servere som er med oss i dette knutepunktet. Lær mer på vår [guide]({{{docs_link}}}).
       footer: InterChat Network | Version {{version}}
     inProgress: Det har allerede vært et forsøk på å bli med på et knutepunkt fra {{{channel}}}. Avbryt den eller vent til den skal fullføres.
 blacklist:
@@ -53,27 +53,27 @@ blacklist:
       label: Varighet
       placeholder: 'Blacklist varighet. EG: 1D, 1W, 1M, 1Y. La være tom for permanent.'
   user:
-    success: '{{{emoji}}} ** {{username}} ** har blitt svartelistet!'
-    removed: '{{{emoji}}} ** {{username}} ** er fjernet fra svartelisten!'
+    success: '{{{emoji}}} **{{username}}** har blitt svartelistet!'
+    removed: '{{{emoji}}} **{{username}}** er fjernet fra svartelisten!'
     alreadyBlacklisted: '{{{emoji}}} Denne brukeren er allerede svartelistet.'
     easterEggs:
       blacklistBot: Du kan ikke svarteliste meg WTF.
   server:
-    success: '{{{emoji}}} ** {{server}} ** har blitt svartelistet!'
-    removed: '{{{emoji}}} ** {{server}} ** er fjernet fra svartelisten!'
+    success: '{{{emoji}}} **{{server}}** har blitt svartelistet!'
+    removed: '{{{emoji}}} **{{server}}** er fjernet fra svartelisten!'
     alreadyBlacklisted: '{{{emoji}}} Denne serveren er allerede svartelistet.'
-    unknownError: Kunne ikke svarteliste ** {{server}} **. Spør med utviklerne om mer informasjon.
+    unknownError: Kunne ikke svarteliste **{{server}}**. Spør med utviklerne om mer informasjon.
   list:
     user: |-
-      ** UserID: ** {{userId}} 
-       ** Moderator: ** {{moderator}} 
-       ** Årsak: ** {{{reason}}} 
-       ** utløper: ** {{expires}}
+      **UserID:** {{userId}} 
+       **Moderator:** {{moderator}} 
+       **Årsak:** {{{reason}}} 
+       **utløper:** {{expires}}
     server: |-
-      ** ServerID: ** {{serverId}} 
-       ** Moderator: ** {{moderator}} 
-       ** Årsak: ** {{{reason}}} 
-       ** utløper: ** {{{expires}}}
+      **ServerID:** {{serverId}} 
+       **Moderator:** {{moderator}} 
+       **Årsak:** {{{reason}}} 
+       **utløper:** {{{expires}}}
 msgInfo:
   buttons:
     message: Meldingsinfo
@@ -88,15 +88,15 @@ msgInfo:
        __{{{author}}}__ 
 
        **Sendt fra:** 
-       __ {{{server}}} __ 
+       __{{{server}}}__ 
 
-       ** Meldings -ID: ** 
-       __ {{messageId}} __ 
+       **Meldings -ID:** 
+       __{{messageId}}__ 
 
-       ** Sendt inn (hub): ** 
+       **Sendt inn (hub):** 
        __{{{hub}}}__ 
 
-       ** Melding opprettet: ** 
+       **Melding opprettet:** 
        {{{createdAt}}}
   server:
     description: |-
@@ -106,11 +106,11 @@ msgInfo:
        **Eieren:** 
        __{{{owner}}}__ 
 
-       ** Opprettet: ** 
-       __ {{{createdAtFull}}} ({{{createdAt}}}) __ 
+       **Opprettet:** 
+       __{{{createdAtFull}}} ({{{createdAt}}})__ 
 
-       ** Medlemstall: ** 
-       __ {{memberCount}} __ 
+       **Medlemstall:** 
+       __{{memberCount}}__ 
 
        **Invitere:** 
        __{{{invite}}}__
@@ -119,31 +119,31 @@ msgInfo:
       ## {{{username}}} 
        __{{{user}}}__ 
 
-       ** ID: ** 
-       __ {{id}} __ 
+       **ID:** 
+       __{{id}}__ 
 
-       ** Opprettet: ** 
+       **Opprettet:** 
        ° 
 
-       ** visningsnavn: ** 
-       __ {{{createdAtFull}}} __ 
+       **visningsnavn:** 
+       __{{{createdAtFull}}}__ 
 
-       ** Hubs eid: ** 
-       __ {{{createdAt}}} __
+       **Hubs eid:** 
+       __{{{createdAt}}}__
   report:
     notEnabled: '{{{emoji}}} Rapportering er ikke aktivert for dette navet.'
     success: '{{{emoji}}} rapport sendt inn vellykket. Takk skal du ha!'
 invite: |-
   Takk for at du valgte å invitere InterChat. Bare klikk på knappen nedenfor for å invitere meg! 
 
-   - ** Support Server: ** {{{support}}}
+   - **Support Server:** {{{support}}}
 connection:
   notFound: '{{{emoji}}} ugyldig forbindelse. Kontroller kanal -IDen eller velg fra viste alternativer.'
   channelNotFound: '{{{emoji}}} Kan ikke finne tilkoblet kanal. For å snakke igjen, velg en ny kanal.'
   alreadyConnected: '{{{emoji}}} kanal {{{channel}}} er allerede koblet til et hub.'
   switchChannel: '{{{emoji}}} Velg en kanal for å bytte til ved å bruke valgmenyen nedenfor:'
   switchCalled: '{{{emoji}}} kanalbryter kalt, bruk kommandoen igjen for å se ny tilkobling.'
-  switchSuccess: '{{{emoji}}} kanalen byttet. Du er nå koblet fra ** {{{channel}}} **.'
+  switchSuccess: '{{{emoji}}} kanalen byttet. Du er nå koblet fra **{{{channel}}}**.'
   inviteRemoved: '{{{emoji}}} serverinvitasjon fjernet for dette navet.'
   inviteInvalid: '{{{emoji}}} ugyldig invitasjon. Forsikre deg om at du har lagt inn en gyldig invitasjonslenke.'
   inviteAdded: '{{{emoji}}} invitere lagt til. Andre kan nå bli med i denne serveren ved å bruke kommando for `Apps> Message Info/Report`.'
@@ -166,15 +166,15 @@ connection:
 hub:
   notFound: '{{{emoji}}} klarer ikke å finne hub. Forsikre deg om at du har skrevet inn riktig navnavn.'
   notFound_mod: '{{{emoji}}} klarer ikke å finne hub. Forsikre deg om at du har skrevet inn riktig navnavn og at du er eier eller en moderator av huben.'
-  alreadyJoined: '{{{emoji}}} du har allerede blitt med ** {{hub}} ** fra {{{channel}}}!'
+  alreadyJoined: '{{{emoji}}} du har allerede blitt med **{{hub}}** fra {{{channel}}}!'
   invalidChannel: '{{{emoji}}} ugyldig kanal. Bare tekst- og trådkanaler støttes!'
   invalidImgurUrl: '{{{emoji}}} ugyldig bilde -url for ikon eller banner. Forsikre deg om at du har lagt inn en gyldig IMGUR -bilde -URL som ikke er et galleri eller et album.'
   join:
-    success: Vellykket ble med i Hub ** {{hub}} ** fra {{{channel}}}! Bruk `/tilkobling` for å administrere forbindelsen din. Og `/hub forlater` for å forlate huben.
+    success: Vellykket ble med i Hub **{{hub}}** fra {{{channel}}}! Bruk `/tilkobling` for å administrere forbindelsen din. Og `/hub forlater` for å forlate huben.
   servers:
-    total: 'Gjeldende tilkoblede servere: {{from}}-{{to}} / ** {{total}} **'
+    total: 'Gjeldende tilkoblede servere: {{from}}-{{to}} / **{{total}}**'
     noConnections: '{{{emoji}}} Ingen server har blitt med i dette huben ennå. Bruk `/hub join ''for å bli med i dette huben.'
-    notConnected: '{{{emoji}}} Den serveren er ikke en del av ** {{hub}} **.'
+    notConnected: '{{{emoji}}} Den serveren er ikke en del av **{{hub}}**.'
     connectionInfo: |-
       Kanal: #{{{channelName}}} `({{channelId}})` 
        Slått seg sammen på: {{{joinedAt}}} 
@@ -201,26 +201,26 @@ hub:
     success: |-
       ### Hub opprettet! 
 
-       Gratulerer! Ditt private knutepunkt, ** {{name}} **, er blitt opprettet. 
+       Gratulerer! Ditt private knutepunkt, **{{name}}**, er blitt opprettet. 
        For å bli med, opprette en invitasjon ved hjelp av `/Hub Invite Create 'og dele den genererte koden. Bli deretter med på å bruke `/Hub Join '. 
 
-       - ** Generer invitasjon: ** `/HUB Invite Create` 
-       - ** Gå offentlig: ** `/HUB Manage` 
-       - ** Bli med på Hub: ** `/hub join ' 
-       - ** Rediger HUB: ** `/HUB Administrer` 
-       - ** Legg til moderatorer: ** `/HUB Moderator Add` 
+       - **Generer invitasjon:** `/HUB Invite Create` 
+       - **Gå offentlig:** `/HUB Manage` 
+       - **Bli med på Hub:** `/hub join ' 
+       - **Rediger HUB:** `/HUB Administrer` 
+       - **Legg til moderatorer:** `/HUB Moderator Add` 
 
-       Lær mer om knutepunkter i vår [guide] ({{{docs_link}}}). Bli med på [Support Server] ({{{support_invite}}}) for hjelp.
+       Lær mer om knutepunkter i vår [guide]({{{docs_link}}}). Bli med på [Support Server]({{{support_invite}}}) for hjelp.
   delete:
-    confirm: Er du sikker på at du ønsker å slette ** {{hub}} **? Denne handlingen er irreversibel. Alle tilkoblede servere, invitasjoner og meldingsdata vil bli fjernet fra dette knutepunktet.
+    confirm: Er du sikker på at du ønsker å slette **{{hub}}**? Denne handlingen er irreversibel. Alle tilkoblede servere, invitasjoner og meldingsdata vil bli fjernet fra dette knutepunktet.
     ownerOnly: '{{{emoji}}} Bare eieren av dette knutepunktet kan slette det.'
-    success: '{{{emoji}}} hub ** {{hub}} ** er slettet.'
+    success: '{{{emoji}}} hub **{{hub}}** er slettet.'
     cancelled: '{{{emoji}}} Hub -sletting er kansellert.'
   browse:
     joinConfirm: |-
       Er du sikker på at du ønsker å bli med {{hub}} fra {{{channel}}}? 
           
-       ** Merk: ** Du kan alltid endre dette senere ved å bruke `/tilkobling`.
+       **Merk:** Du kan alltid endre dette senere ved å bruke `/tilkobling`.
     joinFooter: Vil du bruke en annen kanal? Bruk rullegardinmenyen nedenfor.
     noHubs: '{{{emoji}}} Det er ingen knutepunkter oppført her for øyeblikket. Prøv igjen senere!'
     rating:
@@ -233,39 +233,39 @@ hub:
 
          Invitasjonen din er blitt opprettet. Andre kan nå bli med i dette navet ved å bruke `/Hub Join '-kommandoen. 
 
-         - ** Bli med på å bruke: ** `/Hub Bli med på invitasjon: {{inviteCode}}` 
-         - ** Vis invitasjoner: ** `/Hub Inviter List` 
-         - ** utløp: ** {{{expiry}}} 
-         - ** bruker **: ∞ 
+         - **Bli med på å bruke:** `/Hub Bli med på invitasjon: {{inviteCode}}` 
+         - **Vis invitasjoner:** `/Hub Inviter List` 
+         - **utløp:** {{{expiry}}} 
+         - **bruker**: ∞ 
 
-         __Laarn mer om knutepunkter i vår [guide] ({{{docs_link}}}) .__.
+         __Laarn mer om knutepunkter i vår [guide]({{{docs_link}}}) .__.
     revoke:
       invalidCode: '{{{emoji}} ugyldig invitasjonskode. Forsikre deg om at du har lagt inn en gyldig invitasjonskode.'
       success: '{{{emoji}}} invitere {{inviteCode}} tilbakekalt.'
     list:
-      title: '** Inviter koder: **'
+      title: '**Inviter koder:**'
       noInvites: '{{{emoji}}} Dette huben har ingen invitasjoner ennå. Bruk `/Hub Invite Create` for å lage en.'
       notPrivate: '{{{emoji}}} Bare private knutepunkter kan ha invitasjoner. Bruk `/Hub Administration ''for å gjøre dette navet privat.'
   joined:
     noJoinedHubs: '{{{emoji}}} Denne serveren har ikke blitt med på noen knutepunkter ennå. Bruk `/hub bla gjennom for å se en liste over knutepunkter.'
-    joinedHubs: Denne serveren er en del av ** {{total}} ** hub (er). Bruk `/Hub Leave` for å legge igjen et nav.
+    joinedHubs: Denne serveren er en del av **{{total}}** hub (er). Bruk `/Hub Leave` for å legge igjen et nav.
   leave:
     noHub: '{{{emoji}}} Den kanalen er ugyldig eller har ikke sluttet seg til noen knutepunkter.'
-    confirm: Er du sikker på at du ønsker å forlate ** {{hub}} ** fra {{{channel}}}? Ingen flere meldinger vil bli sendt til denne serveren fra dette knutepunktet.
+    confirm: Er du sikker på at du ønsker å forlate **{{hub}}** fra {{{channel}}}? Ingen flere meldinger vil bli sendt til denne serveren fra dette knutepunktet.
     confirmFooter: Bekreft ved å bruke knappen nedenfor innen 10 sekunder.
     success: '{{{emoji}}} forlot huben fra {{{channel}}}. Ingen flere meldinger vil bli sendt til denne serveren fra dette knutepunktet. Du kan bli med på å bruke `/Hub Join ''.'
   moderator:
     noModerators: '{{{emoji}}} Dette navet har ingen moderatorer ennå. Bruk `/Hub Moderator Legg til å legge til en.'
     add:
-      success: '{{{emoji}}} ** {{{user}}} ** er lagt til som en moderator av posisjon ** {{position}} **.'
-      alreadyModerator: '{{{emoji}}} ** {{{user}}} ** er allerede en moderator.'
+      success: '{{{emoji}}} **{{{user}}}** er lagt til som en moderator av posisjon **{{position}}**.'
+      alreadyModerator: '{{{emoji}}} **{{{user}}}** er allerede en moderator.'
     remove:
-      success: '{{{emoji}}} ** {{{user}}} ** er fjernet som moderator.'
-      notModerator: '{{{emoji}}} ** {{{user}}} ** er ikke en moderator.'
+      success: '{{{emoji}}} **{{{user}}}** er fjernet som moderator.'
+      notModerator: '{{{emoji}}} **{{{user}}}** er ikke en moderator.'
       notOwner: '{{{emoji}}} Bare eieren av dette knutepunktet kan fjerne en leder.'
     update:
-      success: '{{{emoji}}} ** {{{user}}} ** ''s posisjon er oppdatert til ** {{position}} **.'
-      notModerator: '{{{emoji}}} ** {{{user}}} ** er ikke en moderator.'
+      success: '{{{emoji}}} **{{{user}}}** ''s posisjon er oppdatert til **{{position}}**.'
+      notModerator: '{{{emoji}}} **{{{user}}}** er ikke en moderator.'
       notAllowed: '{{{emoji}}} Bare hub -ledere kan oppdatere en moderators posisjon.'
       notOwner: '{{{emoji}}} Bare eieren av dette knutepunktet kan oppdatere en lederens posisjon.'
   manage:
@@ -297,7 +297,7 @@ hub:
         label: Endre banner
         description: Endre banneret til dette knutepunktet.
     visibility:
-      success: '{{{emoji}}} hub -synlighet endret til ** {{{visibility}}} **.'
+      success: '{{{emoji}}} hub -synlighet endret til **{{{visibility}}}**.'
       selects:
         label: Endre synlighet
         description: Gjør dette navet offentlig eller privat.
@@ -348,46 +348,46 @@ report:
   invalidUser: |-
     {{{emoji}}} Jeg kunne ikke finne en bruker med den IDen. 
 
-     ** For å finne en brukers ID i nettverket: ** 
+     **For å finne en brukers ID i nettverket:** 
      {{{dot}}} Høyreklikk på en melding sendt fra den aktuelle brukeren Velg `Apps> Meldingsinfo`. Vennligst dobbeltsjekk IDen og prøv igjen.
   invalidServer: |-
     {{{emoji}}} Jeg kunne ikke finne en server med den IDen. 
 
-     ** For å finne en server -ID i nettverket: ** 
+     **For å finne en server -ID i nettverket:** 
      {{{dot}}} Høyreklikk på en melding sendt av den aktuelle serveren og velg `Apps> Message Info/Report`. Vennligst dobbeltsjekk IDen og prøv igjen.
-  submitted: Rapport sendt. Bli med på ** [supportserver] ({{{support_invite}}}) ** for å få oppdateringer om rapporten.
+  submitted: Rapport sendt. Bli med på **[supportserver]({{{support_invite}}})** for å få oppdateringer om rapporten.
   bug:
     title: Feilrapport
     affected: Berørte komponenter
     description: Velg hvilken komponent i bot du står overfor problemer med.
     submitted: '{{{emoji}}} rapport sendt inn vellykket. Bli med på {{{support_command}}} for å få flere detaljer. Takk skal du ha!'
 language:
-  set: Språklang! Jeg vil nå svare deg i ** {{{lang}}} **.
+  set: Språklang! Jeg vil nå svare deg i **{{{lang}}}**.
 errors:
   messageNotSentOrExpired: '{{{emoji}}} Denne meldingen ble ikke sendt i et knutepunkt, har utløpt, eller du mangler tillatelser til å utføre denne handlingen.'
   notYourAction: '{{{emoji}}} Beklager, du kan ikke utføre denne handlingen. Vennligst kjør kommandoen selv.'
   notMessageAuthor: '{{{emoji}}} Du er ikke forfatteren av denne meldingen.'
   commandError: |-
-    {{{emoji}}} Det oppstod en feil under utførelsen av denne kommandoen. Det er logget til systemet vårt. Hvis dette problemet vedvarer, kan du bli med på [Support Server] ({{{support_invite}}}) og rapportere det! 
+    {{{emoji}}} Det oppstod en feil under utførelsen av denne kommandoen. Det er logget til systemet vårt. Hvis dette problemet vedvarer, kan du bli med på [Support Server]({{{support_invite}}}) og rapportere det! 
      `` JS 
      {{{error}}} 
      `` `
-  mustVote: Vennligst [stemme] (https://top.gg/bot/769921109209907241/vote) For at InterChat skal bruke denne kommandoen, er din støtte veldig verdsatt!
+  mustVote: Vennligst [stemme](https://top.gg/bot/769921109209907241/vote) For at InterChat skal bruke denne kommandoen, er din støtte veldig verdsatt!
   inviteLinks: '{{{emoji}}} Ikke annonser eller markedsfører servere i nettverket. Sett en invitasjon i `/Connection` i stedet!'
-  invalidLangCode: '{{{emoji}}} ugyldig språkkode. Forsikre deg om at du har lagt inn en riktig [språkkode] (https://cloud.google.com/translate/docs/languages).'
+  invalidLangCode: '{{{emoji}}} ugyldig språkkode. Forsikre deg om at du har lagt inn en riktig [språkkode](https://cloud.google.com/translate/docs/languages).'
   unknownServer: '{{{emoji}}} ukjent server. Forsikre deg om at du har lagt inn riktig server -ID.'
   unknownNetworkMessage: '{{{emoji}}} ukjent melding. Hvis det har blitt sendt i løpet av det siste minutt, kan du vente noen få sekunder til og prøv igjen.'
   userNotFound: '{{{emoji}}} bruker ikke funnet. Prøv å legge inn ID -en i stedet.'
   blacklisted: '{{{emoji}}} Du eller denne serveren er svartelistet fra å bruke interchat.'
-  userBlacklisted: '{{{emoji}}} du er svartelistet fra ** {{hub}} **.'
-  serverBlacklisted: '{{{emoji}}} Denne serveren er svartelistet fra ** {{hub}} **.'
+  userBlacklisted: '{{{emoji}}} du er svartelistet fra **{{hub}}**.'
+  serverBlacklisted: '{{{emoji}}} Denne serveren er svartelistet fra **{{hub}}**.'
   serverNotBlacklisted: '{{{emoji}}} Den inngitt serveren er ikke svartelistet.'
   userNotBlacklisted: '{{{emoji}}} Den inngitte brukeren er ikke svartelistet.'
-  missingPermissions: '{{{emoji}}} du mangler følgende tillatelser til å utføre denne handlingen: ** {{{permissions}}} **'
-  botMissingPermissions: '{{{emoji}}} Vennligst gi meg følgende tillatelser til å fortsette: ** {{{permissions}}} **'
-  unknown: '{{{emoji}}} Det oppstod en ukjent feil. Prøv igjen senere eller kontakt oss ved å bli med på [supportserveren] ({{{support_invite}}}).'
+  missingPermissions: '{{{emoji}}} du mangler følgende tillatelser til å utføre denne handlingen: **{{{permissions}}}**'
+  botMissingPermissions: '{{{emoji}}} Vennligst gi meg følgende tillatelser til å fortsette: **{{{permissions}}}**'
+  unknown: '{{{emoji}}} Det oppstod en ukjent feil. Prøv igjen senere eller kontakt oss ved å bli med på [supportserveren]({{{support_invite}}}).'
   notUsable: '{{{emoji}}} Dette er ikke lenger brukbart.'
-  cooldown: '{{{emoji}}} du er på cooldown. Vent ** {{{time}}} ** før du prøver igjen.'
+  cooldown: '{{{emoji}}} du er på cooldown. Vent **{{{time}}}** før du prøver igjen.'
 misc:
   noReason: Ingen grunn gitt.
   noDesc: Ingen beskrivelse.
