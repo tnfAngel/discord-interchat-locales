@@ -385,7 +385,7 @@ errors:
   userNotBlacklisted: '{{{emoji}}} Girilen kullanıcı kara listeye alınmamıştır.'
   missingPermissions: '{{{emoji}}} Bu eylemi gerçekleştirmek için aşağıdaki izinlere sahip değilsiniz: **{{{permissions}}}**'
   botMissingPermissions: '{{{emoji}}} Devam edebilmem için lütfen aşağıdaki izinleri verin: **{{{permissions}}}**'
-  unknown: '{{{emoji}}} Bilinmeyen bir hata oluştu. Lütfen daha sonra tekrar deneyin veya [destek sunucumuza] ({{{support_invite}}}) katılarak bizimle iletişime geçin.'
+  unknown: '{{{emoji}}} Bilinmeyen bir hata oluştu. Lütfen daha sonra tekrar deneyin veya [destek sunucumuza]({{{support_invite}}}) katılarak bizimle iletişime geçin.'
   notUsable: '{{{emoji}}} Bu artık kullanılamaz.'
   cooldown: '{{{emoji}}} Bekleme süresindesiniz. Lütfen tekrar denemeden önce **{{{time}}}** bekleyin.'
 misc:

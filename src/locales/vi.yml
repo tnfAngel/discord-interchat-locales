@@ -1,13 +1,13 @@
 rules: |-
   ### Các quy tắc mạng giao thoa 
 
-   1. ** Sử dụng lẽ thường: ** Hãy quan tâm đến người khác và quan điểm của họ. Không có lời nói xấu, ngôn ngữ xúc phạm cực độ hoặc bất kỳ hành động nào có thể phá vỡ sự thoải mái của trò chuyện. 
-   2. ** Không bị spam hoặc lũ lụt: ** Tránh các tin nhắn lặp đi lặp lại, vô nghĩa hoặc quá dài. 
-   3. ** Giữ các vấn đề riêng tư riêng tư: ** Tránh chia sẻ thông tin cá nhân trên mạng. 
-   4. ** Không quấy rối: ** troll, xúc phạm hoặc quấy rối dưới bất kỳ hình thức nào không được dung thứ. 
-   5. ** Không có nội dung NSFW/NSFL: ** Đăng nội dung NSFW/NSFL rõ ràng sẽ dẫn đến danh sách đen ngay lập tức. 
-   6. ** Tôn trọng các chủ đề nhạy cảm: ** Không tầm thường hóa việc tự làm hại mình, tự tử, bạo lực hoặc các chủ đề tấn công khác. 
-   7. ** Báo cáo lo ngại: ** Nếu bạn tuân thủ vi phạm các quy tắc này, hãy báo cáo cho người điều hành trung tâm thích hợp hoặc nhân viên trao đổi để có thêm hành động. 
+   1. **Sử dụng lẽ thường:** Hãy quan tâm đến người khác và quan điểm của họ. Không có lời nói xấu, ngôn ngữ xúc phạm cực độ hoặc bất kỳ hành động nào có thể phá vỡ sự thoải mái của trò chuyện. 
+   2. **Không bị spam hoặc lũ lụt:** Tránh các tin nhắn lặp đi lặp lại, vô nghĩa hoặc quá dài. 
+   3. **Giữ các vấn đề riêng tư riêng tư:** Tránh chia sẻ thông tin cá nhân trên mạng. 
+   4. **Không quấy rối:** troll, xúc phạm hoặc quấy rối dưới bất kỳ hình thức nào không được dung thứ. 
+   5. **Không có nội dung NSFW/NSFL:** Đăng nội dung NSFW/NSFL rõ ràng sẽ dẫn đến danh sách đen ngay lập tức. 
+   6. **Tôn trọng các chủ đề nhạy cảm:** Không tầm thường hóa việc tự làm hại mình, tự tử, bạo lực hoặc các chủ đề tấn công khác. 
+   7. **Báo cáo lo ngại:** Nếu bạn tuân thủ vi phạm các quy tắc này, hãy báo cáo cho người điều hành trung tâm thích hợp hoặc nhân viên trao đổi để có thêm hành động. 
 
    Bất kỳ câu hỏi? Tham gia [Máy chủ hỗ trợ] của chúng tôi ({{{support_invite}}}).
 vote: |-
@@ -22,12 +22,12 @@ vote: |-
    Chúng tôi đánh giá cao sự hỗ trợ không ngừng của bạn. Cảm ơn! 🙏
 network:
   accountTooNew: '{{{emoji}}} {{{user}}} Tài khoản của bạn quá mới để gửi tin nhắn bằng cách trao đổi. Vui lòng thử lại sau.'
-  deleteSuccess: '{{{emoji}}} tin nhắn bởi {{{user}}} đã bị xóa khỏi __ ** {{deleted}}/{{total}} ** __ máy chủ.'
-  editSuccess: '{{{emoji}}} tin nhắn bởi {{{user}}} đã được chỉnh sửa trong __ ** {{edited}}/{{total}} ** __ máy chủ.'
+  deleteSuccess: '{{{emoji}}} tin nhắn bởi {{{user}}} đã bị xóa khỏi __**{{deleted}}/{{total}}**__ máy chủ.'
+  editSuccess: '{{{emoji}}} tin nhắn bởi {{{user}}} đã được chỉnh sửa trong __**{{edited}}/{{total}}**__ máy chủ.'
   welcome: |-
-    {{{user}}} Chào mừng bạn đến ** {{hub}} **! {{{emoji}}} 
+    {{{user}}} Chào mừng bạn đến **{{hub}}**! {{{emoji}}} 
 
-     Tin nhắn được gửi trong {{{channel}}} sẽ được chia sẻ với các máy chủ khác, ** kích hoạt giao tiếp dễ dàng **. Bạn có thể chia sẻ hình ảnh, GIF, trả lời, phản ứng và tương tác với các tin nhắn như bình thường. Chỉ cần nhớ để tránh chia sẻ thông tin cá nhân (kiểm tra {{{rules_command}}} để biết thêm). Sẵn sàng để nhảy vào? Gửi tin nhắn đầu tiên của bạn và tham gia cuộc trò chuyện!
+     Tin nhắn được gửi trong {{{channel}}} sẽ được chia sẻ với các máy chủ khác, **kích hoạt giao tiếp dễ dàng**. Bạn có thể chia sẻ hình ảnh, GIF, trả lời, phản ứng và tương tác với các tin nhắn như bình thường. Chỉ cần nhớ để tránh chia sẻ thông tin cá nhân (kiểm tra {{{rules_command}}} để biết thêm). Sẵn sàng để nhảy vào? Gửi tin nhắn đầu tiên của bạn và tham gia cuộc trò chuyện!
   nsfw:
     title: NSFW được phát hiện
     description: Tôi đã phát hiện {{predictions}} NSFW (không an toàn cho công việc) trong tin nhắn của bạn. Xin lưu ý rằng điều này là chống lại {{{rules_command}}} của chúng tôi và sẽ dẫn đến danh sách đen ngay lập tức.
@@ -38,7 +38,7 @@ network:
       description: |-
         Để giữ mọi thứ được tổ chức, bạn nên sử dụng một kênh riêng cho trung tâm này. Nhưng đừng lo lắng, bạn luôn có thể thay đổi điều này sau. 
 
-         ** Cách thức hoạt động: ** Mạng trao đổi giống như một cây cầu ma thuật liên kết các kênh trên các máy chủ khác nhau với chúng tôi trong trung tâm này. Tìm hiểu thêm tại [Hướng dẫn] của chúng tôi ({{{docs_link}}}).
+         **Cách thức hoạt động:** Mạng trao đổi giống như một cây cầu ma thuật liên kết các kênh trên các máy chủ khác nhau với chúng tôi trong trung tâm này. Tìm hiểu thêm tại [Hướng dẫn] của chúng tôi ({{{docs_link}}}).
       footer: Mạng trao đổi | Version {{version}}
     inProgress: Đã có một nỗ lực để tham gia một trung tâm từ {{{channel}}}. Vui lòng hủy nó hoặc chờ nó hoàn thành.
 blacklist:
@@ -53,27 +53,27 @@ blacklist:
       label: Khoảng thời gian
       placeholder: 'Thời lượng của danh sách đen. Ví dụ: 1d, 1W, 1m, 1y. Để trống cho vĩnh viễn.'
   user:
-    success: '{{{emoji}}} ** {{username}} ** đã được đưa vào danh sách đen thành công!'
-    removed: '{{{emoji}}} ** {{username}} ** đã bị xóa khỏi danh sách đen!'
+    success: '{{{emoji}}} **{{username}}** đã được đưa vào danh sách đen thành công!'
+    removed: '{{{emoji}}} **{{username}}** đã bị xóa khỏi danh sách đen!'
     alreadyBlacklisted: '{{{emoji}}} Người dùng này đã được đưa vào danh sách đen.'
     easterEggs:
       blacklistBot: Bạn không thể đưa vào danh sách đen tôi wtf.
   server:
-    success: '{{{emoji}}} ** {{server}} ** đã được đưa vào danh sách đen thành công!'
-    removed: '{{{emoji}}} ** {{server}} ** đã bị xóa khỏi danh sách đen!'
+    success: '{{{emoji}}} **{{server}}** đã được đưa vào danh sách đen thành công!'
+    removed: '{{{emoji}}} **{{server}}** đã bị xóa khỏi danh sách đen!'
     alreadyBlacklisted: '{{{emoji}}} Máy chủ này đã được đưa vào danh sách đen.'
-    unknownError: Không thành công với danh sách đen ** {{server}} **. Hỏi với các nhà phát triển để biết thêm thông tin.
+    unknownError: Không thành công với danh sách đen **{{server}}**. Hỏi với các nhà phát triển để biết thêm thông tin.
   list:
     user: |-
-      ** userid: ** {{userId}} 
-       ** Người điều hành: ** {{moderator}} 
-       ** Lý do: ** {{{reason}}} 
-       ** Hết hạn: ** {{expires}}
+      **userid:** {{userId}} 
+       **Người điều hành:** {{moderator}} 
+       **Lý do:** {{{reason}}} 
+       **Hết hạn:** {{expires}}
     server: |-
-      ** serverId: ** {{serverId}} 
-       ** Người điều hành: ** {{moderator}} 
-       ** Lý do: ** {{{reason}}} 
-       ** Hết hạn: ** {{{expires}}}
+      **serverId:** {{serverId}} 
+       **Người điều hành:** {{moderator}} 
+       **Lý do:** {{{reason}}} 
+       **Hết hạn:** {{{expires}}}
 msgInfo:
   buttons:
     message: Thông tin tin nhắn
@@ -93,10 +93,10 @@ msgInfo:
        **ID tin nhắn:** 
        __{{messageId}}__ 
 
-       ** Đã gửi vào (trung tâm): ** 
-       __ {{{hub}}} __ 
+       **Đã gửi vào (trung tâm):** 
+       __{{{hub}}}__ 
 
-       ** Đã tạo tin nhắn: ** 
+       **Đã tạo tin nhắn:** 
        {{{createdAt}}}
   server:
     description: |-
@@ -107,7 +107,7 @@ msgInfo:
        __{{{owner}}}__ 
 
        **Tạo:** 
-       __ {{{createdAtFull}}} ({{{createdAt}}}) __ 
+       __{{{createdAtFull}}} ({{{createdAt}}})__ 
 
        **Số lượng thành viên:** 
        __{{memberCount}}__ 
@@ -126,24 +126,24 @@ msgInfo:
        {{{createdAtFull}}} ({{{createdAt}}}) 
 
        **Tên hiển thị:** 
-       __ {{{globalName}}} __ 
+       __{{{globalName}}}__ 
 
-       ** HUBS thuộc sở hữu: ** 
-       __ {{hubsOwned}} __
+       **HUBS thuộc sở hữu:** 
+       __{{hubsOwned}}__
   report:
     notEnabled: '{{{emoji}}} Báo cáo không được bật cho trung tâm này.'
     success: '{{{emoji}}} Báo cáo đã gửi thành công. Cảm ơn!'
 invite: |-
   Cảm ơn bạn đã chọn mời giao thoa. Chỉ cần nhấp vào nút bên dưới để mời tôi! 
 
-   - ** Máy chủ hỗ trợ: ** {{{support}}}
+   - **Máy chủ hỗ trợ:** {{{support}}}
 connection:
   notFound: '{{{emoji}}} Kết nối không hợp lệ. Xác minh ID kênh hoặc chọn từ các tùy chọn được hiển thị.'
   channelNotFound: '{{{emoji}}} Không thể tìm thấy kênh được kết nối. Để nói chuyện lại chọn một kênh mới.'
   alreadyConnected: '{{{emoji}}} kênh {{{channel}}} đã được kết nối với một trung tâm.'
   switchChannel: '{{{emoji}}} Chọn kênh để chuyển sang sử dụng menu Chọn bên dưới:'
   switchCalled: '{{{emoji}}} Chuyển kênh được gọi, sử dụng lệnh lại để xem kết nối mới.'
-  switchSuccess: '{{{emoji}}} Kênh chuyển đổi. Bây giờ bạn được kết nối từ ** {{{channel}}} **.'
+  switchSuccess: '{{{emoji}}} Kênh chuyển đổi. Bây giờ bạn được kết nối từ **{{{channel}}}**.'
   inviteRemoved: '{{{emoji}}} Mời máy chủ bị xóa cho trung tâm này.'
   inviteInvalid: '{{{emoji}}} Lời mời không hợp lệ. Vui lòng đảm bảo rằng bạn đã nhập một liên kết mời hợp lệ.'
   inviteAdded: '{{{emoji}}} mời được thêm vào. Những người khác bây giờ có thể tham gia máy chủ này bằng cách sử dụng lệnh `Ứng dụng> thông tin tin nhắn/báo cáo`.'
@@ -166,15 +166,15 @@ connection:
 hub:
   notFound: '{{{emoji}}} Không thể tìm thấy Hub. Vui lòng đảm bảo rằng bạn đã nhập đúng tên trung tâm.'
   notFound_mod: '{{{emoji}}} Không thể tìm thấy Hub. Vui lòng đảm bảo rằng bạn đã nhập đúng tên trung tâm và bạn là chủ sở hữu hoặc người điều hành trung tâm.'
-  alreadyJoined: '{{{emoji}}} Bạn đã tham gia ** {{hub}} ** từ {{{channel}}}!'
+  alreadyJoined: '{{{emoji}}} Bạn đã tham gia **{{hub}}** từ {{{channel}}}!'
   invalidChannel: '{{{emoji}}} kênh không hợp lệ. Chỉ các kênh văn bản và chủ đề được hỗ trợ!'
   invalidImgurUrl: '{{{emoji}}} URL hình ảnh không hợp lệ cho biểu tượng hoặc biểu ngữ. Vui lòng đảm bảo rằng bạn đã nhập URL Imgur Image hợp lệ không phải là bộ sưu tập hoặc album.'
   join:
-    success: Đã tham gia thành công Hub ** {{hub}} ** từ {{{channel}}}! Sử dụng `/Connection` để quản lý kết nối của bạn. Và `/Hub rời đi` để rời khỏi trung tâm.
+    success: Đã tham gia thành công Hub **{{hub}}** từ {{{channel}}}! Sử dụng `/Connection` để quản lý kết nối của bạn. Và `/Hub rời đi` để rời khỏi trung tâm.
   servers:
-    total: 'Máy chủ được kết nối hiện tại: {{from}}-{{to}} / ** {{total}} **'
+    total: 'Máy chủ được kết nối hiện tại: {{from}}-{{to}} / **{{total}}**'
     noConnections: '{{{emoji}}} chưa có máy chủ nào tham gia trung tâm này. Sử dụng `/Hub tham gia` để tham gia trung tâm này.'
-    notConnected: '{{{emoji}}} Máy chủ đó không phải là một phần của ** {{hub}} **.'
+    notConnected: '{{{emoji}}} Máy chủ đó không phải là một phần của **{{hub}}**.'
     connectionInfo: |-
       Kênh: #{{{channelName}}} `({{channelId}})` 
        Đã tham gia tại: {{{joinedAt}}} 
@@ -201,26 +201,26 @@ hub:
     success: |-
       ### Hub tạo! 
 
-       Chúc mừng! Trung tâm riêng của bạn, ** {{name}} **, đã được tạo thành công. 
+       Chúc mừng! Trung tâm riêng của bạn, **{{name}}**, đã được tạo thành công. 
        Để tham gia, hãy tạo một lời mời bằng cách sử dụng `/Hub mời tạo` và chia sẻ mã được tạo. Sau đó tham gia bằng cách sử dụng `/Hub tham gia`. 
 
-       - ** Tạo lời mời: ** `/Hub Mời Tạo` 
-       - ** đi công khai: ** `/Hub Manage` 
-       - ** Tham gia Hub: ** `/Hub tham gia` 
-       - ** Chỉnh sửa Hub: ** `/Hub Manage` 
-       - ** Thêm người điều hành: ** `/Hub Moderator add` 
+       - **Tạo lời mời:** `/Hub Mời Tạo` 
+       - **đi công khai:** `/Hub Manage` 
+       - **Tham gia Hub:** `/Hub tham gia` 
+       - **Chỉnh sửa Hub:** `/Hub Manage` 
+       - **Thêm người điều hành:** `/Hub Moderator add` 
 
-       Tìm hiểu thêm về các trung tâm trong [Hướng dẫn] của chúng tôi ({{{docs_link}}}). Tham gia [Máy chủ hỗ trợ] ({{{support_invite}}}) để được trợ giúp.
+       Tìm hiểu thêm về các trung tâm trong [Hướng dẫn] của chúng tôi ({{{docs_link}}}). Tham gia [Máy chủ hỗ trợ]({{{support_invite}}}) để được trợ giúp.
   delete:
-    confirm: Bạn có chắc bạn muốn xóa ** {{hub}} **? Hành động này là không thể đảo ngược. Tất cả các máy chủ được kết nối, mời và dữ liệu tin nhắn sẽ bị xóa khỏi trung tâm này.
+    confirm: Bạn có chắc bạn muốn xóa **{{hub}}**? Hành động này là không thể đảo ngược. Tất cả các máy chủ được kết nối, mời và dữ liệu tin nhắn sẽ bị xóa khỏi trung tâm này.
     ownerOnly: '{{{emoji}}} Chỉ chủ sở hữu của trung tâm này mới có thể xóa nó.'
-    success: '{{{emoji}}} Hub ** {{hub}} ** đã bị xóa.'
+    success: '{{{emoji}}} Hub **{{hub}}** đã bị xóa.'
     cancelled: '{{{emoji}}} Xóa Hub đã bị hủy.'
   browse:
     joinConfirm: |-
       Bạn có chắc chắn bạn muốn tham gia {{hub}} từ {{{channel}}}? 
           
-       ** Lưu ý: ** Bạn luôn có thể thay đổi điều này sau bằng cách sử dụng `/Connection`.
+       **Lưu ý:** Bạn luôn có thể thay đổi điều này sau bằng cách sử dụng `/Connection`.
     joinFooter: Bạn muốn sử dụng một kênh khác? Sử dụng thả xuống dưới đây.
     noHubs: '{{{emoji}}} Không có trung tâm được liệt kê ở đây vào lúc này. Vui lòng thử lại sau!'
     rating:
@@ -233,39 +233,39 @@ hub:
 
          Lời mời của bạn đã được tạo thành công. Những người khác bây giờ có thể tham gia trung tâm này bằng cách sử dụng lệnh `/trung tâm tham gia`. 
 
-         - ** Tham gia bằng cách sử dụng: ** `/Hub Tham gia Mời: {{inviteCode}}` 
-         - ** Xem lời mời: ** `/Hub mời danh sách` 
-         - ** Hết hạn: ** {{{expiry}}} 
-         - ** Sử dụng **: ∞ 
+         - **Tham gia bằng cách sử dụng:** `/Hub Tham gia Mời: {{inviteCode}}` 
+         - **Xem lời mời:** `/Hub mời danh sách` 
+         - **Hết hạn:** {{{expiry}}} 
+         - **Sử dụng**: ∞ 
 
          __Learn Thêm về các trung tâm trong [Hướng dẫn] của chúng tôi ({{{docs_link}}}) .__.
     revoke:
       invalidCode: '{{{emoji}} Mã mời không hợp lệ. Vui lòng đảm bảo rằng bạn đã nhập mã mời hợp lệ.'
       success: '{{{emoji}}} Mời {{inviteCode}} bị thu hồi.'
     list:
-      title: '** Mã mời: **'
+      title: '**Mã mời:**'
       noInvites: '{{{emoji}}} Trung tâm này chưa có lời mời. Sử dụng `/Hub Mời Tạo` để tạo một.'
       notPrivate: '{{{emoji}}} Chỉ có các trung tâm riêng tư mới có thể có lời mời. Sử dụng `/Hub Manage` để làm cho trung tâm này riêng tư.'
   joined:
     noJoinedHubs: '{{{emoji}}} Máy chủ này chưa tham gia bất kỳ trung tâm nào. Sử dụng `/Hub Browse` để xem danh sách các trung tâm.'
-    joinedHubs: Máy chủ này là một phần của ** {{total}} ** Hub (s). Sử dụng `/Hub Rời` để để lại một trung tâm.
+    joinedHubs: Máy chủ này là một phần của **{{total}}** Hub (s). Sử dụng `/Hub Rời` để để lại một trung tâm.
   leave:
     noHub: '{{{emoji}}} Kênh đó không hợp lệ hoặc chưa tham gia bất kỳ trung tâm nào.'
-    confirm: Bạn có chắc chắn bạn muốn rời khỏi ** {{hub}} ** từ {{{channel}}}? Không còn tin nhắn sẽ được gửi đến máy chủ này từ trung tâm này.
+    confirm: Bạn có chắc chắn bạn muốn rời khỏi **{{hub}}** từ {{{channel}}}? Không còn tin nhắn sẽ được gửi đến máy chủ này từ trung tâm này.
     confirmFooter: Xác nhận bằng cách sử dụng nút bên dưới trong vòng 10 giây.
     success: '{{{emoji}}} rời trung tâm từ {{{channel}}}. Không còn tin nhắn sẽ được gửi đến máy chủ này từ trung tâm này. Bạn có thể tham gia lại bằng cách sử dụng `/Hub tham gia`.'
   moderator:
     noModerators: '{{{emoji}}} Trung tâm này chưa có người điều hành. Sử dụng `/Hub Moderator Thêm` để thêm một.'
     add:
-      success: '{{{emoji}}} ** {{{user}}} ** đã được thêm vào làm người điều hành vị trí ** {{position}} **.'
-      alreadyModerator: '{{{emoji}}} ** {{{user}}} ** đã là người điều hành.'
+      success: '{{{emoji}}} **{{{user}}}** đã được thêm vào làm người điều hành vị trí **{{position}}**.'
+      alreadyModerator: '{{{emoji}}} **{{{user}}}** đã là người điều hành.'
     remove:
-      success: '{{{emoji}}} ** {{{user}}} ** đã bị xóa làm người điều hành.'
-      notModerator: '{{{emoji}}} ** {{{user}}} ** không phải là người điều hành.'
+      success: '{{{emoji}}} **{{{user}}}** đã bị xóa làm người điều hành.'
+      notModerator: '{{{emoji}}} **{{{user}}}** không phải là người điều hành.'
       notOwner: '{{{emoji}}} Chỉ chủ sở hữu của trung tâm này mới có thể xóa trình quản lý.'
     update:
-      success: '{{{emoji}}} ** {{{user}}} ** ''s vị trí đã được cập nhật lên ** {{position}} **.'
-      notModerator: '{{{emoji}}} ** {{{user}}} ** không phải là người điều hành.'
+      success: '{{{emoji}}} **{{{user}}}** ''s vị trí đã được cập nhật lên **{{position}}**.'
+      notModerator: '{{{emoji}}} **{{{user}}}** không phải là người điều hành.'
       notAllowed: '{{{emoji}}} Chỉ người quản lý trung tâm mới có thể cập nhật vị trí của người điều hành.'
       notOwner: '{{{emoji}}} Chỉ chủ sở hữu của trung tâm này mới có thể cập nhật vị trí của người quản lý.'
   manage:
@@ -297,7 +297,7 @@ hub:
         label: Thay đổi biểu ngữ
         description: Thay đổi biểu ngữ của trung tâm này.
     visibility:
-      success: '{{{emoji}}} Hub Tính hiển thị đã thay đổi thành công thành ** {{{visibility}}} **.'
+      success: '{{{emoji}}} Hub Tính hiển thị đã thay đổi thành công thành **{{{visibility}}}**.'
       selects:
         label: Thay đổi khả năng hiển thị
         description: Làm cho trung tâm này công khai hoặc riêng tư.
@@ -348,21 +348,21 @@ report:
   invalidUser: |-
     {{{emoji}}} Tôi không thể tìm thấy người dùng có ID đó. 
 
-     ** Để tìm id người dùng trong mạng: ** 
+     **Để tìm id người dùng trong mạng:** 
      {{{dot}}} Nhấp chuột phải vào một tin nhắn được gửi từ người dùng trong câu hỏi Chọn `Ứng dụng> Thông tin tin nhắn`. Vui lòng kiểm tra lại ID và thử lại.
   invalidServer: |-
     {{{emoji}}} Tôi không thể tìm thấy một máy chủ có ID đó. 
 
-     ** Để tìm ID máy chủ trong mạng: ** 
+     **Để tìm ID máy chủ trong mạng:** 
      {{{dot}}} Nhấp chuột phải vào một tin nhắn được gửi bởi máy chủ trong câu hỏi và chọn `Ứng dụng> Thông tin/báo cáo thông tin '. Vui lòng kiểm tra lại ID và thử lại.
-  submitted: Báo cáo đã gửi. Tham gia ** [Máy chủ hỗ trợ] ({{{support_invite}}}) ** để cập nhật các bản cập nhật trên báo cáo của bạn.
+  submitted: Báo cáo đã gửi. Tham gia **[Máy chủ hỗ trợ]({{{support_invite}}})** để cập nhật các bản cập nhật trên báo cáo của bạn.
   bug:
     title: Báo cáo lỗi
     affected: Các thành phần bị ảnh hưởng
     description: Vui lòng chọn thành phần của bot bạn đang gặp phải.
     submitted: '{{{emoji}}} Báo cáo đã gửi thành công. Tham gia {{{support_command}}} để có thêm chi tiết. Cảm ơn!'
 language:
-  set: Bộ ngôn ngữ! Bây giờ tôi sẽ trả lời bạn trong ** {{{lang}}} **.
+  set: Bộ ngôn ngữ! Bây giờ tôi sẽ trả lời bạn trong **{{{lang}}}**.
 errors:
   messageNotSentOrExpired: '{{{emoji}}} Thông báo này không được gửi trong một trung tâm, đã hết hạn hoặc bạn thiếu quyền để thực hiện hành động này.'
   notYourAction: '{{{emoji}}} Xin lỗi, bạn không thể thực hiện hành động này. Vui lòng tự chạy lệnh.'
@@ -372,22 +372,22 @@ errors:
      `` `JS 
      {{{error}}} 
      `` `
-  mustVote: Xin vui lòng [bỏ phiếu] (https://top.gg/bot/769921109209907241/vote) để giao thoa sử dụng lệnh này, sự hỗ trợ của bạn được đánh giá rất cao!
+  mustVote: Xin vui lòng [bỏ phiếu](https://top.gg/bot/769921109209907241/vote) để giao thoa sử dụng lệnh này, sự hỗ trợ của bạn được đánh giá rất cao!
   inviteLinks: '{{{emoji}}} Không quảng cáo hoặc quảng bá máy chủ trong mạng. Thay vào đó, hãy đặt một lời mời trong `/Connection`!'
   invalidLangCode: '{{{emoji}}} Mã ngôn ngữ không hợp lệ. Vui lòng đảm bảo rằng bạn đã nhập một [mã ngôn ngữ] chính xác (https://cloud.google.com/translate/docs/l lý ngôn).'
   unknownServer: '{{{emoji}}} Máy chủ không xác định. Vui lòng đảm bảo rằng bạn đã nhập ID máy chủ chính xác.'
   unknownNetworkMessage: '{{{emoji}}} Thông báo không xác định. Nếu nó đã được gửi trong phút qua, xin vui lòng đợi thêm vài giây và thử lại.'
   userNotFound: '{{{emoji}}} Người dùng không tìm thấy. Hãy thử nhập ID của họ thay thế.'
   blacklisted: '{{{emoji}}} Bạn hoặc máy chủ này bị đưa vào danh sách đen từ việc sử dụng giao thoa.'
-  userBlacklisted: '{{{emoji}}} Bạn được đưa vào danh sách đen từ ** {{hub}} **.'
-  serverBlacklisted: '{{{emoji}}} Máy chủ này được đưa vào danh sách đen từ ** {{hub}} **.'
+  userBlacklisted: '{{{emoji}}} Bạn được đưa vào danh sách đen từ **{{hub}}**.'
+  serverBlacklisted: '{{{emoji}}} Máy chủ này được đưa vào danh sách đen từ **{{hub}}**.'
   serverNotBlacklisted: '{{{emoji}}} Máy chủ được nhập không được đưa vào danh sách đen.'
   userNotBlacklisted: '{{{emoji}}} Người dùng được nhập không bị liệt vào danh sách đen.'
   missingPermissions: '{{{emoji}}} Bạn đang thiếu các quyền sau để thực hiện hành động này: ** {{{Pernic'
   botMissingPermissions: '{ul'
   unknown: '{{{emoji}}} Đã xảy ra lỗi không xác định. Vui lòng thử lại sau hoặc liên hệ với chúng tôi bằng cách tham gia [máy chủ hỗ trợ] của chúng tôi ({{{support_invite}}}).'
   notUsable: '{{{emoji}}} Điều này không còn có thể sử dụng được.'
-  cooldown: '{{{emoji}}} Bạn đang trên thời gian hồi chiêu. Vui lòng đợi ** {{{time}}} ** trước khi thử lại.'
+  cooldown: '{{{emoji}}} Bạn đang trên thời gian hồi chiêu. Vui lòng đợi **{{{time}}}** trước khi thử lại.'
 misc:
   noReason: Không có lý do được cung cấp.
   noDesc: Không có mô tả.

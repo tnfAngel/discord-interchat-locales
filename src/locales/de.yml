@@ -1,13 +1,13 @@
 rules: |-
   ### 📜 Austausch -Netzwerkregeln 
 
-   1. ** Verwenden Sie den gesunden Menschenverstand: ** Rücksicht auf andere und ihre Ansichten. Keine Unschärfe, extreme abfällige Sprache oder Aktionen, die den Komfort des Chats stören können. 
-   2. ** Kein Spamm oder Überschwemmung: ** Vermeiden Sie wiederholte, unsinnige oder übermäßig lange Nachrichten. 
-   3. ** Halten Sie private Angelegenheiten privat: ** Vermeiden Sie es, persönliche Informationen im gesamten Netzwerk zu teilen. 
-   4. ** Keine Belästigung: ** Trolling, Beleidigungen oder Belästigungen jeglicher Art werden nicht toleriert. 
-   5. ** Kein NSFW/NSFL -Inhalt: ** Das Posten eines expliziten NSFW/NSFL -Inhalts führt zu einer sofortigen Blacklist. 
-   6. ** Respektieren sensible Themen: ** Trivialisieren Sie keine Selbstverletzung, Selbstmord, Gewalt oder andere offensive Themen. 
-   7. ** Bedenken hinsichtlich: ** Wenn Sie einen Verstoß gegen diese Regeln beobachten, melden Sie sie für weitere Maßnahmen dem entsprechenden Hub -Moderator oder dem Austauschpersonal. 
+   1. **Verwenden Sie den gesunden Menschenverstand:** Rücksicht auf andere und ihre Ansichten. Keine Unschärfe, extreme abfällige Sprache oder Aktionen, die den Komfort des Chats stören können. 
+   2. **Kein Spamm oder Überschwemmung:** Vermeiden Sie wiederholte, unsinnige oder übermäßig lange Nachrichten. 
+   3. **Halten Sie private Angelegenheiten privat:** Vermeiden Sie es, persönliche Informationen im gesamten Netzwerk zu teilen. 
+   4. **Keine Belästigung:** Trolling, Beleidigungen oder Belästigungen jeglicher Art werden nicht toleriert. 
+   5. **Kein NSFW/NSFL -Inhalt:** Das Posten eines expliziten NSFW/NSFL -Inhalts führt zu einer sofortigen Blacklist. 
+   6. **Respektieren sensible Themen:** Trivialisieren Sie keine Selbstverletzung, Selbstmord, Gewalt oder andere offensive Themen. 
+   7. **Bedenken hinsichtlich:** Wenn Sie einen Verstoß gegen diese Regeln beobachten, melden Sie sie für weitere Maßnahmen dem entsprechenden Hub -Moderator oder dem Austauschpersonal. 
 
    Irgendwelche Fragen? Schließen Sie sich unserem [Support Server] bei ({{{support_invite}}}).
 vote: |-
@@ -22,12 +22,12 @@ vote: |-
    Wir schätzen Ihre unerschütterliche Unterstützung zutiefst. Danke schön! 🙏
 network:
   accountTooNew: '{{{emoji}}} {{{user}}} Ihr Konto ist zu neu, um Nachrichten mit dem Austausch zu senden. Bitte versuchen Sie es später erneut.'
-  deleteSuccess: '{{{emoji}}} Nachricht von {{{user}}} wurde aus __ ** {{deleted}}/{{total}} ** __ -Server gelöscht.'
-  editSuccess: '{{{emoji}}} Nachricht von {{{user}}} wurde in __ ** {{edited}}/{{total}} ** __ -Server bearbeitet.'
+  deleteSuccess: '{{{emoji}}} Nachricht von {{{user}}} wurde aus __**{{deleted}}/{{total}}**__ -Server gelöscht.'
+  editSuccess: '{{{emoji}}} Nachricht von {{{user}}} wurde in __**{{edited}}/{{total}}**__ -Server bearbeitet.'
   welcome: |-
-    {{{user}}} Willkommen bei ** {{hub}} **! {{{emoji}}} 
+    {{{user}}} Willkommen bei **{{hub}}**! {{{emoji}}} 
 
-     Nachrichten, die in {{{channel}}} gesendet werden, werden mit anderen Servern gemeinsam genutzt, ** Aktivieren müheloser Kommunikation **. Sie können Bilder, GIFs, antworten, reagieren und interagieren mit Nachrichten, wie Sie es normalerweise tun würden. Denken Sie nur daran, persönliche Informationen zu teilen (prüfen Sie, ob Sie {{{rules_command}}} für mehr). Bereit ein Springen? Senden Sie Ihre erste Nachricht und schließen Sie sich dem Gespräch an!
+     Nachrichten, die in {{{channel}}} gesendet werden, werden mit anderen Servern gemeinsam genutzt, **Aktivieren müheloser Kommunikation**. Sie können Bilder, GIFs, antworten, reagieren und interagieren mit Nachrichten, wie Sie es normalerweise tun würden. Denken Sie nur daran, persönliche Informationen zu teilen (prüfen Sie, ob Sie {{{rules_command}}} für mehr). Bereit ein Springen? Senden Sie Ihre erste Nachricht und schließen Sie sich dem Gespräch an!
   nsfw:
     title: NSFW erkannt
     description: Ich habe {{predictions}} NSFW (nicht sicher für die Arbeit) in Ihrer Nachricht festgestellt. Bitte beachten Sie, dass dies gegen unsere {{{rules_command}}} ist und zu einer sofortigen Blacklist führt.
@@ -38,7 +38,7 @@ network:
       description: |-
         Um die Dinge organisiert zu halten, wird empfohlen, einen separaten Kanal für diesen Hub zu verwenden. Aber keine Sorge, Sie können dies immer später ändern. 
 
-         ** Wie es funktioniert: ** Das Austauschnetzwerk ist wie eine magische Brücke, die Kanäle auf verschiedenen Servern verknüpft, die in diesem Hub bei uns sind. Erfahren Sie mehr unter unserem [Handbuch] ({{{docs_link}}}).
+         **Wie es funktioniert:** Das Austauschnetzwerk ist wie eine magische Brücke, die Kanäle auf verschiedenen Servern verknüpft, die in diesem Hub bei uns sind. Erfahren Sie mehr unter unserem [Handbuch]({{{docs_link}}}).
       footer: Austausch -Netzwerk | Version {{version}}
     inProgress: Es gab bereits einen Versuch, sich einem Hub von {{{channel}}} anzuschließen. Bitte stornieren Sie es oder warten Sie, bis es abgeschlossen ist.
 blacklist:
@@ -53,27 +53,27 @@ blacklist:
       label: Dauer
       placeholder: 'Dauer der schwarzen Liste. ZB: 1d, 1W, 1m, 1y. Lassen Sie dauerhaft leer.'
   user:
-    success: '{{{emoji}}} ** {{username}} ** wurde erfolgreich auf die schwarze Liste gesetzt!'
-    removed: '{{{emoji}}} ** {{username}} ** wurde aus der Blacklist entfernt!'
+    success: '{{{emoji}}} **{{username}}** wurde erfolgreich auf die schwarze Liste gesetzt!'
+    removed: '{{{emoji}}} **{{username}}** wurde aus der Blacklist entfernt!'
     alreadyBlacklisted: '{{{emoji}}} Dieser Benutzer ist bereits auf die schwarze Liste.'
     easterEggs:
       blacklistBot: Sie können mich nicht schwarzlistet wtf.
   server:
-    success: '{{{emoji}}} ** {{server}} ** wurde erfolgreich auf die schwarze Liste gesetzt!'
-    removed: '{{{emoji}}} ** {{server}} ** wurde aus der Blacklist entfernt!'
+    success: '{{{emoji}}} **{{server}}** wurde erfolgreich auf die schwarze Liste gesetzt!'
+    removed: '{{{emoji}}} **{{server}}** wurde aus der Blacklist entfernt!'
     alreadyBlacklisted: '{{{emoji}}} Dieser Server ist bereits auf die schwarze Liste.'
-    unknownError: Fehlgeschlagene Blacklist ** {{server}} **. Fragen Sie bei den Entwicklern nach weiteren Informationen.
+    unknownError: Fehlgeschlagene Blacklist **{{server}}**. Fragen Sie bei den Entwicklern nach weiteren Informationen.
   list:
     user: |-
-      ** userId: ** {{userId}} 
-       ** Moderator: ** {{moderator}} 
-       ** Grund: ** {{{reason}}} 
-       ** läuft ab: ** {{expires}}
+      **userId:** {{userId}} 
+       **Moderator:** {{moderator}} 
+       **Grund:** {{{reason}}} 
+       **läuft ab:** {{expires}}
     server: |-
-      ** serverid: ** {{serverId}} 
-       ** Moderator: ** {{moderator}} 
-       ** Grund: ** {{{reason}}} 
-       ** läuft ab: ** {{{expires}}}
+      **serverid:** {{serverId}} 
+       **Moderator:** {{moderator}} 
+       **Grund:** {{{reason}}} 
+       **läuft ab:** {{{expires}}}
 msgInfo:
   buttons:
     message: Nachrichteninformationen
@@ -93,10 +93,10 @@ msgInfo:
        **Nachrichten ID:** 
        __{{messageId}}__ 
 
-       ** gesendet (Hub): ** 
+       **gesendet (Hub):** 
        __{{{hub}}}__ 
 
-       ** Message erstellt: ** 
+       **Message erstellt:** 
        {{{createdAt}}}
   server:
     description: |-
@@ -106,11 +106,11 @@ msgInfo:
        **Eigentümer:** 
        __{{{owner}}}__ 
 
-       ** Erstellt: ** 
+       **Erstellt:** 
        __ oder 
 
-       ** Mitgliederzahl: ** 
-       __ {{{createdAtFull}}} __ 
+       **Mitgliederzahl:** 
+       __{{{createdAtFull}}}__ 
 
        **Einladen:** 
        __{{{createdAt}}}__
@@ -122,28 +122,28 @@ msgInfo:
        **AUSWEIS:** 
        __{{id}}__ 
 
-       ** Erstellt: ** 
+       **Erstellt:** 
        {{{createdAtFull}}} ({{{createdAt}}}) 
 
        **Anzeigename:** 
-       __ {{{globalName}}} __ 
+       __{{{globalName}}}__ 
 
-       ** Hubs im Besitz: ** 
-       __ {{hubsOwned}} __
+       **Hubs im Besitz:** 
+       __{{hubsOwned}}__
   report:
     notEnabled: '{{{emoji}}} Die Berichterstattung ist für diesen Hub nicht aktiviert.'
     success: '{{{emoji}}} Bericht erfolgreich eingereicht. Danke schön!'
 invite: |-
   Vielen Dank, dass Sie sich dafür entschieden haben, den Austausch einzuladen. Klicken Sie einfach auf die Schaltfläche unten, um mich einzuladen! 
 
-   - ** Support Server: ** {{{support}}}
+   - **Support Server:** {{{support}}}
 connection:
   notFound: '{{{emoji}}} Ungültige Verbindung. Überprüfen Sie die Kanal -ID oder wählen Sie aus den angezeigten Optionen.'
   channelNotFound: '{{{emoji}}} kann einen vernetzten Kanal nicht finden. Um erneut zu sprechen, wählen Sie einen neuen Kanal.'
   alreadyConnected: '{{{emoji}}} Kanal {{{channel}}} ist bereits mit einem Hub verbunden.'
   switchChannel: '{{{emoji}}} Wählen Sie einen Kanal aus, um das unten stehende Menü auszuwählen:'
   switchCalled: '{{{emoji}}} Kanalschalter aufgerufen, verwenden Sie den Befehl erneut, um eine neue Verbindung anzuzeigen.'
-  switchSuccess: '{{{emoji}}} Kanal umgeschaltet. Sie sind jetzt mit ** {{{channel}}} ** verbunden.'
+  switchSuccess: '{{{emoji}}} Kanal umgeschaltet. Sie sind jetzt mit **{{{channel}}}** verbunden.'
   inviteRemoved: '{{{emoji}}} Server Einladung für diesen Hub entfernt.'
   inviteInvalid: '{{{emoji}}} Ungültige Einladung. Bitte stellen Sie sicher, dass Sie einen gültigen Einladungslink eingegeben haben.'
   inviteAdded: '{{{emoji}}} einladen hinzugefügt. Andere können diesen Server nun mit `Apps> Message Info/Report''s -Befehl beitreten.'
@@ -166,15 +166,15 @@ connection:
 hub:
   notFound: '{{{emoji}}} kann Hub nicht finden. Bitte stellen Sie sicher, dass Sie den richtigen Hub -Namen eingegeben haben.'
   notFound_mod: '{{{emoji}}} kann Hub nicht finden. Bitte stellen Sie sicher, dass Sie den richtigen Hub -Namen eingegeben haben und dass Sie der Eigentümer oder ein Moderator des Hubs sind.'
-  alreadyJoined: '{{{emoji}}} Sie haben sich bereits angeschlossen ** {{hub}} ** von {{{channel}}}!'
+  alreadyJoined: '{{{emoji}}} Sie haben sich bereits angeschlossen **{{hub}}** von {{{channel}}}!'
   invalidChannel: '{{{emoji}}} Ungültiger Kanal. Es werden nur Text- und Thread -Kanäle unterstützt!'
   invalidImgurUrl: '{{{emoji}}} Ungültige Bild -URL für Symbol oder Banner. Bitte stellen Sie sicher, dass Sie eine gültige IMGUR -Bild -URL eingegeben haben, die keine Galerie oder ein Album ist.'
   join:
-    success: Erfolgreich beigetreten Hub ** {{hub}} ** von {{{channel}}}! Verwenden Sie , um Ihre Verbindung zu verwalten. Und `/Hub Leave`, um den Hub zu verlassen.
+    success: Erfolgreich beigetreten Hub **{{hub}}** von {{{channel}}}! Verwenden Sie , um Ihre Verbindung zu verwalten. Und `/Hub Leave`, um den Hub zu verlassen.
   servers:
-    total: 'Aktuelle verbundene Server: {{from}}-{{to}} / ** {{total}} **'
+    total: 'Aktuelle verbundene Server: {{from}}-{{to}} / **{{total}}**'
     noConnections: '{{{emoji}}} Kein Server hat sich dieser Hub noch angeschlossen. Verwenden Sie `/Hub Join`, um diesem Hub beizutreten.'
-    notConnected: '{{{emoji}}} Dieser Server ist kein Teil von ** {{hub}} **.'
+    notConnected: '{{{emoji}}} Dieser Server ist kein Teil von **{{hub}}**.'
     connectionInfo: |-
       Kanal: #{{{channelName}}} `({{channelId}})` 
        Verbinden bei: {{{joinedAt}}} 
@@ -201,26 +201,26 @@ hub:
     success: |-
       ### Hub erstellt! 
 
-       Glückwunsch! Ihr privater Hub, ** {{name}} **, wurde erfolgreich erstellt. 
+       Glückwunsch! Ihr privater Hub, **{{name}}**, wurde erfolgreich erstellt. 
        Erstellen Sie eine Einladung mit `/Hub eingeladener Erstellung create` und teilen Sie den generierten Code. Dann beitreten Sie mit `/Hub Join`. 
 
-       - ** Erstellen Sie Einladung: ** `/Hub einladung create`` 
-       - ** Gehen Sie öffentlich: ** `/Hub Manage` 
-       - ** Join Hub: ** `/Hub Join`` 
-       - ** Hub bearbeiten: ** `/Hub Manager" 
-       - ** Moderatoren hinzufügen: ** `/Hub Moderator add` add` 
+       - **Erstellen Sie Einladung:** `/Hub einladung create`` 
+       - **Gehen Sie öffentlich:** `/Hub Manage` 
+       - **Join Hub:** `/Hub Join`` 
+       - **Hub bearbeiten:** `/Hub Manager" 
+       - **Moderatoren hinzufügen:** `/Hub Moderator add` add` 
 
-       Erfahren Sie mehr über Hubs in unserem [Handbuch] ({{{docs_link}}}). Schließen Sie sich für Hilfe mit dem [Support Server] ({{{support_invite}}}) bei.
+       Erfahren Sie mehr über Hubs in unserem [Handbuch]({{{docs_link}}}). Schließen Sie sich für Hilfe mit dem [Support Server]({{{support_invite}}}) bei.
   delete:
-    confirm: Sind Sie sicher, dass Sie ** {{hub}} ** löschen möchten? Diese Aktion ist irreversibel. Alle angeschlossenen Server, Einladungen und Nachrichtendaten werden aus diesem Hub entfernt.
+    confirm: Sind Sie sicher, dass Sie **{{hub}}** löschen möchten? Diese Aktion ist irreversibel. Alle angeschlossenen Server, Einladungen und Nachrichtendaten werden aus diesem Hub entfernt.
     ownerOnly: '{{{emoji}}} Nur der Besitzer dieses Hubs kann es löschen.'
-    success: '{{{emoji}}} Hub ** {{hub}} ** wurde gelöscht.'
+    success: '{{{emoji}}} Hub **{{hub}}** wurde gelöscht.'
     cancelled: '{{{emoji}}} Hub -Deletion wurde abgebrochen.'
   browse:
     joinConfirm: |-
       Sind Sie sicher, dass Sie {{hub}} von {{{channel}}} beitreten möchten? 
           
-       ** HINWEIS: ** Sie können dies immer später mit `/connection` ändern.
+       **HINWEIS:** Sie können dies immer später mit `/connection` ändern.
     joinFooter: Möchten Sie einen anderen Kanal verwenden? Verwenden Sie den Dropdown unten.
     noHubs: '{{{emoji}}} Es sind momentan keine Hubs aufgeführt. Bitte versuchen Sie es später noch einmal!'
     rating:
@@ -233,39 +233,39 @@ hub:
 
          Ihre Einladung wurde erfolgreich erstellt. Andere können sich jetzt mit dem Befehl {{inviteCode}} an diesem Hub beitreten. 
 
-         - ** Join mit: ** `/Hub Join Einladung: {{{expiry}}}` 
-         - ** Ansicht Einladungen: ** `/HUB einladen list`` 
-         - ** Ablauf: ** {{{docs_link}}} 
-         - ** verwendet **: ∞ 
+         - **Join mit:** `/Hub Join Einladung: {{{expiry}}}` 
+         - **Ansicht Einladungen:** `/HUB einladen list`` 
+         - **Ablauf:** {{{docs_link}}} 
+         - **verwendet**: ∞ 
 
-         __Learn mehr über Hubs in unserem [Handbuch] () .__.
+         __Learn mehr über Hubs in unserem [Handbuch]() .__.
     revoke:
       invalidCode: '{{{emoji}} Ungültiger Einladungscode. Bitte stellen Sie sicher, dass Sie einen gültigen Einladungscode eingegeben haben.'
       success: '{{{emoji}}} invite {{inviteCode}} Revoked.'
     list:
-      title: '** Codes einladen: **'
+      title: '**Codes einladen:**'
       noInvites: '{{{emoji}}} Dieser Hub hat noch keine Einladungen. Verwenden Sie `/Hub eingeladen erstellen", um einen zu erstellen.'
       notPrivate: '{{{emoji}}} Nur private Hubs können Einladungen haben. Verwenden Sie , um diesen Hub privat zu machen.'
   joined:
     noJoinedHubs: '{{{emoji}}} Dieser Server hat noch keine Hubs beigetreten. Verwenden Sie , um eine Liste von Hubs anzuzeigen.'
-    joinedHubs: Dieser Server ist Teil von ** {{total}} ** Hub (s). Verwenden Sie , um einen Hub zu hinterlassen.
+    joinedHubs: Dieser Server ist Teil von **{{total}}** Hub (s). Verwenden Sie , um einen Hub zu hinterlassen.
   leave:
     noHub: '{{{emoji}}} Dieser Kanal ist ungültig oder hat keine Hubs beigetreten.'
-    confirm: Sind Sie sicher, dass Sie ** {{hub}} ** von {{{channel}}} verlassen möchten? Von diesem Hub werden keine Nachrichten mehr an diesen Server gesendet.
+    confirm: Sind Sie sicher, dass Sie **{{hub}}** von {{{channel}}} verlassen möchten? Von diesem Hub werden keine Nachrichten mehr an diesen Server gesendet.
     confirmFooter: Bestätigen Sie mit der Schaltfläche unten innerhalb von 10 Sekunden.
     success: '{{{emoji}}} hat den Hub von {{{channel}}} verlassen. Von diesem Hub werden keine Nachrichten mehr an diesen Server gesendet. Sie können sich mit  wieder anschließen.'
   moderator:
     noModerators: '{{{emoji}}} Dieser Hub hat noch keine Moderatoren. Verwenden Sie `/Hub Moderator add", um einen hinzuzufügen.'
     add:
-      success: '{{{emoji}}} ** {{{user}}} ** wurde als Moderator der Position ** {{position}} ** hinzugefügt.'
-      alreadyModerator: '{{{emoji}}} ** {{{user}}} ** ist bereits ein Moderator.'
+      success: '{{{emoji}}} **{{{user}}}** wurde als Moderator der Position **{{position}}** hinzugefügt.'
+      alreadyModerator: '{{{emoji}}} **{{{user}}}** ist bereits ein Moderator.'
     remove:
-      success: '{{{emoji}}} ** {{{user}}} ** wurde als Moderator entfernt.'
-      notModerator: '{{{emoji}}} ** {{{user}}} ** ist kein Moderator.'
+      success: '{{{emoji}}} **{{{user}}}** wurde als Moderator entfernt.'
+      notModerator: '{{{emoji}}} **{{{user}}}** ist kein Moderator.'
       notOwner: '{{{emoji}}} Nur der Besitzer dieses Hubs kann einen Manager entfernen.'
     update:
-      success: '{{{emoji}}} ** {{{user}}} ** ''S Position wurde auf ** {{position}} ** aktualisiert.'
-      notModerator: '{{{emoji}}} ** {{{user}}} ** ist kein Moderator.'
+      success: '{{{emoji}}} **{{{user}}}** ''S Position wurde auf **{{position}}** aktualisiert.'
+      notModerator: '{{{emoji}}} **{{{user}}}** ist kein Moderator.'
       notAllowed: '{{{emoji}}} Nur Hub -Manager können die Position eines Moderators aktualisieren.'
       notOwner: '{{{emoji}}} Nur der Eigentümer dieses Hubs kann die Position eines Managers aktualisieren.'
   manage:
@@ -297,7 +297,7 @@ hub:
         label: Banner ändern
         description: Ändern Sie das Banner dieses Hubs.
     visibility:
-      success: '{{{emoji}}} Hub -Sichtbarkeit wurde erfolgreich in ** {{{visibility}}} ** geändert.'
+      success: '{{{emoji}}} Hub -Sichtbarkeit wurde erfolgreich in **{{{visibility}}}** geändert.'
       selects:
         label: Sichtbarkeit ändern
         description: Machen Sie diesen Hub öffentlich oder privat.
@@ -348,46 +348,46 @@ report:
   invalidUser: |-
     {{{emoji}}} Ich konnte keinen Benutzer mit dieser ID finden. 
 
-     ** Um die ID eines Benutzers im Netzwerk zu finden: ** 
+     **Um die ID eines Benutzers im Netzwerk zu finden:** 
      {{{dot}}} Klicken Sie mit der rechten Maustaste auf eine Nachricht, die vom in Frage gestellten Benutzer gesendet wurde. Bitte überprüfen Sie die ID und versuchen Sie es erneut.
   invalidServer: |-
     {{{emoji}}} Ich konnte keinen Server mit dieser ID finden. 
 
-     ** Um eine Server -ID im Netzwerk zu finden: ** 
+     **Um eine Server -ID im Netzwerk zu finden:** 
      oder Bitte überprüfen Sie die ID und versuchen Sie es erneut.
-  submitted: Bericht eingereicht. Schließen Sie sich dem ** [Support Server] ({{{support_invite}}}) ** bei, um Aktualisierungen in Ihrem Bericht zu erhalten.
+  submitted: Bericht eingereicht. Schließen Sie sich dem **[Support Server]({{{support_invite}}})** bei, um Aktualisierungen in Ihrem Bericht zu erhalten.
   bug:
     title: Fehlerbericht
     affected: Betroffene Komponenten
     description: Bitte wählen Sie aus, mit welcher Komponente des Bots Sie Probleme haben.
     submitted: '{{{emoji}}} Bericht erfolgreich eingereicht. Schließen Sie sich dem {{{support_command}}} bei, um weitere Details zu erhalten. Danke schön!'
 language:
-  set: Sprachsatz! Ich werde jetzt auf Sie in ** {{{lang}}} ** antworten.
+  set: Sprachsatz! Ich werde jetzt auf Sie in **{{{lang}}}** antworten.
 errors:
   messageNotSentOrExpired: '{{{emoji}}} Diese Nachricht wurde nicht in einem Hub gesendet, ist abgelaufen, oder es fehlt Ihnen die Berechtigungen, diese Aktion auszuführen.'
   notYourAction: '{{{emoji}}} sorry, Sie können diese Aktion nicht ausführen. Bitte führen Sie den Befehl selbst aus.'
   notMessageAuthor: '{{{emoji}}} Sie sind nicht der Autor dieser Nachricht.'
   commandError: |-
-    {{{emoji}}} Es ist ein Fehler beim Ausführen dieses Befehls aufgetreten. Es wurde an unserem System angemeldet. Wenn dieses Problem bestehen bleibt, nehmen Sie bitte an unserem [Support Server] ({{{support_invite}}}) teil und melden Sie es! 
+    {{{emoji}}} Es ist ein Fehler beim Ausführen dieses Befehls aufgetreten. Es wurde an unserem System angemeldet. Wenn dieses Problem bestehen bleibt, nehmen Sie bitte an unserem [Support Server]({{{support_invite}}}) teil und melden Sie es! 
      `` `js 
      {{{error}}} 
      `` `
-  mustVote: Bitte [Abstimmung] (https://top.gg/bot/769921109209907241/vote) für den Austausch, um diesen Befehl zu verwenden. Ihre Unterstützung wird sehr geschätzt!
+  mustVote: Bitte [Abstimmung](https://top.gg/bot/769921109209907241/vote) für den Austausch, um diesen Befehl zu verwenden. Ihre Unterstützung wird sehr geschätzt!
   inviteLinks: '{{{emoji}}} werben oder bewerben Sie Server im Netzwerk nicht. Stellen Sie stattdessen eine Einladung in  ein!'
   invalidLangCode: '{{{emoji}}} Ungültiger Sprachcode. Bitte stellen Sie sicher, dass Sie einen korrekten [Sprachcode] eingegeben haben (https://cloud.google.com/translate/docs/glanguages).'
   unknownServer: '{{{emoji}}} Unbekannter Server. Bitte stellen Sie sicher, dass Sie die richtige Server -ID eingegeben haben.'
   unknownNetworkMessage: '{{{emoji}}} Unbekannte Nachricht. Wenn es in der vergangenen Minute gesendet wurde, warten Sie bitte noch einige Sekunden und versuchen Sie es erneut.'
   userNotFound: '{{{emoji}}} Benutzer nicht gefunden. Versuchen Sie stattdessen ihre ID eingeben.'
   blacklisted: '{{{emoji}}} Sie oder dieser Server wird von der Verwendung des Austauschs schwarzlistet.'
-  userBlacklisted: '{{{emoji}}} Sie sind auf schwarze Liste aus ** {{hub}} **.'
-  serverBlacklisted: '{{{emoji}}} Dieser Server ist auf die schwarze Liste aus ** {{hub}} **.'
+  userBlacklisted: '{{{emoji}}} Sie sind auf schwarze Liste aus **{{hub}}**.'
+  serverBlacklisted: '{{{emoji}}} Dieser Server ist auf die schwarze Liste aus **{{hub}}**.'
   serverNotBlacklisted: '{{{emoji}}} Der eingegebene Server ist nicht auf die schwarze Liste.'
   userNotBlacklisted: '{{{emoji}}} Der eingegebene Benutzer ist nicht auf die schwarze Liste.'
   missingPermissions: '{oder'
-  botMissingPermissions: '{{{emoji}}} Bitte geben Sie mir die folgenden Berechtigungen, um fortzufahren: ** {{{permissions}}} **'
-  unknown: '{{{emoji}}} Es ist ein unbekannter Fehler aufgetreten. Bitte versuchen Sie es später noch einmal oder kontaktieren Sie uns, indem Sie sich unserem [Support Server] ({{{support_invite}}}) anschließen.'
+  botMissingPermissions: '{{{emoji}}} Bitte geben Sie mir die folgenden Berechtigungen, um fortzufahren: **{{{permissions}}}**'
+  unknown: '{{{emoji}}} Es ist ein unbekannter Fehler aufgetreten. Bitte versuchen Sie es später noch einmal oder kontaktieren Sie uns, indem Sie sich unserem [Support Server]({{{support_invite}}}) anschließen.'
   notUsable: '{{{emoji}}} Dies ist nicht mehr verwendbar.'
-  cooldown: '{{{emoji}}} Sie sind in Abklingzeit. Bitte warten Sie ** {{{time}}} **, bevor Sie erneut versuchen.'
+  cooldown: '{{{emoji}}} Sie sind in Abklingzeit. Bitte warten Sie **{{{time}}}**, bevor Sie erneut versuchen.'
 misc:
   noReason: Kein Grund dafür.
   noDesc: Keine Beschreibung.

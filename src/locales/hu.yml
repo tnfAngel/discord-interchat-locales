@@ -1,15 +1,15 @@
 rules: |-
   ### 📜 InterChat hálózati szabályok 
 
-   1. ** Használjon józan ész: ** Legyen figyelmes másokkal és véleményükkel. Nincsenek zavarok, szélsőséges megsemmisítő nyelv vagy olyan cselekedetek, amelyek megzavarhatják a csevegés kényelmét. 
-   2. ** Nincs spam vagy árvíz: ** Kerülje az ismételt, értelmetlen vagy túlságosan hosszú üzeneteket. 
-   3. ** Tartsa magántulajdonban lévő magánügyeket: ** Kerülje el a személyes adatok megosztását a hálózaton keresztül. 
-   4. ** Nincs zaklatás: ** Trolling, sértések vagy bármilyen zaklatás nem tolerálható. 
-   5. ** Nincs NSFW/NSFL tartalom: ** Az explicit NSFW/NSFL tartalom közzététele azonnali feketelistát eredményez. 
-   6. ** Az érzékeny témák tiszteletben tartása: ** Ne trivializálja az önkárosodást, az öngyilkosságot, az erőszakot vagy más sértő témákat. 
-   7. ** Jelentéssel kapcsolatos aggodalmak: ** Ha megfigyeli e szabályok megsértését, jelentse azt a megfelelő Hub moderátornak vagy az InterChat munkatársainak a további intézkedések érdekében. 
+   1. **Használjon józan ész:** Legyen figyelmes másokkal és véleményükkel. Nincsenek zavarok, szélsőséges megsemmisítő nyelv vagy olyan cselekedetek, amelyek megzavarhatják a csevegés kényelmét. 
+   2. **Nincs spam vagy árvíz:** Kerülje az ismételt, értelmetlen vagy túlságosan hosszú üzeneteket. 
+   3. **Tartsa magántulajdonban lévő magánügyeket:** Kerülje el a személyes adatok megosztását a hálózaton keresztül. 
+   4. **Nincs zaklatás:** Trolling, sértések vagy bármilyen zaklatás nem tolerálható. 
+   5. **Nincs NSFW/NSFL tartalom:** Az explicit NSFW/NSFL tartalom közzététele azonnali feketelistát eredményez. 
+   6. **Az érzékeny témák tiszteletben tartása:** Ne trivializálja az önkárosodást, az öngyilkosságot, az erőszakot vagy más sértő témákat. 
+   7. **Jelentéssel kapcsolatos aggodalmak:** Ha megfigyeli e szabályok megsértését, jelentse azt a megfelelő Hub moderátornak vagy az InterChat munkatársainak a további intézkedések érdekében. 
 
-   Bármi kérdés? Csatlakozzon a [Support Server] ({{{support_invite}}}).
+   Bármi kérdés? Csatlakozzon a [Support Server]({{{support_invite}}}).
 vote: |-
   ## 🗳️ Szavazzon az InterChat -ra, és élvezze az exkluzív előnyöket 
    Az Ön hozzájárulása felbecsülhetetlen értékű az InterChat pozíciójának emelésére a Top.gg. Minden szavazat jelentős különbséget tesz! 
@@ -22,12 +22,12 @@ vote: |-
    Mélyen értékeljük a megrázkódtathatatlan támogatását. Köszönöm! 🙏
 network:
   accountTooNew: '{{{emoji}}} {{{user}}} A fiókja túl új ahhoz, hogy üzeneteket küldjön az InterChat használatával. Kérlek, próbáld újra később.'
-  deleteSuccess: '{{{emoji}}} A {{{user}}} üzenetet törölték a __ ** {{deleted}}/{{total}} ** __ szerverekről.'
-  editSuccess: '{{{emoji}}} A {{{user}}} üzenetet __ ** {{edited}}/{{total}} ** __ szerverek szerkesztik.'
+  deleteSuccess: '{{{emoji}}} A {{{user}}} üzenetet törölték a __**{{deleted}}/{{total}}**__ szerverekről.'
+  editSuccess: '{{{emoji}}} A {{{user}}} üzenetet __**{{edited}}/{{total}}**__ szerverek szerkesztik.'
   welcome: |-
-    {{{user}}} Üdvözöljük a ** {{hub}} **! {{{emoji}}} 
+    {{{user}}} Üdvözöljük a **{{hub}}**! {{{emoji}}} 
 
-     A {{{channel}}} -ben elküldött üzeneteket megosztják más szerverekkel, ** Az erőfeszítés nélküli kommunikáció engedélyezése **. Megoszthat képeket, GIF -eket, válaszolhat, reagálhat és kölcsönhatásba léphet az üzenetekkel, ahogyan általában. Ne felejtse el, hogy kerülje a személyes adatok megosztását (ellenőrizze a {{{rules_command}}} -t). Készen áll a beugrásra? Küldje el első üzenetét, és csatlakozzon a beszélgetéshez!
+     A {{{channel}}} -ben elküldött üzeneteket megosztják más szerverekkel, **Az erőfeszítés nélküli kommunikáció engedélyezése**. Megoszthat képeket, GIF -eket, válaszolhat, reagálhat és kölcsönhatásba léphet az üzenetekkel, ahogyan általában. Ne felejtse el, hogy kerülje a személyes adatok megosztását (ellenőrizze a {{{rules_command}}} -t). Készen áll a beugrásra? Küldje el első üzenetét, és csatlakozzon a beszélgetéshez!
   nsfw:
     title: NSFW észlelt
     description: Az üzenetben felismertem a {{predictions}} NSFW (nem biztonságos a munkához) tartalmat. Felhívjuk figyelmét, hogy ez ellentétes a {{{rules_command}}}, és azonnali feketelistát eredményez.
@@ -38,7 +38,7 @@ network:
       description: |-
         A dolgok szervezésének megtartása érdekében ajánlott külön csatornát használni erre a hubra. De ne aggódjon, ezt mindig később megváltoztathatja. 
 
-         ** Hogyan működik: ** Az InterChat hálózat olyan, mint egy varázslatos híd, amely összekapcsolja a csatornákat a különböző szerverekhez, amelyek velünk vannak ebben a központban. Tudjon meg többet a [Útmutató] ({{{docs_link}}} oldalon).
+         **Hogyan működik:** Az InterChat hálózat olyan, mint egy varázslatos híd, amely összekapcsolja a csatornákat a különböző szerverekhez, amelyek velünk vannak ebben a központban. Tudjon meg többet a [Útmutató]({{{docs_link}}} oldalon).
       footer: InterChat hálózat | Version {{version}}
     inProgress: Már megpróbálták csatlakozni egy hubhoz a {{{channel}}} -ból. Kérjük, törölje, vagy várja meg, amíg befejeződik.
 blacklist:
@@ -53,27 +53,27 @@ blacklist:
       label: Időtartam
       placeholder: 'A feketelistán lévő időtartam. EG: 1D, 1W, 1M, 1Y. Hagyja üresen az állandó számára.'
   user:
-    success: '{{{emoji}}} ** {{username}} ** sikeresen feketelistára került!'
-    removed: '{{{emoji}}} ** {{username}} ** eltávolították a feketelistáról!'
+    success: '{{{emoji}}} **{{username}}** sikeresen feketelistára került!'
+    removed: '{{{emoji}}} **{{username}}** eltávolították a feketelistáról!'
     alreadyBlacklisted: '{{{emoji}}} Ez a felhasználó már feketelistára került.'
     easterEggs:
       blacklistBot: Nem tudsz feketelistátlistán me wtf.
   server:
-    success: '{{{emoji}}} ** {{server}} ** sikeresen feketelistára került!'
-    removed: '{{{emoji}}} ** {{server}} ** eltávolították a feketelistáról!'
+    success: '{{{emoji}}} **{{server}}** sikeresen feketelistára került!'
+    removed: '{{{emoji}}} **{{server}}** eltávolították a feketelistáról!'
     alreadyBlacklisted: '{{{emoji}}} Ez a kiszolgáló már feketelistára került.'
-    unknownError: Nem sikerült a feketelistán ** {{server}} **. Érdeklődjön a fejlesztőkkel további információkért.
+    unknownError: Nem sikerült a feketelistán **{{server}}**. Érdeklődjön a fejlesztőkkel további információkért.
   list:
     user: |-
-      ** UserID: ** {{userId}} 
-       ** Moderátor: ** {{moderator}} 
-       ** Ok: ** {{{reason}}} 
-       ** Lejár: ** {{expires}}
+      **UserID:** {{userId}} 
+       **Moderátor:** {{moderator}} 
+       **Ok:** {{{reason}}} 
+       **Lejár:** {{expires}}
     server: |-
-      ** ServerID: ** {{serverId}} 
-       ** Moderátor: ** {{moderator}} 
-       ** Ok: ** {{{reason}}} 
-       ** Lejár: ** {{{expires}}}
+      **ServerID:** {{serverId}} 
+       **Moderátor:** {{moderator}} 
+       **Ok:** {{{reason}}} 
+       **Lejár:** {{{expires}}}
 msgInfo:
   buttons:
     message: Üzenetinformáció
@@ -84,19 +84,19 @@ msgInfo:
     description: |-
       ## {{{emoji}}} Üzenetinformáció 
 
-       ** Küldte: ** 
+       **Küldte:** 
        __{{{author}}}__ 
 
-       ** Elküldve: ** 
+       **Elküldve:** 
        __{{{server}}}__ 
 
-       ** Üzenet azonosítója: ** 
-       __ {{messageId}} __ 
+       **Üzenet azonosítója:** 
+       __{{messageId}}__ 
 
-       ** Elküldve (hub): ** 
+       **Elküldve (hub):** 
        __{{{hub}}}__ 
 
-       ** Létrehozott üzenet: ** 
+       **Létrehozott üzenet:** 
        {{{createdAt}}}
   server:
     description: |-
@@ -106,44 +106,44 @@ msgInfo:
        **Tulajdonos:** 
        __{{{owner}}}__ 
 
-       ** Létrehozott: ** 
-       __ {{{createdAtFull}}} ({{{createdAt}}}) __) __ 
+       **Létrehozott:** 
+       __{{{createdAtFull}}} ({{{createdAt}}})__) __ 
 
-       ** Tagszám: ** 
-       __ {{memberCount}} __ 
+       **Tagszám:** 
+       __{{memberCount}}__ 
 
        **Meghív:** 
        __{{{invite}}}__
   user:
     description: |-
       ## {{{username}}} 
-       __ {{{user}}} __ 
+       __{{{user}}}__ 
 
-       ** ID: ** 
-       __ {{id}} __ 
+       **ID:** 
+       __{{id}}__ 
 
-       ** Létrehozott: ** 
+       **Létrehozott:** 
        {{{createdAtFull}}} ({{{createdAt}}}) 
 
        **Megjelenítendő név:** 
-       __ {{{globalName}}} __ 
+       __{{{globalName}}}__ 
 
-       ** Hubs tulajdonában van: ** 
-       __ {{hubsOwned}} __
+       **Hubs tulajdonában van:** 
+       __{{hubsOwned}}__
   report:
     notEnabled: '{{{emoji}}} A jelentést nem engedélyezve ehhez a hubhoz.'
     success: '{{{emoji}}} jelentés sikeresen benyújtva. Köszönöm!'
 invite: |-
   Köszönjük, hogy választotta az InterChat meghívását. Egyszerűen kattintson az alábbi gombra, hogy meghívjon! 
 
-   - ** Támogató szerver: ** {{{support}}}
+   - **Támogató szerver:** {{{support}}}
 connection:
   notFound: '{{{emoji}}} érvénytelen kapcsolat. Ellenőrizze a csatorna azonosítóját, vagy válassza a megjelenített beállítások közül.'
   channelNotFound: '{{{emoji}}} nem találja meg a csatlakoztatott csatornát. Az újbóli beszélgetéshez válasszon egy új csatornát.'
   alreadyConnected: '{{{emoji}}} csatorna {{{channel}}} már csatlakozik egy hubhoz.'
   switchChannel: '{{{emoji}}} Válasszon egy csatornát az alábbi menü használatának váltásához:'
   switchCalled: '{{{emoji}}} Csatorna kapcsoló hívott, a parancsot ismét az új kapcsolat megtekintéséhez használja.'
-  switchSuccess: '{{{emoji}}} csatorna váltott. Most csatlakozik a ** {{{channel}}} ** -ból.'
+  switchSuccess: '{{{emoji}}} csatorna váltott. Most csatlakozik a **{{{channel}}}** -ból.'
   inviteRemoved: '{{{emoji}}} szerver meghívó, amelyet eltávolítottak ehhez a hubhoz.'
   inviteInvalid: '{{{emoji}}} érvénytelen meghívó. Kérjük, győződjön meg arról, hogy megadott egy érvényes meghívó linket.'
   inviteAdded: '{{{emoji}}} Meghívó hozzáadva. Mások most csatlakozhatnak ehhez a kiszolgálóhoz az `Apps> Üzenetinformáció/Report` parancs használatával.'
@@ -166,15 +166,15 @@ connection:
 hub:
   notFound: '{{{emoji}}} nem találja meg a hubot. Kérjük, győződjön meg arról, hogy megadta -e a helyes hub nevét.'
   notFound_mod: '{{{emoji}}} nem találja meg a hubot. Kérjük, győződjön meg arról, hogy megadta -e a helyes központ nevét, és hogy Ön a Hub tulajdonosa vagy moderátora.'
-  alreadyJoined: '{{{emoji}}} már csatlakozott a ** {{hub}} ** -tól a {{{channel}}} -tól!'
+  alreadyJoined: '{{{emoji}}} már csatlakozott a **{{hub}}** -tól a {{{channel}}} -tól!'
   invalidChannel: '{{{emoji}}} érvénytelen csatorna. Csak a szöveges és szálcsatornák támogatottak!'
   invalidImgurUrl: '{{{emoji}}} érvénytelen kép URL az ikonhoz vagy a zászlóhoz. Kérjük, győződjön meg arról, hogy megadott -e egy érvényes IMGUR Image URL -t, amely nem galéria vagy album.'
   join:
-    success: Sikeresen csatlakozott a hub ** {{hub}} ** -tól a {{{channel}}} -tól! Használja a `/kapcsolatot a kapcsolat kezeléséhez. És `/hub szabaduljon meg a hub elhagyására.
+    success: Sikeresen csatlakozott a hub **{{hub}}** -tól a {{{channel}}} -tól! Használja a `/kapcsolatot a kapcsolat kezeléséhez. És `/hub szabaduljon meg a hub elhagyására.
   servers:
-    total: 'Aktuális csatlakoztatott szerverek: {{from}}-{{to}} / ** {{total}} ** **'
+    total: 'Aktuális csatlakoztatott szerverek: {{from}}-{{to}} / **{{total}}** **'
     noConnections: '{{{emoji}}} Egyetlen szerver sem csatlakozott ehhez a hubhoz. Használja a `/hub csatlakozót a hubhoz.'
-    notConnected: '{{{emoji}}} Ez a szerver nem része a ** {{hub}} ** részének.'
+    notConnected: '{{{emoji}}} Ez a szerver nem része a **{{hub}}** részének.'
     connectionInfo: |-
       Csatorna: #{{{channelName}}} `({{channelId}})` ` 
        Csatlakozva: {{{joinedAt}}} 
@@ -201,26 +201,26 @@ hub:
     success: |-
       ### Hub létrehozott! 
 
-       Gratulálunk! Sikeresen létrehozták a privát hubját, ** {{name}} **. 
+       Gratulálunk! Sikeresen létrehozták a privát hubját, **{{name}}**. 
        A csatlakozáshoz hozzon létre egy meghívót a `/hub meghívó létrehozása" használatával, és ossza meg a generált kódot. Ezután csatlakozzon a `/hub csatlakozás használatával. 
 
-       - ** Hívó generálása: ** `/hub meghívó létrehozása" 
-       - ** Go Public: ** `/hub menedzsment ' 
-       - ** Csatlakozzon a HUB -hoz: ** `/hub csatlakozás" 
-       - ** HUB szerkesztése: ** `/hub menedzsment ' 
-       - ** Moderátorok hozzáadása: ** `/hub moderátor add` 
+       - **Hívó generálása:** `/hub meghívó létrehozása" 
+       - **Go Public:** `/hub menedzsment ' 
+       - **Csatlakozzon a HUB -hoz:** `/hub csatlakozás" 
+       - **HUB szerkesztése:** `/hub menedzsment ' 
+       - **Moderátorok hozzáadása:** `/hub moderátor add` 
 
-       Tudjon meg többet a hubokról a [útmutató] ({{{docs_link}}}) oldalon. Csatlakozzon a [Support Server] ({{{support_invite}}}) segítséghez.
+       Tudjon meg többet a hubokról a [útmutató]({{{docs_link}}}) oldalon. Csatlakozzon a [Support Server]({{{support_invite}}}) segítséghez.
   delete:
-    confirm: Biztos benne, hogy törölni kívánja ** {{hub}} **? Ez a művelet visszafordíthatatlan. Az összes csatlakoztatott szerver, meghívó és üzenetadat eltávolításra kerül ebből a központból.
+    confirm: Biztos benne, hogy törölni kívánja **{{hub}}**? Ez a művelet visszafordíthatatlan. Az összes csatlakoztatott szerver, meghívó és üzenetadat eltávolításra kerül ebből a központból.
     ownerOnly: '{{{emoji}}} Csak ennek a hubnak a tulajdonosa törölheti.'
-    success: '{{{emoji}}} hub ** {{hub}} ** törölték.'
+    success: '{{{emoji}}} hub **{{hub}}** törölték.'
     cancelled: '{{{emoji}}} hub törlését törölték.'
   browse:
     joinConfirm: |-
       Biztos benne, hogy csatlakozni szeretne a {{hub}} {{{channel}}} -től? 
           
-       ** MEGJEGYZÉS: ** Ezt mindig később változtathatja meg a „/kapcsolat” használatával.
+       **MEGJEGYZÉS:** Ezt mindig később változtathatja meg a „/kapcsolat” használatával.
     joinFooter: Szeretne egy másik csatornát használni? Használja az alábbi legördülő menüpontot.
     noHubs: '{{{emoji}}} Jelenleg nincsenek hubok. Kérlek, próbáld újra később!'
     rating:
@@ -233,39 +233,39 @@ hub:
 
          Meghívása sikeresen létrehozta. Mások most csatlakozhatnak ehhez a hubhoz a `/hub join` parancs használatával. 
 
-         - ** Csatlakozzon a következő használatával: ** `/hub csatlakozzon a meghíváshoz: {{inviteCode}}` 
-         - ** Hívók megtekintése: ** `/hub meghívó lista ' 
-         - ** Lejárat: ** {{{expiry}}} 
-         - ** Használja **: ∞ 
+         - **Csatlakozzon a következő használatával:** `/hub csatlakozzon a meghíváshoz: {{inviteCode}}` 
+         - **Hívók megtekintése:** `/hub meghívó lista ' 
+         - **Lejárat:** {{{expiry}}} 
+         - **Használja**: ∞ 
 
-         __ Tanuljon többet a [útmutató] ({{{docs_link}}}) csomópontokról.
+         __ Tanuljon többet a [útmutató]({{{docs_link}}}) csomópontokról.
     revoke:
       invalidCode: '{{{emoji}} Érvénytelen meghívó kód. Kérjük, győződjön meg arról, hogy megadott egy érvényes meghívó kódot.'
       success: '{{{emoji}}} invite {{inviteCode}} visszavont.'
     list:
-      title: '** Meghívó kódok: **'
+      title: '**Meghívó kódok:**'
       noInvites: '{{{emoji}}} Ennek a központnak még nincs meghívása. Használja a `/hub meghívó létrehozását a létrehozáshoz.'
       notPrivate: '{{{emoji}}} Csak a magánközpontok lehetnek meghívók. Használja a `/hub menedzser" -et, hogy ezt a hubot privátvá tegye.'
   joined:
     noJoinedHubs: '{{{emoji}}} Ez a szerver még nem csatlakozott egyetlen csomóhoz. Használja a `/hub böngészést" a hubok listájának megtekintéséhez.'
-    joinedHubs: Ez a szerver a ** {{total}} ** hub (S) része. Használja a `/hub szabadságot a hub hagyásához.
+    joinedHubs: Ez a szerver a **{{total}}** hub (S) része. Használja a `/hub szabadságot a hub hagyásához.
   leave:
     noHub: '{{{emoji}}} Ez a csatorna érvénytelen, vagy nem csatlakozott egyetlen csomóhoz.'
-    confirm: Biztos benne, hogy el akarja hagyni ** {{hub}} ** a {{{channel}}} -ból? Ebből a központból nem küldünk több üzenetet erre a szerverre.
+    confirm: Biztos benne, hogy el akarja hagyni **{{hub}}** a {{{channel}}} -ból? Ebből a központból nem küldünk több üzenetet erre a szerverre.
     confirmFooter: Erősítse meg az alábbi gomb használatát 10 másodpercen belül.
     success: '{{{emoji}}} hagyta a hubot a {{{channel}}} -ból. Ebből a központból nem küldünk több üzenetet erre a szerverre. Újra csatlakozhat a ''/hub csatlakozás használatával.'
   moderator:
     noModerators: '{{{emoji}}} Ennek a központnak még nincs moderátora. Használja a `/hub moderátor add` -ot.'
     add:
-      success: '{{{emoji}}} ** {{{user}}} ** hozzáadódott a ** {{position}} ** pozíció moderátoraként.'
-      alreadyModerator: '{{{emoji}}} ** {{{user}}} ** már moderátor.'
+      success: '{{{emoji}}} **{{{user}}}** hozzáadódott a **{{position}}** pozíció moderátoraként.'
+      alreadyModerator: '{{{emoji}}} **{{{user}}}** már moderátor.'
     remove:
-      success: '{{{emoji}}} ** {{{user}}} ** eltávolították moderátorként.'
-      notModerator: '{{{emoji}}} ** {{{user}}} ** nem moderátor.'
+      success: '{{{emoji}}} **{{{user}}}** eltávolították moderátorként.'
+      notModerator: '{{{emoji}}} **{{{user}}}** nem moderátor.'
       notOwner: '{{{emoji}}} Csak ennek a hubnak a tulajdonosa távolíthatja el a menedzsert.'
     update:
-      success: '{{{emoji}}} ** {{{user}}} ** ** a ** {{position}} ** értékre frissült.'
-      notModerator: '{{{emoji}}} ** {{{user}}} ** nem moderátor.'
+      success: '{{{emoji}}} **{{{user}}}** **a** {{position}} ** értékre frissült.'
+      notModerator: '{{{emoji}}} **{{{user}}}** nem moderátor.'
       notAllowed: '{{{emoji}}} Csak a HUB vezetők frissíthetik a moderátor helyzetét.'
       notOwner: '{{{emoji}}} Csak ennek a hubnak a tulajdonosa frissítheti a menedzser helyzetét.'
   manage:
@@ -297,7 +297,7 @@ hub:
         label: Változtassa meg a zászlót
         description: Változtassa meg ennek a központnak a zászlóját.
     visibility:
-      success: '{{{emoji}}} hub láthatóság sikeresen változott ** {{{visibility}}} **.'
+      success: '{{{emoji}}} hub láthatóság sikeresen változott **{{{visibility}}}**.'
       selects:
         label: Változtassa meg a láthatóságot
         description: Tegye ezt a hubot nyilvános vagy privát.
@@ -348,46 +348,46 @@ report:
   invalidUser: |-
     {{{emoji}}} Nem találtam egy felhasználót az azonosítóval. 
 
-     ** A felhasználó azonosítójának megtalálása a hálózaton belül: ** 
+     **A felhasználó azonosítójának megtalálása a hálózaton belül:** 
      {{{dot}}} Kattintson a jobb egérgombbal a kérdéses felhasználótól küldött üzenetre. Válassza ki az `Apps> Üzenetinformációk 'lehetőséget. Kérjük, ellenőrizze duplán, ellenőrizze az azonosítót, és próbálja újra.
   invalidServer: |-
     {{{emoji}}} Nem találtam egy szerveret azzal az azonosítóval. 
 
-     ** A kiszolgáló azonosítójának megtalálása a hálózaton belül: ** 
+     **A kiszolgáló azonosítójának megtalálása a hálózaton belül:** 
      {{{dot}}} Right Gattintson a kérdéses kiszolgáló által küldött üzenetre, és válassza az `Apps> Message Info/Jelentés 'lehetőséget. Kérjük, ellenőrizze duplán, ellenőrizze az azonosítót, és próbálja újra.
-  submitted: Jelentés benyújtva. Csatlakozzon a ** [támogatási kiszolgáló] ({{{support_invite}}}) ** **, hogy frissítéseket kapjon a jelentésről.
+  submitted: Jelentés benyújtva. Csatlakozzon a **[támogatási kiszolgáló]({{{support_invite}}})** **, hogy frissítéseket kapjon a jelentésről.
   bug:
     title: Hibajelentés
     affected: Érintett alkatrészek
     description: Kérjük, válassza ki, hogy a bot melyik elemével szembesül a problémákkal.
     submitted: '{{{emoji}}} jelentés sikeresen benyújtva. Csatlakozzon a {{{support_command}}} {további részletek megszerzéséhez. Köszönöm!'
 language:
-  set: Nyelvkészlet! Most válaszolok rád ** {{{lang}}} **.
+  set: Nyelvkészlet! Most válaszolok rád **{{{lang}}}**.
 errors:
   messageNotSentOrExpired: '{{{emoji}}} Ezt az üzenetet nem küldték el, lejárt, vagy nincs engedélye ennek a műveletnek a végrehajtására.'
   notYourAction: '{{{emoji}}} Sajnálom, nem tudja végrehajtani ezt a műveletet. Kérjük, futtassa magát a parancsot.'
   notMessageAuthor: '{{{emoji}}} Nem vagy ennek az üzenetnek a szerzője.'
   commandError: |-
-    {{{emoji}}} Hiba történt a parancs végrehajtása során. Jelentkeztünk a rendszerünkbe. Ha ez a probléma továbbra is fennáll, kérjük, csatlakozzon a [Support Server] ({{{support_invite}}}) [támogatási kiszolgálóhoz), és jelentse be! 
+    {{{emoji}}} Hiba történt a parancs végrehajtása során. Jelentkeztünk a rendszerünkbe. Ha ez a probléma továbbra is fennáll, kérjük, csatlakozzon a [Support Server]({{{support_invite}}}) [támogatási kiszolgálóhoz), és jelentse be! 
      `` `js 
      {{{error}}} 
      `` `
-  mustVote: Kérjük, [Szavazás] (https://top.gg/bot/76992110920907241/vote) az InterChat számára, hogy ezt a parancsot használja, a támogatást nagyon értékelik!
+  mustVote: Kérjük, [Szavazás](https://top.gg/bot/76992110920907241/vote) az InterChat számára, hogy ezt a parancsot használja, a támogatást nagyon értékelik!
   inviteLinks: '{{{emoji}}} Ne hirdetjen vagy népszerűsítsen a kiszolgálókat a hálózatban. Állítson be egy meghívót ehelyett a  -en!'
   invalidLangCode: '{{{emoji}}} érvénytelen nyelvi kód. Kérjük, győződjön meg arról, hogy helyes [nyelvkódot] írt be (https://cloud.google.com/translate/docs/languages).'
   unknownServer: '{{{emoji}}} ismeretlen szerver. Kérjük, győződjön meg arról, hogy megadta -e a helyes kiszolgáló azonosítóját.'
   unknownNetworkMessage: '{{{emoji}}} ismeretlen üzenet. Ha az elmúlt percben elküldték, várjon még néhány másodpercet, és próbálja újra.'
   userNotFound: '{{{emoji}}} A felhasználó nem található. Próbálja be inkább az azonosítójukat beírni.'
   blacklisted: '{{{emoji}}} Ön vagy ez a szerver feketelistára kerül az InterChat használatával.'
-  userBlacklisted: '{{{emoji}}} A ** {{hub}} ** -ból feketelistára kerül.'
-  serverBlacklisted: '{{{emoji}}} Ez a kiszolgáló feketelistára kerül a ** {{hub}} ** -ból.'
+  userBlacklisted: '{{{emoji}}} A **{{hub}}** -ból feketelistára kerül.'
+  serverBlacklisted: '{{{emoji}}} Ez a kiszolgáló feketelistára kerül a **{{hub}}** -ból.'
   serverNotBlacklisted: '{{{emoji}}} Az bemeneti szerver nem feketelistára van.'
   userNotBlacklisted: '{{{emoji}}} Az bemeneti felhasználó nem feketelistára van szükség.'
-  missingPermissions: '{{{emoji}}} Hiányzik a következő engedélyek a következő művelet végrehajtásához: ** {{{permissions}}} **'
-  botMissingPermissions: '{{{emoji}}} Kérjük, adja meg a következő engedélyeket a következő: ** {{{permissions}}} ** **'
-  unknown: '{{{emoji}}} ismeretlen hiba történt. Kérjük, próbálkozzon újra később, vagy vegye fel velünk a kapcsolatot, ha csatlakozik a [Support Server] ({{{support_invite}}}).'
+  missingPermissions: '{{{emoji}}} Hiányzik a következő engedélyek a következő művelet végrehajtásához: **{{{permissions}}}**'
+  botMissingPermissions: '{{{emoji}}} Kérjük, adja meg a következő engedélyeket a következő: **{{{permissions}}}** **'
+  unknown: '{{{emoji}}} ismeretlen hiba történt. Kérjük, próbálkozzon újra később, vagy vegye fel velünk a kapcsolatot, ha csatlakozik a [Support Server]({{{support_invite}}}).'
   notUsable: '{{{emoji}}} Ez már nem használható.'
-  cooldown: '{{{emoji}}} Cooldown -on vagy. Kérjük, várjon ** {{{time}}} **, mielőtt újra megpróbálta.'
+  cooldown: '{{{emoji}}} Cooldown -on vagy. Kérjük, várjon **{{{time}}}**, mielőtt újra megpróbálta.'
 misc:
   noReason: Nincs oka.
   noDesc: Nincs leírás.

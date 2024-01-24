@@ -5,7 +5,7 @@ rules: |-
    2. **スパムや洪水はありません：**繰り返し、無意味な、または過度に長いメッセージを避けます。 
    3. **プライベート事項をプライベートに保つ：**ネットワーク全体で個人情報の共有を避けないでください。 
    4. **嫌がらせなし：**いかなる種類のトローリング、in辱、または嫌がらせは容認されていません。 
-   5. ** NSFW/NSFLコンテンツはありません：**明示的なNSFW/NSFLコンテンツの投稿により、ブラックリストが即座になります。 
+   5. **NSFW/NSFLコンテンツはありません：**明示的なNSFW/NSFLコンテンツの投稿により、ブラックリストが即座になります。 
    6. **敏感なトピックを尊重します：**自傷行為、自殺、暴力、またはその他の攻撃的なトピックを些細なことをしないでください。 
    7.*懸念を報告する：**これらのルールの違反を観察する場合は、さらなる行動のために適切なハブモデレーターまたはインターチャットスタッフに報告してください。 
 
@@ -22,10 +22,10 @@ vote: |-
    揺るぎないサポートに深く感謝します。 ありがとう！ 🙏
 network:
   accountTooNew: '{{{emoji}}} {{{user}}}アカウントは、InterChatを使用してメッセージを送信するには新しいものです。 後でもう一度やり直してください。'
-  deleteSuccess: '{{{emoji}}} {{{user}}}メッセージは、__ ** {{deleted}}/{{total}} ** __サーバーから削除されました。'
-  editSuccess: '{{{emoji}}} {{{user}}}によるメッセージは、__ ** {{edited}}/{{total}} ** __サーバーで編集されています。'
+  deleteSuccess: '{{{emoji}}} {{{user}}}メッセージは、__**{{deleted}}/{{total}}**__サーバーから削除されました。'
+  editSuccess: '{{{emoji}}} {{{user}}}によるメッセージは、__**{{edited}}/{{total}}**__サーバーで編集されています。'
   welcome: |-
-    {{{user}}} ** {{hub}} **へようこそ！ {{{emoji}}} 
+    {{{user}}} **{{hub}}**へようこそ！ {{{emoji}}} 
 
      {{{channel}}}で送信されたメッセージは、他のサーバーと共有されます。 通常のように、画像、GIF、返信、反応、およびメッセージと対話することができます。 個人情報の共有を避けることを忘れないでください（{{{rules_command}}}を詳細に確認してください）。 飛び込む準備はできましたか？ 最初のメッセージを送って会話に参加してください！
   nsfw:
@@ -53,24 +53,24 @@ blacklist:
       label: 間隔
       placeholder: ブラックリストの期間。 例：1d、1w、1m、1y。 永久に空白のままにしてください。
   user:
-    success: '{{{emoji}}} ** {{username}} **は、正常にブラックリストに載っています！'
-    removed: '{{{emoji}}} ** {{username}} **はブラックリストから削除されました！'
+    success: '{{{emoji}}} **{{username}}**は、正常にブラックリストに載っています！'
+    removed: '{{{emoji}}} **{{username}}**はブラックリストから削除されました！'
     alreadyBlacklisted: '{{{emoji}}}このユーザーはすでにブラックリストに登録されています。'
     easterEggs:
       blacklistBot: あなたは私をブラックリストに登録することはできませんwtf。
   server:
-    success: '{{{emoji}}} ** {{server}} **はブラックリストに載っています！'
-    removed: '{{{emoji}}} ** {{server}} **はブラックリストから削除されました！'
+    success: '{{{emoji}}} **{{server}}**はブラックリストに載っています！'
+    removed: '{{{emoji}}} **{{server}}**はブラックリストから削除されました！'
     alreadyBlacklisted: '{{{emoji}}}このサーバーはすでにブラックリストに登録されています。'
-    unknownError: ブラックリストに失敗しました** {{server}} **。 詳細については、開発者にお問い合わせください。
+    unknownError: ブラックリストに失敗しました**{{server}}**。 詳細については、開発者にお問い合わせください。
   list:
     user: |-
-      ** userid：** {{userId}} 
+      **userid：** {{userId}} 
        **モデレーター：** {{moderator}} 
        **理由：** {{{reason}}} 
        **有効期限：** {{expires}}
     server: |-
-      ** serverId：** {{serverId}} 
+      **serverId：** {{serverId}} 
        **モデレーター：** {{moderator}} 
        **理由：** {{{reason}}} 
        **有効期限：** {{{expires}}}
@@ -91,10 +91,10 @@ msgInfo:
        __{{{server}}}__ 
 
        **メッセージID：** 
-       __ {{messageId}} __ 
+       __{{messageId}}__ 
 
        **送信（ハブ）：** 
-       __ {{{hub}}} __ 
+       __{{{hub}}}__ 
 
        **作成されたメッセージ：** 
        {{{createdAt}}}
@@ -107,10 +107,10 @@ msgInfo:
        __{{{owner}}}__ 
 
        **作成した：** 
-       __ {{{createdAtFull}}}（{{{createdAt}}}）__ 
+       __{{{createdAtFull}}}（{{{createdAt}}}）__ 
 
        **メンバーカウント：** 
-       __ {{memberCount}} __ 
+       __{{memberCount}}__ 
 
        **招待する：** 
        __{{{invite}}}__
@@ -119,17 +119,17 @@ msgInfo:
       ## {{{username}}} 
        __{{{user}}}__ 
 
-       ** ID：** 
-       __ {{id}} __ 
+       **ID：** 
+       __{{id}}__ 
 
        **作成した：** 
        {{{createdAtFull}}}（{{{createdAt}}}） 
 
        **表示名：** 
-       __ {{{globalName}}} __ 
+       __{{{globalName}}}__ 
 
        **所有者：** 
-       __ {{hubsOwned}} __
+       __{{hubsOwned}}__
   report:
     notEnabled: '{{{emoji}}}このハブのレポートは有効になりません。'
     success: '{{{emoji}}}レポートが正常に送信されました。 ありがとう！'
@@ -143,7 +143,7 @@ connection:
   alreadyConnected: '{{{emoji}}}チャンネル{{{channel}}}はすでにハブに接続されています。'
   switchChannel: '{{{emoji}}}以下の選択メニューを使用するように切り替えるチャネルを選択します。'
   switchCalled: '{{{emoji}}}チャンネルスイッチが呼び出されます。もう一度コマンドを使用して、新しい接続を表示します。'
-  switchSuccess: '{{{emoji}}}チャネルが切り替えられました。 これで、** {{{channel}}} **から接続されています。'
+  switchSuccess: '{{{emoji}}}チャネルが切り替えられました。 これで、**{{{channel}}}**から接続されています。'
   inviteRemoved: '{{{emoji}}}サーバーは、このハブに削除されました。'
   inviteInvalid: '{{{emoji}}}無効な招待。 有効な招待リンクを入力したことを確認してください。'
   inviteAdded: '{{{emoji}}}招待が追加されました。 他の人は、「アプリ>メッセージ情報/レポート」コマンドを使用してこのサーバーに参加できるようになりました。'
@@ -166,15 +166,15 @@ connection:
 hub:
   notFound: '{{{emoji}}}ハブを見つけることができません。 正しいハブ名を入力したことを確認してください。'
   notFound_mod: '{{{emoji}}}ハブを見つけることができません。 正しいハブ名を入力したことを確認し、あなたがハブの所有者またはモデレーターであることを確認してください。'
-  alreadyJoined: '{{{emoji}}}あなたはすでに** {{hub}} ** {{{channel}}}から参加しています！'
+  alreadyJoined: '{{{emoji}}}あなたはすでに**{{hub}}** {{{channel}}}から参加しています！'
   invalidChannel: '{{{emoji}}}無効なチャネル。 テキストとスレッドチャネルのみがサポートされています！'
   invalidImgurUrl: '{{{emoji}}}アイコンまたはバナーの無効な画像URL。 ギャラリーやアルバムではない有効なimgur画像URLを入力したことを確認してください。'
   join:
-    success: Hub ** {{hub}} ** {{{channel}}}から成功しました！ `/connection`を使用して接続を管理します。 「/hub leave」ハブを離れます。
+    success: Hub **{{hub}}** {{{channel}}}から成功しました！ `/connection`を使用して接続を管理します。 「/hub leave」ハブを離れます。
   servers:
-    total: 現在の接続サーバー：{{from}}  -  {{to}} / ** {{total}} **
+    total: 現在の接続サーバー：{{from}}  -  {{to}} / **{{total}}**
     noConnections: '{{{emoji}}}このハブにまだ参加しているサーバーはありません。 `/hub join`を使用して、このハブに参加します。'
-    notConnected: '{{{emoji}}}そのサーバーは** {{hub}} **の一部ではありません。'
+    notConnected: '{{{emoji}}}そのサーバーは**{{hub}}**の一部ではありません。'
     connectionInfo: |-
       チャネル：＃{{{channelName}}} `（{{channelId}}）` 
        参加：{{{joinedAt}}} 
@@ -201,7 +201,7 @@ hub:
     success: |-
       ###ハブ作成！ 
 
-       おめでとう！ あなたのプライベートハブ、** {{name}} **は、正常に作成されました。 
+       おめでとう！ あなたのプライベートハブ、**{{name}}**は、正常に作成されました。 
        参加するには、「/hub Invite Create」を使用して招待状を作成し、生成されたコードを共有します。 次に、「/hub join」を使用して参加します。 
 
         -  **招待を生成：** `/hub招待Create` 
@@ -212,9 +212,9 @@ hub:
 
        [ガイド]（{{{docs_link}}}）のハブの詳細をご覧ください。 [サポートサーバー]（{{{support_invite}}}）に参加してください。
   delete:
-    confirm: '** {{hub}} **を削除したいですか？ このアクションは不可逆的です。 接続されたすべてのサーバー、招待、メッセージデータは、このハブから削除されます。'
+    confirm: '**{{hub}}**を削除したいですか？ このアクションは不可逆的です。 接続されたすべてのサーバー、招待、メッセージデータは、このハブから削除されます。'
     ownerOnly: '{{{emoji}}}このハブの所有者のみが削除できます。'
-    success: '{{{emoji}}} hub ** {{hub}} **が削除されました。'
+    success: '{{{emoji}}} hub **{{hub}}**が削除されました。'
     cancelled: '{{{emoji}}}ハブの削除がキャンセルされました。'
   browse:
     joinConfirm: |-
@@ -235,10 +235,10 @@ hub:
 
           -  **使用：** `/hub ingivite：{{inviteCode}}` 
           -  **招待状：** `/hub招待リスト` 
-          -  ** expiry：** {{{expiry}}} 
+          -  **expiry：** {{{expiry}}} 
           -  **使用**：∞ 
 
-         __ [ガイド]（{{{docs_link}}}）のハブについて詳しく説明します。__。
+         __[ガイド]（{{{docs_link}}}）のハブについて詳しく説明します。__。
     revoke:
       invalidCode: '{{{emoji}}無効な招待コード。 有効な招待コードを入力したことを確認してください。'
       success: '{{{emoji}}} invite {{inviteCode}}が取り消されました。'
@@ -248,24 +248,24 @@ hub:
       notPrivate: '{{{emoji}}}プライベートハブのみが招待状を持つことができます。 「/hub manage」を使用して、このハブをプライベートにします。'
   joined:
     noJoinedHubs: '{{{emoji}}}このサーバーはまだハブに参加していません。 `/hub browse`を使用して、ハブのリストを表示します。'
-    joinedHubs: このサーバーは、** {{total}} ** hub（s）の一部です。 `/hub leave`を使用して、ハブを残します。
+    joinedHubs: このサーバーは、**{{total}}** hub（s）の一部です。 `/hub leave`を使用して、ハブを残します。
   leave:
     noHub: '{{{emoji}}}そのチャネルは無効であるか、ハブに参加していません。'
-    confirm: '{{hub}}から** {{{channel}}} **を残したいですか？ このハブからこのサーバーにこれ以上のメッセージは送信されません。'
+    confirm: '{{hub}}から**{{{channel}}}**を残したいですか？ このハブからこのサーバーにこれ以上のメッセージは送信されません。'
     confirmFooter: 10秒以内に下のボタンを使用して確認します。
     success: '{{{emoji}}} {{{channel}}}からハブを残しました。 このハブからこのサーバーにこれ以上のメッセージは送信されません。 `/hub join`を使用して再生できます。'
   moderator:
     noModerators: '{{{emoji}}}このハブにはまだモデレーターがありません。 `/hub moderator add`を使用して追加します。'
     add:
-      success: '{{{emoji}}} ** {{{user}}} **は、位置のモデレーターとして追加されました** {{position}} **。'
-      alreadyModerator: '{{{emoji}}} ** {{{user}}} **はすでにモデレーターです。'
+      success: '{{{emoji}}} **{{{user}}}**は、位置のモデレーターとして追加されました**{{position}}**。'
+      alreadyModerator: '{{{emoji}}} **{{{user}}}**はすでにモデレーターです。'
     remove:
-      success: '{{{emoji}}} ** {{{user}}} **は、モデレーターとして削除されました。'
-      notModerator: '{{{emoji}}} ** {{{user}}} **はモデレーターではありません。'
+      success: '{{{emoji}}} **{{{user}}}**は、モデレーターとして削除されました。'
+      notModerator: '{{{emoji}}} **{{{user}}}**はモデレーターではありません。'
       notOwner: '{{{emoji}}}このハブの所有者のみがマネージャーを削除できます。'
     update:
-      success: '{{{emoji}}} ** {{{user}}} **の位置は** {{position}} **に更新されました。'
-      notModerator: '{{{emoji}}} ** {{{user}}} **はモデレーターではありません。'
+      success: '{{{emoji}}} **{{{user}}}**の位置は**{{position}}**に更新されました。'
+      notModerator: '{{{emoji}}} **{{{user}}}**はモデレーターではありません。'
       notAllowed: '{{{emoji}}}のみのハブマネージャーのみがモデレーターの位置を更新できます。'
       notOwner: '{{{emoji}}}このハブの所有者のみがマネージャーのポジションを更新できます。'
   manage:
@@ -297,7 +297,7 @@ hub:
         label: バナーを変更します
         description: このハブのバナーを変更します。
     visibility:
-      success: '{{{emoji}}}ハブの可視性は** {{{visibility}}} **に正常に変更されました。'
+      success: '{{{emoji}}}ハブの可視性は**{{{visibility}}}**に正常に変更されました。'
       selects:
         label: 可視性を変更します
         description: このハブをパブリックまたはプライベートにします。
@@ -355,14 +355,14 @@ report:
 
      **ネットワーク内でサーバーIDを見つけるには：** 
      {{{dot}}}問題のサーバーから送信されたメッセージを右クリックし、「アプリ>メッセージ情報/レポート」を選択します。 IDを再確認して、再試行してください。
-  submitted: 提出されたレポート。 ** [support server]（{{{support_invite}}}）**に参加して、レポートの更新を取得します。
+  submitted: 提出されたレポート。 **[support server]（{{{support_invite}}}）**に参加して、レポートの更新を取得します。
   bug:
     title: バグレポート
     affected: 影響を受けるコンポーネント
     description: 問題に直面しているボットのコンポーネントを選択してください。
     submitted: '{{{emoji}}}レポートが正常に送信されました。 {{{support_command}}}に参加して、詳細を取得します。 ありがとう！'
 language:
-  set: 言語セット！ 私は今、あなたに** {{{lang}}} **で返信します。
+  set: 言語セット！ 私は今、あなたに**{{{lang}}}**で返信します。
 errors:
   messageNotSentOrExpired: '{{{emoji}}}このメッセージはハブで送信されず、有効期限が切れていないか、このアクションを実行する許可がありません。'
   notYourAction: '{{{emoji}}}申し訳ありませんが、このアクションを実行することはできません。 コマンドを自分で実行してください。'
@@ -379,15 +379,15 @@ errors:
   unknownNetworkMessage: '{{{emoji}}}不明なメッセージ。 過去1分間に送信された場合は、もう少し待って、もう一度お試しください。'
   userNotFound: '{{{emoji}}}ユーザーが見つかりません。 代わりにIDを入力してみてください。'
   blacklisted: '{{{emoji}}}あなたまたはこのサーバーは、InterChatの使用からブラックリストに登録されています。'
-  userBlacklisted: '{{{emoji}}}あなたは** {{hub}} **からブラックリストに登録されています。'
-  serverBlacklisted: '{{{emoji}}}このサーバーは、** {{hub}} **からブラックリストに登録されています。'
+  userBlacklisted: '{{{emoji}}}あなたは**{{hub}}**からブラックリストに登録されています。'
+  serverBlacklisted: '{{{emoji}}}このサーバーは、**{{hub}}**からブラックリストに登録されています。'
   serverNotBlacklisted: '{{{emoji}}}入力されたサーバーはブラックリストに載っていません。'
   userNotBlacklisted: '{{{emoji}}}入力ユーザーはブラックリストに載っていません。'
-  missingPermissions: '{{{emoji}}}このアクションを実行するための次の権限がありません：** {{{permissions}}} **'
-  botMissingPermissions: '{{{emoji}}}継続するための次の権限を与えてください：** {{{permissions}}} **'
+  missingPermissions: '{{{emoji}}}このアクションを実行するための次の権限がありません：**{{{permissions}}}**'
+  botMissingPermissions: '{{{emoji}}}継続するための次の権限を与えてください：**{{{permissions}}}**'
   unknown: '{{{emoji}}}未知のエラーが発生しました。 [後で再試行するか、[サポートサーバー]（{{{support_invite}}}）に参加してお問い合わせください。'
   notUsable: '{{{emoji}}}これは使用できなくなりました。'
-  cooldown: '{{{emoji}}}あなたはクールダウンにいます。 ** {{{time}}} **を待ってから、もう一度試してみてください。'
+  cooldown: '{{{emoji}}}あなたはクールダウンにいます。 **{{{time}}}**を待ってから、もう一度試してみてください。'
 misc:
   noReason: 理由はありません。
   noDesc: 説明なし。

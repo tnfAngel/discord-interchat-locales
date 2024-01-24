@@ -1,15 +1,15 @@
 rules: |-
   ### 📜 InterChat -nätverksregler 
 
-   1. ** Använd sunt förnuft: ** Ta hänsyn till andra och deras åsikter. Inga slurar, extremt nedsättande språk eller några åtgärder som kan störa chattens komfort. 
-   2. ** Ingen spamming eller översvämningar: ** Undvik upprepade, nonsensiska eller alltför långa meddelanden. 
-   3. ** Håll privata frågor privata: ** Undvik att dela personlig information över hela nätverket. 
-   4. ** Ingen trakasserier: ** Trollning, förolämpningar eller trakasserier av något slag tolereras inte. 
-   5. ** Inget NSFW/NSFL -innehåll: ** POSTING Explicit NSFW/NSFL -innehåll kommer att resultera i omedelbar svartlista. 
-   6. ** Respektera känsliga ämnen: ** Trivialiserar inte självskada, självmord, våld eller andra offensiva ämnen. 
-   7. ** Rapportera problem: ** Om du observerar ett brott mot dessa regler, rapportera det till lämplig navmodator eller interchat -personal för ytterligare åtgärder. 
+   1. **Använd sunt förnuft:** Ta hänsyn till andra och deras åsikter. Inga slurar, extremt nedsättande språk eller några åtgärder som kan störa chattens komfort. 
+   2. **Ingen spamming eller översvämningar:** Undvik upprepade, nonsensiska eller alltför långa meddelanden. 
+   3. **Håll privata frågor privata:** Undvik att dela personlig information över hela nätverket. 
+   4. **Ingen trakasserier:** Trollning, förolämpningar eller trakasserier av något slag tolereras inte. 
+   5. **Inget NSFW/NSFL -innehåll:** POSTING Explicit NSFW/NSFL -innehåll kommer att resultera i omedelbar svartlista. 
+   6. **Respektera känsliga ämnen:** Trivialiserar inte självskada, självmord, våld eller andra offensiva ämnen. 
+   7. **Rapportera problem:** Om du observerar ett brott mot dessa regler, rapportera det till lämplig navmodator eller interchat -personal för ytterligare åtgärder. 
 
-   Några frågor? Gå med i vår [supportserver] ({{{support_invite}}}).
+   Några frågor? Gå med i vår [supportserver]({{{support_invite}}}).
 vote: |-
   ## 🗳 Rösta för interchat och njut av exklusiva förmåner 
    Ditt bidrag är ovärderligt för att höja InterChats position på topp.g. Varje röst gör en betydande skillnad! 
@@ -22,12 +22,12 @@ vote: |-
    Vi uppskattar djupt ditt oöverträffade stöd. Tack! 🙏
 network:
   accountTooNew: '{{{emoji}}} {{{user}}} Ditt konto är för nytt för att skicka meddelanden med interchat. Vänligen försök igen senare.'
-  deleteSuccess: '{{{emoji}}} Meddelande av {{{user}}} har tagits bort från __ ** {{deleted}}/{{total}} ** __ -servrar.'
-  editSuccess: '{{{emoji}}} Meddelande av {{{user}}} har redigerats i __ ** {{edited}}/{{total}} ** __ -servrar.'
+  deleteSuccess: '{{{emoji}}} Meddelande av {{{user}}} har tagits bort från __**{{deleted}}/{{total}}**__ -servrar.'
+  editSuccess: '{{{emoji}}} Meddelande av {{{user}}} har redigerats i __**{{edited}}/{{total}}**__ -servrar.'
   welcome: |-
-    {{{user}}} Välkommen till ** {{hub}} **! {{{emoji}}} 
+    {{{user}}} Välkommen till **{{hub}}**! {{{emoji}}} 
 
-     Meddelanden som skickas in {{{channel}}} kommer att delas med andra servrar, ** Aktivera enkel kommunikation **. Du kan dela bilder, gifs, svara, reagera och interagera med meddelanden som du normalt skulle göra. Kom bara ihåg att undvika att dela personlig information (kolla {{{rules_command}}} för mer). Redo att hoppa in? Skicka ditt första meddelande och gå med i konversationen!
+     Meddelanden som skickas in {{{channel}}} kommer att delas med andra servrar, **Aktivera enkel kommunikation**. Du kan dela bilder, gifs, svara, reagera och interagera med meddelanden som du normalt skulle göra. Kom bara ihåg att undvika att dela personlig information (kolla {{{rules_command}}} för mer). Redo att hoppa in? Skicka ditt första meddelande och gå med i konversationen!
   nsfw:
     title: NSFW upptäckt
     description: Jag har upptäckt {{predictions}} NSFW (inte säkert för arbete) i ditt meddelande. Tänk på att detta är emot vår {{{rules_command}}} och kommer att resultera i omedelbar svartlista.
@@ -38,7 +38,7 @@ network:
       description: |-
         För att hålla saker organiserade rekommenderas det att använda en separat kanal för bara för detta nav. Men oroa dig inte, du kan alltid ändra detta senare. 
 
-         ** Hur det fungerar: ** InterChat -nätverket är som en magisk bro som länkar kanaler på olika servrar som är med oss i detta nav. Lär dig mer på vår [guide] ({{{docs_link}}}).
+         **Hur det fungerar:** InterChat -nätverket är som en magisk bro som länkar kanaler på olika servrar som är med oss i detta nav. Lär dig mer på vår [guide]({{{docs_link}}}).
       footer: InterChat Network | Version {{version}}
     inProgress: Det har redan varit ett försök att gå med i ett nav från {{{channel}}}. Avbryt den eller vänta på att den ska slutföras.
 blacklist:
@@ -53,27 +53,27 @@ blacklist:
       label: Varaktighet
       placeholder: 'Varaktighet av svartlista. EG: 1D, 1W, 1M, 1Y. Lämna tomt för permanent.'
   user:
-    success: '{{{emoji}}} ** {{username}} ** har framgångsrikt svartlistat!'
-    removed: '{{{emoji}}} ** {{username}} ** har tagits bort från svartlistan!'
+    success: '{{{emoji}}} **{{username}}** har framgångsrikt svartlistat!'
+    removed: '{{{emoji}}} **{{username}}** har tagits bort från svartlistan!'
     alreadyBlacklisted: '{{{emoji}}} Den här användaren är redan svartlistad.'
     easterEggs:
       blacklistBot: Du kan inte svartlista mig wtf.
   server:
-    success: '{{{emoji}}} ** {{server}} ** har framgångsrikt svartlistat!'
-    removed: '{{{emoji}}} ** {{server}} ** har tagits bort från svartlistan!'
+    success: '{{{emoji}}} **{{server}}** har framgångsrikt svartlistat!'
+    removed: '{{{emoji}}} **{{server}}** har tagits bort från svartlistan!'
     alreadyBlacklisted: '{{{emoji}}} Den här servern är redan svartlistad.'
-    unknownError: Det gick inte att svartlista ** {{server}} **. Fråga med utvecklarna för mer information.
+    unknownError: Det gick inte att svartlista **{{server}}**. Fråga med utvecklarna för mer information.
   list:
     user: |-
-      ** userid: ** {{userId}} 
-       ** Moderator: ** {{moderator}} 
-       ** Anledning: ** {{{reason}}} 
-       ** löper ut: ** {{expires}}
+      **userid:** {{userId}} 
+       **Moderator:** {{moderator}} 
+       **Anledning:** {{{reason}}} 
+       **löper ut:** {{expires}}
     server: |-
-      ** ServerId: ** {{serverId}} 
-       ** Moderator: ** {{moderator}} 
-       ** Anledning: ** {{{reason}}} 
-       ** löper ut: ** {{{expires}}}
+      **ServerId:** {{serverId}} 
+       **Moderator:** {{moderator}} 
+       **Anledning:** {{{reason}}} 
+       **löper ut:** {{{expires}}}
 msgInfo:
   buttons:
     message: Meddelandeinfo
@@ -88,15 +88,15 @@ msgInfo:
        __{{{author}}}__ 
 
        **Skickat från:** 
-       __ {{{server}}} __ 
+       __{{{server}}}__ 
 
-       ** Meddelande -ID: ** 
-       __ {{messageId}} __ 
+       **Meddelande -ID:** 
+       __{{messageId}}__ 
 
-       ** skickas in (nav): ** 
+       **skickas in (nav):** 
        __{{{hub}}}__ 
 
-       ** Meddelande skapat: ** 
+       **Meddelande skapat:** 
        {{{createdAt}}}
   server:
     description: |-
@@ -106,8 +106,8 @@ msgInfo:
        **Ägare:** 
        __{{{owner}}}__ 
 
-       ** Skapad: ** 
-       __ {{{createdAtFull}}} ({{{createdAt}}}) __ 
+       **Skapad:** 
+       __{{{createdAtFull}}} ({{{createdAt}}})__ 
 
        **Medlemsantal:** 
        __{{memberCount}}__ 
@@ -119,31 +119,31 @@ msgInfo:
       ## {{{username}}} 
        __{{{user}}}__ 
 
-       ** ID: ** 
-       __ {{id}} __ 
+       **ID:** 
+       __{{id}}__ 
 
-       ** Skapad: ** 
+       **Skapad:** 
        {{{createdAtFull}}} ({{{createdAt}}}) 
 
-       ** Visa namn: ** 
-       __ {{{globalName}}} __ 
+       **Visa namn:** 
+       __{{{globalName}}}__ 
 
-       ** Hubs ägs: ** 
-       __ {{hubsOwned}} __
+       **Hubs ägs:** 
+       __{{hubsOwned}}__
   report:
     notEnabled: '{{{emoji}}} Rapportering är inte aktiverad för detta nav.'
     success: '{{{emoji}}} Rapport skickas framgångsrikt. Tack!'
 invite: |-
   Tack för att du valde att bjuda in interchat. Klicka bara på knappen nedan för att bjuda in mig! 
 
-   - ** Supportserver: ** {{{support}}}
+   - **Supportserver:** {{{support}}}
 connection:
   notFound: '{{{emoji}}} Ogiltig anslutning. Verifiera kanal -ID eller välj från visade alternativ.'
   channelNotFound: '{{{emoji}}} Det går inte att hitta ansluten kanal. För att prata igen väljer du en ny kanal.'
   alreadyConnected: '{{{emoji}}} kanal {{{channel}}} är redan ansluten till ett nav.'
   switchChannel: '{{{emoji}}} Välj en kanal för att växla till att använda den utvalda menyn nedan:'
   switchCalled: '{{{emoji}}} kanalomkopplare som heter, använd kommandot igen för att se ny anslutning.'
-  switchSuccess: '{{{emoji}}} Kanal Switched. Du är nu ansluten från ** {{{channel}}} **.'
+  switchSuccess: '{{{emoji}}} Kanal Switched. Du är nu ansluten från **{{{channel}}}**.'
   inviteRemoved: '{{{emoji}}} Serverinbjudan borttagen för detta nav.'
   inviteInvalid: '{{{emoji}}} Ogiltig inbjudan. Se till att du har angett en giltig inbjudningslänk.'
   inviteAdded: '{{{emoji}}} inbjudan tillagd. Andra kan nu gå med i den här servern genom att använda kommandot `Apps> Meddelande/rapport.'
@@ -166,15 +166,15 @@ connection:
 hub:
   notFound: '{{{emoji}}} Det går inte att hitta nav. Se till att du har angett rätt navnamn.'
   notFound_mod: '{{{emoji}}} Det går inte att hitta nav. Se till att du har angett rätt navnamn och att du är ägaren eller en moderator för navet.'
-  alreadyJoined: '{{{emoji}}} Du har redan gått med ** {{hub}} ** från {{{channel}}}!'
+  alreadyJoined: '{{{emoji}}} Du har redan gått med **{{hub}}** från {{{channel}}}!'
   invalidChannel: '{{{emoji}}} Ogiltig kanal. Endast text- och trådkanaler stöds!'
   invalidImgurUrl: '{{{emoji}}} Ogiltig bild -URL för ikon eller banner. Se till att du har angett en giltig Imgur -bild -URL som inte är ett galleri eller album.'
   join:
-    success: Gick framgångsrikt med nav ** {{hub}} ** från {{{channel}}}! Använd `/Connection` för att hantera din anslutning. Och `/nav lämnar" för att lämna navet.
+    success: Gick framgångsrikt med nav **{{hub}}** från {{{channel}}}! Använd `/Connection` för att hantera din anslutning. Och `/nav lämnar" för att lämna navet.
   servers:
-    total: 'Nuvarande anslutna servrar: {{from}}-{{to}} / ** {{total}} **'
+    total: 'Nuvarande anslutna servrar: {{from}}-{{to}} / **{{total}}**'
     noConnections: '{{{emoji}}} Ingen server har anslutit sig till detta nav ännu. Använd `/Hub Join` för att gå med i detta nav.'
-    notConnected: '{{{emoji}}} Den servern är inte en del av ** {{hub}} **.'
+    notConnected: '{{{emoji}}} Den servern är inte en del av **{{hub}}**.'
     connectionInfo: |-
       Kanal: #{{{channelName}}} `({{channelId}})` 
        Gick med på: {{{joinedAt}}} 
@@ -201,26 +201,26 @@ hub:
     success: |-
       ### Hub skapat! 
 
-       Grattis! Ditt privata nav, ** {{name}} **, har skapats framgångsrikt. 
+       Grattis! Ditt privata nav, **{{name}}**, har skapats framgångsrikt. 
        För att gå med, skapa en inbjudan med `/nav Invite Create` och dela den genererade koden. Gå sedan med med `/Hub Join '. 
 
-       - ** Generera inbjudan: ** `/nav inbjudan create` 
-       - ** GO PUBLIC: ** `/HUB MANTERING` 
-       - ** Gå med nav: ** `/nav Join` 
-       - ** Redigera nav: ** `/nav manage` 
-       - ** Lägg till moderatorer: ** `/nav moderator add` 
+       - **Generera inbjudan:** `/nav inbjudan create` 
+       - **GO PUBLIC:** `/HUB MANTERING` 
+       - **Gå med nav:** `/nav Join` 
+       - **Redigera nav:** `/nav manage` 
+       - **Lägg till moderatorer:** `/nav moderator add` 
 
-       Lär dig mer om nav i vår [guide] ({{{docs_link}}}). Gå med i [supportservern] ({{{support_invite}}}) för hjälp.
+       Lär dig mer om nav i vår [guide]({{{docs_link}}}). Gå med i [supportservern]({{{support_invite}}}) för hjälp.
   delete:
-    confirm: Är du säker på att du vill ta bort ** {{hub}} **? Denna åtgärd är irreversibel. Alla anslutna servrar, inbjudningar och meddelandedata kommer att tas bort från detta nav.
+    confirm: Är du säker på att du vill ta bort **{{hub}}**? Denna åtgärd är irreversibel. Alla anslutna servrar, inbjudningar och meddelandedata kommer att tas bort från detta nav.
     ownerOnly: '{{{emoji}}} Endast ägaren till detta nav kan ta bort det.'
-    success: '{{{emoji}}} nav ** {{hub}} ** har tagits bort.'
+    success: '{{{emoji}}} nav **{{hub}}** har tagits bort.'
     cancelled: '{{{emoji}}} Hub -borttagning har avbrutits.'
   browse:
     joinConfirm: |-
       Är du säker på att du vill gå med {{hub}} från {{{channel}}}? 
           
-       ** Obs: ** Du kan alltid ändra detta senare med `/anslutning".
+       **Obs:** Du kan alltid ändra detta senare med `/anslutning".
     joinFooter: Vill du använda en annan kanal? Använd rullgardinsmenyn nedan.
     noHubs: '{{{emoji}}} Det finns inga nav som listas här just nu. Vänligen försök igen senare!'
     rating:
@@ -233,39 +233,39 @@ hub:
 
          Din inbjudan har skapats framgångsrikt. Andra kan nu gå med i detta nav genom att använda kommandot `/Hub Join '. 
 
-         - ** Gå med med: ** `/nav gå med inbjudan: {{inviteCode}}` 
-         - ** Visa inbjudningar: ** `/navinbjudan lista` 
-         - ** Expiry: ** {{{expiry}}} 
-         - ** använder **: ∞ 
+         - **Gå med med:** `/nav gå med inbjudan: {{inviteCode}}` 
+         - **Visa inbjudningar:** `/navinbjudan lista` 
+         - **Expiry:** {{{expiry}}} 
+         - **använder**: ∞ 
 
-         __Learn mer om nav i vår [guide] ({{{docs_link}}}) .__.
+         __Learn mer om nav i vår [guide]({{{docs_link}}}) .__.
     revoke:
       invalidCode: '{{{emoji}} Ogiltig inbjudningskod. Se till att du har angett en giltig inbjudningskod.'
       success: '{{{emoji}}} bjuda in {{inviteCode}} återkallad.'
     list:
-      title: '** Bjud in koder: **'
+      title: '**Bjud in koder:**'
       noInvites: '{{{emoji}}} Detta nav har inga inbjudningar än. Använd `/navinbjudan Skapa ''för att skapa en.'
       notPrivate: '{{{emoji}}} Endast privata nav kan ha inbjudningar. Använd `/nav hantera ''för att göra detta nav privat.'
   joined:
     noJoinedHubs: '{{{emoji}}} Den här servern har inte anslutit sig till några nav än. Använd `/Hub Browse` för att se en lista med nav.'
-    joinedHubs: Denna server är en del av ** {{total}} ** nav (er). Använd `/nav -ledighet för att lämna ett nav.
+    joinedHubs: Denna server är en del av **{{total}}** nav (er). Använd `/nav -ledighet för att lämna ett nav.
   leave:
     noHub: '{{{emoji}}} Den kanalen är ogiltig eller har inte anslutit sig till några nav.'
-    confirm: Är du säker på att du vill lämna ** {{hub}} ** från {{{channel}}}? Inga fler meddelanden skickas till denna server från detta nav.
+    confirm: Är du säker på att du vill lämna **{{hub}}** från {{{channel}}}? Inga fler meddelanden skickas till denna server från detta nav.
     confirmFooter: Bekräfta med knappen nedan inom 10 sekunder.
     success: '{{{emoji}}} lämnade navet från {{{channel}}}. Inga fler meddelanden skickas till denna server från detta nav. Du kan åter gå med med `/Hub Join ''.'
   moderator:
     noModerators: '{{{emoji}}} Detta nav har inga moderatorer än. Använd `/Hub Moderator Lägg till för att lägga till en.'
     add:
-      success: '{{{emoji}}} ** {{{user}}} ** har lagts till som en moderator för position ** {{position}} **.'
-      alreadyModerator: '{{{emoji}}} ** {{{user}}} ** är redan en moderator.'
+      success: '{{{emoji}}} **{{{user}}}** har lagts till som en moderator för position **{{position}}**.'
+      alreadyModerator: '{{{emoji}}} **{{{user}}}** är redan en moderator.'
     remove:
-      success: '{{{emoji}}} ** {{{user}}} ** har tagits bort som moderator.'
-      notModerator: '{{{emoji}}} ** {{{user}}} ** är inte en moderator.'
+      success: '{{{emoji}}} **{{{user}}}** har tagits bort som moderator.'
+      notModerator: '{{{emoji}}} **{{{user}}}** är inte en moderator.'
       notOwner: '{{{emoji}}} Endast ägaren till detta nav kan ta bort en chef.'
     update:
-      success: '{{{emoji}}} ** {{{user}}} **: s position har uppdaterats till ** {{position}} **.'
-      notModerator: '{{{emoji}}} ** {{{user}}} ** är inte en moderator.'
+      success: '{{{emoji}}} **{{{user}}}**: s position har uppdaterats till **{{position}}**.'
+      notModerator: '{{{emoji}}} **{{{user}}}** är inte en moderator.'
       notAllowed: '{{{emoji}}} Endast navchefer kan uppdatera en moderators position.'
       notOwner: '{{{emoji}}} Endast ägaren till detta nav kan uppdatera en chefs position.'
   manage:
@@ -297,7 +297,7 @@ hub:
         label: Ändra banner
         description: Ändra bannern för detta nav.
     visibility:
-      success: '{{{emoji}}} Hub Synlighet har framgångsrikt ändrats till ** {{{visibility}}} **.'
+      success: '{{{emoji}}} Hub Synlighet har framgångsrikt ändrats till **{{{visibility}}}**.'
       selects:
         label: Ändra synlighet
         description: Gör detta nav offentligt eller privat.
@@ -348,46 +348,46 @@ report:
   invalidUser: |-
     {{{emoji}}} Jag kunde inte hitta en användare med det ID. 
 
-     ** För att hitta en användares ID i nätverket: ** 
+     **För att hitta en användares ID i nätverket:** 
      {{{dot}}} Högerklicka på ett meddelande som skickas från användaren i fråga Välj `Apps> Meddelandeinfo '. Kontrollera ID: n och försök igen.
   invalidServer: |-
     {{{emoji}}} Jag kunde inte hitta en server med det ID. 
 
-     ** För att hitta ett server -ID i nätverket: ** 
+     **För att hitta ett server -ID i nätverket:** 
      {{{dot}}} Högerklicka på ett meddelande som skickas av servern i fråga och välj `Apps> Meddelande Info/Report '. Kontrollera ID: n och försök igen.
-  submitted: Rapport inlämnad. Gå med ** [Support Server] ({{{support_invite}}}) ** för att få uppdateringar om din rapport.
+  submitted: Rapport inlämnad. Gå med **[Support Server]({{{support_invite}}})** för att få uppdateringar om din rapport.
   bug:
     title: Buggrapport
     affected: Påverkade komponenter
     description: Välj vilken del av botten du står inför problem med.
     submitted: '{{{emoji}}} Rapport skickas framgångsrikt. Gå med i {{{support_command}}} för att få mer information. Tack!'
 language:
-  set: Språkuppsättning! Jag kommer nu att svara på dig i ** {{{lang}}} **.
+  set: Språkuppsättning! Jag kommer nu att svara på dig i **{{{lang}}}**.
 errors:
   messageNotSentOrExpired: '{{{emoji}}} Detta meddelande skickades inte i ett nav, har gått ut, eller så saknar du behörigheter för att utföra denna åtgärd.'
   notYourAction: '{{{emoji}}} Tyvärr kan du inte utföra den här åtgärden. Vänligen kör kommandot själv.'
   notMessageAuthor: '{{{emoji}}} Du är inte författaren till detta meddelande.'
   commandError: |-
-    {{{emoji}}} Ett fel inträffade vid körning av detta kommando. Det har loggats in på vårt system. Om det här problemet kvarstår, gå med i vår [supportserver] ({{{support_invite}}}) och rapportera det! 
+    {{{emoji}}} Ett fel inträffade vid körning av detta kommando. Det har loggats in på vårt system. Om det här problemet kvarstår, gå med i vår [supportserver]({{{support_invite}}}) och rapportera det! 
      `` `JS 
      {{{error}}} 
      `` `
-  mustVote: Vänligen [rösta] (https://top.gg/bot/769921109209907241/vote) för att interchat ska använda detta kommando är ditt stöd mycket uppskattat!
+  mustVote: Vänligen [rösta](https://top.gg/bot/769921109209907241/vote) för att interchat ska använda detta kommando är ditt stöd mycket uppskattat!
   inviteLinks: '{{{emoji}}} Annonserar eller marknadsför inte servrar i nätverket. Ställ in en inbjudan i `/Connection` istället!'
-  invalidLangCode: '{{{emoji}}} Ogiltig språkkod. Se till att du har angett en korrekt [språkkod] (https://cloud.google.com/translate/docs/languages).'
+  invalidLangCode: '{{{emoji}}} Ogiltig språkkod. Se till att du har angett en korrekt [språkkod](https://cloud.google.com/translate/docs/languages).'
   unknownServer: '{{{emoji}}} okänd server. Se till att du har angett rätt server -ID.'
   unknownNetworkMessage: '{{{emoji}}} okänt meddelande. Om det har skickats i den senaste minuten, vänta några sekunder till och försök igen.'
   userNotFound: '{{{emoji}}} Användare hittades inte. Försök att mata in deras ID istället.'
   blacklisted: '{{{emoji}}} Du eller den här servern är svartlistad från att använda interchat.'
-  userBlacklisted: '{{{emoji}}} Du är svartlistad från ** {{hub}} **.'
-  serverBlacklisted: '{{{emoji}}} Den här servern är svartlistad från ** {{hub}} **.'
+  userBlacklisted: '{{{emoji}}} Du är svartlistad från **{{hub}}**.'
+  serverBlacklisted: '{{{emoji}}} Den här servern är svartlistad från **{{hub}}**.'
   serverNotBlacklisted: '{{{emoji}}} Den inputted servern är inte svartlistad.'
   userNotBlacklisted: '{{{emoji}}} Den inmatade användaren är inte svartlistad.'
-  missingPermissions: '{{{emoji}}} Du saknar följande behörigheter för att utföra denna åtgärd: ** {{{permissions}}} **'
-  botMissingPermissions: '{{{emoji}}} snälla ge mig följande behörigheter för att fortsätta: ** {{{permissions}}} **'
-  unknown: '{{{emoji}}} Ett okänt fel inträffade. Försök igen senare eller kontakta oss genom att gå med på vår [supportserver] ({{{support_invite}}}).'
+  missingPermissions: '{{{emoji}}} Du saknar följande behörigheter för att utföra denna åtgärd: **{{{permissions}}}**'
+  botMissingPermissions: '{{{emoji}}} snälla ge mig följande behörigheter för att fortsätta: **{{{permissions}}}**'
+  unknown: '{{{emoji}}} Ett okänt fel inträffade. Försök igen senare eller kontakta oss genom att gå med på vår [supportserver]({{{support_invite}}}).'
   notUsable: '{{{emoji}}} Detta är inte längre användbart.'
-  cooldown: '{{{emoji}}} Du är på nedkylning. Vänta ** {{{time}}} ** innan du försöker igen.'
+  cooldown: '{{{emoji}}} Du är på nedkylning. Vänta **{{{time}}}** innan du försöker igen.'
 misc:
   noReason: Ingen anledning tillhandahöll.
   noDesc: Ingen beskrivning.

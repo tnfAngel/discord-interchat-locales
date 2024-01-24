@@ -214,7 +214,7 @@ hub:
   delete:
     confirm: Tem a certeza de que pretende apagar **{{hub}}**? Esta ação é irreversível. Todos os servidores ligados, convites e dados de mensagens serão removidos deste hub.
     ownerOnly: '{{{emoji}}} Apenas o proprietário deste hub o pode apagar.'
-    success: '{{{emoji}}}** foi eliminado.} O Hub **{{hub}}** foi eliminado.'
+    success: '{{{emoji}}}**foi eliminado.} O Hub**{{hub}}** foi eliminado.'
     cancelled: '{A eliminação do hub foi cancelada. A eliminação do centro foi cancelada.'
   browse:
     joinConfirm: |
@@ -368,11 +368,11 @@ errors:
   notYourAction: '{Não é possível efetuar esta ação. Lamentamos, mas não é possível efetuar esta ação. Por favor, executa o comando tu mesmo.'
   notMessageAuthor: '{O que é que eu faço? Não és o autor desta mensagem.'
   commandError: |
-    {{{emoji}}} Ocorreu um erro durante a execução deste comando. Foi registado no nosso sistema. Se este problema persistir, junte-se ao nosso [servidor de suporte] ({{{support_invite}}}) e comunique-o!
+    {{{emoji}}} Ocorreu um erro durante a execução deste comando. Foi registado no nosso sistema. Se este problema persistir, junte-se ao nosso [servidor de suporte]({{{support_invite}}}) e comunique-o!
     ```js
     {{{error}}}
     ```
-  mustVote: Por favor [vote] (https://top.gg/bot/769921109209907241/vote) para que o InterChat use este comando, seu apoio é muito apreciado!
+  mustVote: Por favor [vote](https://top.gg/bot/769921109209907241/vote) para que o InterChat use este comando, seu apoio é muito apreciado!
   inviteLinks: '{Não promover servidores na rede Não anuncie ou promova servidores na rede. Em vez disso, coloque um convite em `/connection`!'
   invalidLangCode: '{Não é o idioma correto. Código de idioma inválido. Certifique-se de que introduziu um [código de idioma] correto (https://cloud.google.com/translate/docs/languages).'
   unknownServer: '{Não há servidor desconhecido. Servidor desconhecido. Certifique-se de que introduziu o ID de servidor correto.'

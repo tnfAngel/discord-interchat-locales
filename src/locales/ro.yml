@@ -1,15 +1,15 @@
 rules: |-
   ### 📜 Reguli de rețea interchat 
 
-   1. ** Utilizați bunul simț: ** Fiți atenți la ceilalți și la părerile lor. Fără slurs, un limbaj derogatoriu extrem sau orice acțiuni care pot perturba confortul chatului. 
-   2. ** Fără spam sau inundații: ** Evitați mesajele repetate, nesensibile sau excesiv de lungi. 
-   3. ** Păstrați materiile private private: ** Evitați să împărtășiți informații personale în rețea. 
-   4. ** Fără hărțuire: ** Trolling, insulte sau hărțuire de niciun fel nu sunt tolerate. 
-   5. ** Niciun conținut NSFW/NSFL: ** Postarea conținutului explicit NSFW/NSFL va duce la o listă neagră imediată. 
-   6. ** Respectați subiecte sensibile: ** Nu banalizați auto-vătămarea, sinuciderea, violența sau alte subiecte ofensive. 
-   7. ** Raportați îngrijorări: ** Dacă observați o încălcare a acestor reguli, raportați -o către moderatorul Hub sau personalul InterChat pentru acțiuni suplimentare. 
+   1. **Utilizați bunul simț:** Fiți atenți la ceilalți și la părerile lor. Fără slurs, un limbaj derogatoriu extrem sau orice acțiuni care pot perturba confortul chatului. 
+   2. **Fără spam sau inundații:** Evitați mesajele repetate, nesensibile sau excesiv de lungi. 
+   3. **Păstrați materiile private private:** Evitați să împărtășiți informații personale în rețea. 
+   4. **Fără hărțuire:** Trolling, insulte sau hărțuire de niciun fel nu sunt tolerate. 
+   5. **Niciun conținut NSFW/NSFL:** Postarea conținutului explicit NSFW/NSFL va duce la o listă neagră imediată. 
+   6. **Respectați subiecte sensibile:** Nu banalizați auto-vătămarea, sinuciderea, violența sau alte subiecte ofensive. 
+   7. **Raportați îngrijorări:** Dacă observați o încălcare a acestor reguli, raportați -o către moderatorul Hub sau personalul InterChat pentru acțiuni suplimentare. 
 
-   Alte intrebari? Alăturați -vă [serverul de asistență] ({{{support_invite}}}).
+   Alte intrebari? Alăturați -vă [serverul de asistență]({{{support_invite}}}).
 vote: |-
   ## 🗳️ Votează pentru interchat și bucură -te de avantaje exclusive 
    Contribuția dvs. este de neprețuit în ridicarea poziției interchatului pe top.gg. Fiecare vot face o diferență semnificativă! 
@@ -22,12 +22,12 @@ vote: |-
    Apreciem profund sprijinul tău neclintit. Mulțumesc! 🙏
 network:
   accountTooNew: '{{{emoji}}} {{{user}}} Contul tău este prea nou pentru a trimite mesaje folosind interchat. Vă rugăm să încercați din nou mai târziu.'
-  deleteSuccess: '{{{emoji}}} Mesajul de {{{user}}} a fost șters din __ ** {{deleted}}/{{total}} ** __ servere.'
-  editSuccess: '{{{emoji}}} Mesajul de {{{user}}} a fost editat în __ ** {{edited}}/{{total}} ** __ servere.'
+  deleteSuccess: '{{{emoji}}} Mesajul de {{{user}}} a fost șters din __**{{deleted}}/{{total}}**__ servere.'
+  editSuccess: '{{{emoji}}} Mesajul de {{{user}}} a fost editat în __**{{edited}}/{{total}}**__ servere.'
   welcome: |-
-    {{{user}}} Bine ați venit la ** {{hub}} **! {{{emoji}}} 
+    {{{user}}} Bine ați venit la **{{hub}}**! {{{emoji}}} 
 
-     Mesajele trimise în {{{channel}}} vor fi partajate cu alte servere, ** Activarea comunicării fără efort **. Puteți partaja imagini, GIF -uri, răspundeți, reacționați și interacționați cu mesajele așa cum ați face în mod normal. Amintiți -vă doar să evitați schimbarea informațiilor personale (verificați {{{rules_command}}} pentru mai multe). Gata să sari înăuntru? Trimiteți primul dvs. mesaj și alăturați -vă conversației!
+     Mesajele trimise în {{{channel}}} vor fi partajate cu alte servere, **Activarea comunicării fără efort**. Puteți partaja imagini, GIF -uri, răspundeți, reacționați și interacționați cu mesajele așa cum ați face în mod normal. Amintiți -vă doar să evitați schimbarea informațiilor personale (verificați {{{rules_command}}} pentru mai multe). Gata să sari înăuntru? Trimiteți primul dvs. mesaj și alăturați -vă conversației!
   nsfw:
     title: NSFW detectat
     description: Am detectat conținutul {{predictions}} nsfw (nu este sigur pentru muncă) în mesajul dvs. Vă rugăm să fiți conștienți de faptul că acest lucru este împotriva {{{rules_command}}} și va duce la o listă neagră imediată.
@@ -38,7 +38,7 @@ network:
       description: |-
         Pentru a menține lucrurile organizate, este recomandat să folosiți un canal separat doar pentru acest hub. Dar nu vă faceți griji, puteți schimba întotdeauna acest lucru mai târziu. 
 
-         ** Cum funcționează: ** Rețeaua InterChat este ca un pod magic care leagă canalele pe diferite servere care sunt cu noi în acest hub. Aflați mai multe la [Ghidul nostru] ({{{docs_link}}}).
+         **Cum funcționează:** Rețeaua InterChat este ca un pod magic care leagă canalele pe diferite servere care sunt cu noi în acest hub. Aflați mai multe la [Ghidul nostru]({{{docs_link}}}).
       footer: Rețea interchat | Version {{version}}
     inProgress: A existat deja o încercare de a se alătura unui hub de la {{{channel}}}. Vă rugăm să îl anulați sau să așteptați să se finalizeze.
 blacklist:
@@ -53,27 +53,27 @@ blacklist:
       label: Durată
       placeholder: 'Durata listei negre. De exemplu: 1d, 1W, 1m, 1y. Lăsați gol pentru permanent.'
   user:
-    success: '{{{emoji}}} ** {{username}} ** a fost cu succes negru!'
-    removed: '{{{emoji}}} ** {{username}} ** a fost eliminat din lista neagră!'
+    success: '{{{emoji}}} **{{username}}** a fost cu succes negru!'
+    removed: '{{{emoji}}} **{{username}}** a fost eliminat din lista neagră!'
     alreadyBlacklisted: '{{{emoji}}} Acest utilizator este deja listat negru.'
     easterEggs:
       blacklistBot: Nu mă poți lista neagră wtf.
   server:
-    success: '{{{emoji}}} ** {{server}} ** a fost cu succes negru!'
-    removed: '{{{emoji}}} ** {{server}} ** a fost eliminat din lista neagră!'
+    success: '{{{emoji}}} **{{server}}** a fost cu succes negru!'
+    removed: '{{{emoji}}} **{{server}}** a fost eliminat din lista neagră!'
     alreadyBlacklisted: '{{{emoji}}} Acest server este deja listat negru.'
-    unknownError: Nu a reușit să fie negru ** {{server}} **. Întrebați cu dezvoltatorii pentru mai multe informații.
+    unknownError: Nu a reușit să fie negru **{{server}}**. Întrebați cu dezvoltatorii pentru mai multe informații.
   list:
     user: |-
-      ** userId: ** {{userId}} 
-       ** moderator: ** {{moderator}} 
-       ** Motiv: ** {{{reason}}} 
-       ** expiră: ** {{expires}}
+      **userId:** {{userId}} 
+       **moderator:** {{moderator}} 
+       **Motiv:** {{{reason}}} 
+       **expiră:** {{expires}}
     server: |-
-      ** serverId: ** {{serverId}} 
-       ** moderator: ** {{moderator}} 
-       ** Motiv: ** {{{reason}}} 
-       ** expiră: ** {{{expires}}}
+      **serverId:** {{serverId}} 
+       **moderator:** {{moderator}} 
+       **Motiv:** {{{reason}}} 
+       **expiră:** {{{expires}}}
 msgInfo:
   buttons:
     message: Informații despre mesaj
@@ -90,13 +90,13 @@ msgInfo:
        **Trimis de la:** 
        __{{{server}}}__ 
 
-       ** ID de mesaj: ** 
-       __ {{messageId}} __ 
+       **ID de mesaj:** 
+       __{{messageId}}__ 
 
-       ** trimis în (hub): ** 
-       __ {{{hub}}} __ 
+       **trimis în (hub):** 
+       __{{{hub}}}__ 
 
-       ** Mesaj creat: ** 
+       **Mesaj creat:** 
        {{{createdAt}}}
   server:
     description: |-
@@ -107,10 +107,10 @@ msgInfo:
        __{{{owner}}}__ 
 
        **Creată:** 
-       __ {{{createdAtFull}}} ({{{createdAt}}}) __ 
+       __{{{createdAtFull}}} ({{{createdAt}}})__ 
 
-       ** Numărul membrilor: ** 
-       __ {{memberCount}} __ 
+       **Numărul membrilor:** 
+       __{{memberCount}}__ 
 
        **A invita:** 
        __{{{invite}}}__
@@ -119,31 +119,31 @@ msgInfo:
       ## {{{username}}} 
        __{{{user}}}__ 
 
-       ** ID: ** 
-       __ {{id}} __ 
+       **ID:** 
+       __{{id}}__ 
 
        **Creată:** 
        {{{createdAtFull}}} ({{{createdAt}}}) 
 
        **Numele de afișare:** 
-       __ {{{globalName}}} __ 
+       __{{{globalName}}}__ 
 
-       ** Hub -uri deținute: ** 
-       __ {{hubsOwned}} __
+       **Hub -uri deținute:** 
+       __{{hubsOwned}}__
   report:
     notEnabled: '{{{emoji}}} Raportarea nu este activată pentru acest hub.'
     success: '{{{emoji}}} Raport prezentat cu succes. Mulțumesc!'
 invite: |-
   Vă mulțumim că ați ales să invitați InterChat. Pur și simplu faceți clic pe butonul de mai jos pentru a mă invita! 
 
-   - ** Server de asistență: ** {{{support}}}
+   - **Server de asistență:** {{{support}}}
 connection:
   notFound: '{{{emoji}}} Conexiune nevalide. Verificați ID -ul canalului sau selectați dintre opțiunile afișate.'
   channelNotFound: '{{{emoji}}} Imposibil de găsit canal conectat. Pentru a vorbi din nou, alegeți un nou canal.'
   alreadyConnected: '{{{emoji}}} canalul {{{channel}}} este deja conectat la un hub.'
   switchChannel: '{{{emoji}}} Selectați un canal pentru a trece la utilizarea meniului SELECT de mai jos:'
   switchCalled: '{{{emoji}}} Switch canal Apelat, utilizați din nou comanda pentru a vizualiza o nouă conexiune.'
-  switchSuccess: '{{{emoji}}} canal comutată. Acum sunteți conectat de la ** {{{channel}}} **.'
+  switchSuccess: '{{{emoji}}} canal comutată. Acum sunteți conectat de la **{{{channel}}}**.'
   inviteRemoved: '{{{emoji}}} Invitați serverul eliminat pentru acest hub.'
   inviteInvalid: '{{{emoji}}} invitație nevalide. Vă rugăm să vă asigurați că ați introdus un link de invitație valid.'
   inviteAdded: '{{{emoji}}} invitați adăugat. Alții se pot alătura acum acestui server folosind `Apps> Informații despre mesaje/Raport`.'
@@ -166,15 +166,15 @@ connection:
 hub:
   notFound: '{{{emoji}}} Imposibil de găsit hub. Vă rugăm să vă asigurați că ați introdus numele hub -ului corect.'
   notFound_mod: '{{{emoji}}} Imposibil de găsit hub. Vă rugăm să vă asigurați că ați introdus numele hub -ului corect și că sunteți proprietarul sau un moderator al hub -ului.'
-  alreadyJoined: '{{{emoji}}} v -ați alăturat deja ** {{hub}} ** din {{{channel}}}!'
+  alreadyJoined: '{{{emoji}}} v -ați alăturat deja **{{hub}}** din {{{channel}}}!'
   invalidChannel: '{{{emoji}}} canal nevalid. Sunt acceptate doar canale de text și fir!'
   invalidImgurUrl: '{{{emoji}}} URL de imagine nevalid pentru pictogramă sau banner. Vă rugăm să vă asigurați că ați introdus o adresă URL de imagine Imgur validă care nu este o galerie sau un album.'
   join:
-    success: S -a alăturat cu succes Hub ** {{hub}} ** din {{{channel}}}! Utilizați `/conexiune` pentru a vă gestiona conexiunea. Și `/hub pleacă` pentru a părăsi hub -ul.
+    success: S -a alăturat cu succes Hub **{{hub}}** din {{{channel}}}! Utilizați `/conexiune` pentru a vă gestiona conexiunea. Și `/hub pleacă` pentru a părăsi hub -ul.
   servers:
-    total: 'Servere conectate curente: {{from}}-{{to}} / ** {{total}} **'
+    total: 'Servere conectate curente: {{from}}-{{to}} / **{{total}}**'
     noConnections: '{{{emoji}}} Niciun server nu s -a alăturat acestui hub. Utilizați `/hub Join` pentru a vă alătura acestui hub.'
-    notConnected: '{{{emoji}}} Acest server nu este o parte din ** {{hub}} **.'
+    notConnected: '{{{emoji}}} Acest server nu este o parte din **{{hub}}**.'
     connectionInfo: |-
       Channel: #{{{channelName}}} `({{channelId}})` 
        A fost alăturat la 
@@ -201,26 +201,26 @@ hub:
     success: |-
       ### Hub creat! 
 
-       Felicitări! Hub -ul dvs. privat, ** {{name}} **, a fost creat cu succes. 
+       Felicitări! Hub -ul dvs. privat, **{{name}}**, a fost creat cu succes. 
        Pentru a vă alătura, creați o invitație folosind `/hub Invite Create` și partajați codul generat. Apoi, alăturați -vă folosind `/hub Join`. 
 
-       - ** Generați Invite: ** `/Hub Invite Create` 
-       - ** Mergeți public: ** `/Hub Manage` 
-       - ** Alăturați -vă Hub: ** `/Hub Join` 
-       - ** Editează hub: ** `/hub gestionare` 
-       - ** Adăugați moderatori: ** `/hub moderator add` 
+       - **Generați Invite:** `/Hub Invite Create` 
+       - **Mergeți public:** `/Hub Manage` 
+       - **Alăturați -vă Hub:** `/Hub Join` 
+       - **Editează hub:** `/hub gestionare` 
+       - **Adăugați moderatori:** `/hub moderator add` 
 
-       Aflați mai multe despre hub -uri în [ghidul nostru] ({{{docs_link}}}). Alăturați -vă [serverului de asistență] ({{{support_invite}}}) pentru ajutor.
+       Aflați mai multe despre hub -uri în [ghidul nostru]({{{docs_link}}}). Alăturați -vă [serverului de asistență]({{{support_invite}}}) pentru ajutor.
   delete:
-    confirm: Ești sigur că doriți să ștergeți ** {{hub}} **? Această acțiune este ireversibilă. Toate serverele conectate, invitațiile și datele mesajelor vor fi eliminate din acest hub.
+    confirm: Ești sigur că doriți să ștergeți **{{hub}}**? Această acțiune este ireversibilă. Toate serverele conectate, invitațiile și datele mesajelor vor fi eliminate din acest hub.
     ownerOnly: '{{{emoji}}} numai proprietarul acestui hub îl poate șterge.'
-    success: '{{{emoji}}} hub ** {{hub}} ** a fost șters.'
+    success: '{{{emoji}}} hub **{{hub}}** a fost șters.'
     cancelled: '{{{emoji}}} ștergerea hub -ului a fost anulată.'
   browse:
     joinConfirm: |-
       Sunteți sigur că doriți să vă alăturați {{hub}} din {{{channel}}}? 
           
-       ** Notă: ** Puteți schimba întotdeauna acest lucru mai târziu folosind `/conexiune`.
+       **Notă:** Puteți schimba întotdeauna acest lucru mai târziu folosind `/conexiune`.
     joinFooter: Vrei să folosești un alt canal? Utilizați derularea de mai jos.
     noHubs: '{{{emoji}}} Nu există hub -uri enumerate aici în acest moment. Vă rugăm să încercați din nou mai târziu!'
     rating:
@@ -233,39 +233,39 @@ hub:
 
          Invitarea dvs. a fost creată cu succes. Alții se pot alătura acum acestui hub folosind comanda `/hub Join '. 
 
-         - ** Alăturați -vă folosind: ** `/hub Join Invite: {{inviteCode}}` 
-         - ** Vizualizare invită: ** `/hub invite list` 
-         - ** expiry: ** {{{expiry}}} 
-         - ** folosește **: ∞ 
+         - **Alăturați -vă folosind:** `/hub Join Invite: {{inviteCode}}` 
+         - **Vizualizare invită:** `/hub invite list` 
+         - **expiry:** {{{expiry}}} 
+         - **folosește**: ∞ 
 
-         __Learn Mai multe despre hub -uri din [ghidul nostru] ({{{docs_link}}}) .__.
+         __Learn Mai multe despre hub -uri din [ghidul nostru]({{{docs_link}}}) .__.
     revoke:
       invalidCode: '{{{emoji}} cod de invitație nevalid. Vă rugăm să vă asigurați că ați introdus un cod de invitație valid.'
       success: '{{{emoji}}} invitați {{inviteCode}} revocat.'
     list:
-      title: '** Invitați coduri: **'
+      title: '**Invitați coduri:**'
       noInvites: '{{{emoji}}} Acest hub nu are încă invitații. Utilizați `/hub Invite Create` pentru a crea unul.'
       notPrivate: '{{{emoji}}} numai hub -urile private pot avea invitații. Utilizați `/Hub Manage` pentru a face acest hub privat.'
   joined:
     noJoinedHubs: '{{{emoji}}} Acest server nu s -a alăturat încă niciun hub. Utilizați `/hub Browse` pentru a vizualiza o listă de hub -uri.'
-    joinedHubs: Acest server este o parte din ** {{total}} ** hub (s). Folosiți `/hub Leave` pentru a părăsi un hub.
+    joinedHubs: Acest server este o parte din **{{total}}** hub (s). Folosiți `/hub Leave` pentru a părăsi un hub.
   leave:
     noHub: '{{{emoji}}} Acest canal nu este nevalid sau nu s -a alăturat niciunui hub.'
-    confirm: Sunteți sigur că doriți să plecați ** {{hub}} ** din {{{channel}}}? Nu vor mai fi trimise mesaje către acest server de la acest hub.
+    confirm: Sunteți sigur că doriți să plecați **{{hub}}** din {{{channel}}}? Nu vor mai fi trimise mesaje către acest server de la acest hub.
     confirmFooter: Confirmați utilizarea butonului de mai jos în 10 secunde.
     success: '{{{emoji}}} a lăsat hub -ul din {{{channel}}}. Nu vor mai fi trimise mesaje către acest server de la acest hub. Vă puteți reveni folosind `/hub Join`.'
   moderator:
     noModerators: '{{{emoji}}} Acest hub nu are încă moderatori. Utilizați `/Hub Moderator Add` pentru a adăuga unul.'
     add:
-      success: '{{{emoji}}} ** {{{user}}} ** a fost adăugat ca moderator al poziției ** {{position}} **.'
-      alreadyModerator: '{{{emoji}}} ** {{{user}}} ** este deja un moderator.'
+      success: '{{{emoji}}} **{{{user}}}** a fost adăugat ca moderator al poziției **{{position}}**.'
+      alreadyModerator: '{{{emoji}}} **{{{user}}}** este deja un moderator.'
     remove:
-      success: '{{{emoji}}} ** {{{user}}} ** a fost eliminat ca moderator.'
-      notModerator: '{{{emoji}}} ** {{{user}}} ** nu este un moderator.'
+      success: '{{{emoji}}} **{{{user}}}** a fost eliminat ca moderator.'
+      notModerator: '{{{emoji}}} **{{{user}}}** nu este un moderator.'
       notOwner: '{{{emoji}}} numai proprietarul acestui hub poate elimina un manager.'
     update:
-      success: '{{{emoji}}} ** {{{user}}} ** Poziția a fost actualizată la ** {{position}} **.'
-      notModerator: '{{{emoji}}} ** {{{user}}} ** nu este un moderator.'
+      success: '{{{emoji}}} **{{{user}}}** Poziția a fost actualizată la **{{position}}**.'
+      notModerator: '{{{emoji}}} **{{{user}}}** nu este un moderator.'
       notAllowed: '{{{emoji}}} numai managerii HUB pot actualiza poziția moderatorului.'
       notOwner: '{{{emoji}}} numai proprietarul acestui hub poate actualiza poziția unui manager.'
   manage:
@@ -297,7 +297,7 @@ hub:
         label: Schimbați bannerul
         description: Schimbați bannerul acestui hub.
     visibility:
-      success: '{{{emoji}}} vizibilitatea hubului schimbat cu succes în ** {{{visibility}}} **.'
+      success: '{{{emoji}}} vizibilitatea hubului schimbat cu succes în **{{{visibility}}}**.'
       selects:
         label: Schimbați vizibilitatea
         description: Faceți acest hub public sau privat.
@@ -348,46 +348,46 @@ report:
   invalidUser: |-
     {{{emoji}}} Nu am găsit un utilizator cu acel ID. 
 
-     ** Pentru a găsi un ID al utilizatorului în rețea: ** 
+     **Pentru a găsi un ID al utilizatorului în rețea:** 
      {{{dot}}} Faceți clic dreapta pe un mesaj trimis de la utilizator în cauză Selectați `Apps> Info Mesaj. Vă rugăm să verificați dublu ID-ul și încercați din nou.
   invalidServer: |-
     {{{emoji}}} Nu am găsit un server cu acel ID. 
 
-     ** Pentru a găsi un ID de server în rețea: ** 
+     **Pentru a găsi un ID de server în rețea:** 
      {{{dot}}} Faceți clic dreapta pe un mesaj trimis de serverul în cauză și selectați `Apps> Mesaj Info/Raport`. Vă rugăm să verificați dublu ID-ul și încercați din nou.
-  submitted: Raport prezentat. Alăturați -vă ** [server de asistență] ({{{support_invite}}}) ** pentru a obține actualizări în raportul dvs.
+  submitted: Raport prezentat. Alăturați -vă **[server de asistență]({{{support_invite}}})** pentru a obține actualizări în raportul dvs.
   bug:
     title: Raport de erori
     affected: Componente afectate
     description: Vă rugăm să alegeți cu ce componentă a botului vă confruntați cu probleme.
     submitted: '{{{emoji}}} Raport prezentat cu succes. Alăturați -vă {{{support_command}}} pentru a obține mai multe detalii. Mulțumesc!'
 language:
-  set: Set de limbă! Vă voi răspunde acum în ** {{{lang}}} **.
+  set: Set de limbă! Vă voi răspunde acum în **{{{lang}}}**.
 errors:
   messageNotSentOrExpired: '{{{emoji}}} Acest mesaj nu a fost trimis într -un hub, a expirat sau nu aveți permisiuni pentru a efectua această acțiune.'
   notYourAction: '{{{emoji}}} Ne pare rău, nu puteți efectua această acțiune. Vă rugăm să rulați singur comanda.'
   notMessageAuthor: '{{{emoji}}} Nu sunteți autorul acestui mesaj.'
   commandError: |-
-    {{{emoji}}} a apărut o eroare în timpul executării acestei comenzi. A fost înregistrat la sistemul nostru. Dacă această problemă persistă, vă rugăm să vă alăturați [serverul de asistență] ({{{support_invite}}}) și raportați -l! 
+    {{{emoji}}} a apărut o eroare în timpul executării acestei comenzi. A fost înregistrat la sistemul nostru. Dacă această problemă persistă, vă rugăm să vă alăturați [serverul de asistență]({{{support_invite}}}) și raportați -l! 
      `` `JS 
      {{{error}}} 
      `` `
-  mustVote: Vă rugăm să [vot] (https://top.gg/bot/769921109209907241/vote) pentru interchat să utilizeze această comandă, suportul dvs. este foarte apreciat!
+  mustVote: Vă rugăm să [vot](https://top.gg/bot/769921109209907241/vote) pentru interchat să utilizeze această comandă, suportul dvs. este foarte apreciat!
   inviteLinks: '{{{emoji}}} nu faceți publicitate și nu promovați serverele în rețea. Setați o invitație în `/conexiune` în schimb!'
-  invalidLangCode: '{{{emoji}}} cod limbaj nevalid. Vă rugăm să vă asigurați că ați introdus un corect [cod de limbă] (https://cloud.google.com/translate/docs/languages).'
+  invalidLangCode: '{{{emoji}}} cod limbaj nevalid. Vă rugăm să vă asigurați că ați introdus un corect [cod de limbă](https://cloud.google.com/translate/docs/languages).'
   unknownServer: '{{{emoji}}} server necunoscut. Vă rugăm să vă asigurați că ați introdus ID -ul serverului corect.'
   unknownNetworkMessage: '{{{emoji}}} Mesaj necunoscut. Dacă a fost trimis în ultimul minut, vă rugăm să așteptați câteva secunde și să încercați din nou.'
   userNotFound: '{{{emoji}}} nu a fost găsit. Încercați să introduceți ID -ul lor în schimb.'
   blacklisted: '{{{emoji}}} tu sau acest server este listat negru de la utilizarea interchat.'
-  userBlacklisted: '{{{emoji}}} sunteți listați negri din ** {{hub}} **.'
-  serverBlacklisted: '{{{emoji}}} Acest server este listat negru din ** {{hub}} **.'
+  userBlacklisted: '{{{emoji}}} sunteți listați negri din **{{hub}}**.'
+  serverBlacklisted: '{{{emoji}}} Acest server este listat negru din **{{hub}}**.'
   serverNotBlacklisted: '{{{emoji}}} Serverul introdus nu este listat negru.'
   userNotBlacklisted: '{{{emoji}}} Utilizatorul introdus nu este listat negru.'
-  missingPermissions: '{{{emoji}}} îți lipsește următoarele permisiuni pentru a efectua această acțiune: ** {{{permissions}}} **'
-  botMissingPermissions: '{{{emoji}}} vă rugăm să -mi acordați următoarele permisiuni pentru a continua: ** {{{permissions}}} **'
-  unknown: '{{{emoji}}} a apărut o eroare necunoscută. Vă rugăm să încercați din nou mai târziu sau să ne contactați prin alăturarea [serverului nostru de asistență] ({{{support_invite}}}).'
+  missingPermissions: '{{{emoji}}} îți lipsește următoarele permisiuni pentru a efectua această acțiune: **{{{permissions}}}**'
+  botMissingPermissions: '{{{emoji}}} vă rugăm să -mi acordați următoarele permisiuni pentru a continua: **{{{permissions}}}**'
+  unknown: '{{{emoji}}} a apărut o eroare necunoscută. Vă rugăm să încercați din nou mai târziu sau să ne contactați prin alăturarea [serverului nostru de asistență]({{{support_invite}}}).'
   notUsable: '{{{emoji}}} Acest lucru nu mai este utilizabil.'
-  cooldown: '{{{emoji}}} Sunteți în recul. Vă rugăm să așteptați ** {{{time}}} ** înainte de a încerca din nou.'
+  cooldown: '{{{emoji}}} Sunteți în recul. Vă rugăm să așteptați **{{{time}}}** înainte de a încerca din nou.'
 misc:
   noReason: Niciun motiv furnizat.
   noDesc: Fără descriere.

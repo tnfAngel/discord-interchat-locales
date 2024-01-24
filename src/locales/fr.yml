@@ -9,7 +9,7 @@ rules: |
   6. **Respecter les sujets sensibles:** Ne pas banaliser l'automutilation, le suicide, la violence ou d'autres sujets choquants.
   7. **Si vous observez une violation de ces règles, signalez-la au modérateur approprié du hub ou au personnel d'InterChat pour qu'il prenne les mesures qui s'imposent.
 
-  Vous avez des questions ? Rejoignez notre [serveur d'assistance] ({{{support_invite}}}).
+  Vous avez des questions ? Rejoignez notre [serveur d'assistance]({{{support_invite}}}).
 vote: |
   ## 🗳️ Votez pour InterChat et profitez d'avantages exclusifs
   Votre contribution est inestimable pour élever la position d'InterChat sur Top.gg. Chaque vote fait la différence !
@@ -38,7 +38,7 @@ network:
       description: |
         Pour garder les choses organisées, il est recommandé d'utiliser un canal séparé uniquement pour ce hub. Mais ne vous inquiétez pas, vous pouvez toujours changer cela plus tard.
 
-        **Le réseau InterChat est comme un pont magique qui relie les canaux sur différents serveurs qui sont avec nous dans ce hub. Pour en savoir plus, consultez notre [guide] ({{{docs_link}}}).
+        **Le réseau InterChat est comme un pont magique qui relie les canaux sur différents serveurs qui sont avec nous dans ce hub. Pour en savoir plus, consultez notre [guide]({{{docs_link}}}).
       footer: InterChat Network | Version {{version}}
     inProgress: Il y a déjà eu une tentative de rejoindre un hub de {{{channel}}}. Veuillez l'annuler ou attendre qu'elle se termine.
 blacklist:
