@@ -4,24 +4,27 @@ on:
     pull_request:
         branches: [main]
         types: [opened, synchronize]
+        paths-ignore:
+            - '*.md'
+            - '.*ignore'
     push:
         branches: [main]
+        paths-ignore:
+            - '*.md'
+            - '.*ignore'
+    workflow_dispatch:
+    
+concurrency:
+    group: '${{ github.workflow }}-${{ github.ref }}'
+    cancel-in-progress: true
 
 jobs:
-    avoid_redundancy_lint_pretty_and_cache_deps:
+    lint_pretty_and_cache_deps:
         runs-on: ubuntu-22.04
         permissions: write-all
         steps:
-            - name: Cancel Previous Redundant Builds
-              uses: styfle/cancel-workflow-action@0.11.0
-              with:
-                  access_token: ${{ github.token }}
-
             - uses: actions/checkout@v4
-              with:
-                  fetch-depth: 0
-                  ref: ${{ github.ref }}
-                  
+
             - uses: pnpm/action-setup@v2
 
             - uses: actions/setup-node@v4
@@ -39,14 +42,13 @@ jobs:
                   prettier_options: . --write
 
     translate:
-        needs: [avoid_redundancy_lint_pretty_and_cache_deps]
+        needs: [lint_pretty_and_cache_deps]
         runs-on: ubuntu-22.04
         permissions:
           contents: write
+        if: ${{ github.event_name == 'push' }}
         steps:
             - uses: actions/checkout@v4
-              with:
-                  ref: ${{ github.ref }}
 
             - uses: pnpm/action-setup@v2
 
@@ -61,7 +63,11 @@ jobs:
             - name: Translate
               run: pnpm run start
 
+            - name: Get last commit author
+              id: last-commit
+              run: echo "author=$(git log -1 --pretty=\"%an <%ae>\")" >> $GITHUB_OUTPUT
+
             - uses: stefanzweifel/git-auto-commit-action@v5
               with:
-                commit_message: Sync translations
-                commit_user_name: Discord
+                  commit_author: ${{ steps.last-commit.outputs.author }}
+                  commit_message: Sync translations
